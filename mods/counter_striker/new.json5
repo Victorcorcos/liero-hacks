@@ -38,7 +38,7 @@
       "fallDamageHoriz":0,
       "fallDamageDown":0,
       "fallDamageUp":0,
-      "hFallDamage":false,
+      "hFallDamage":true,
       "hBonusReloadOnly":false
    },
    "weapons":[

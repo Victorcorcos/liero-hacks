@@ -20,7 +20,7 @@
       "aimFric":0.83,
       "nrThrowVel":4,
       "nrForce":0.08333333333333333,
-      "bonusBounce":0.01,
+      "bonusBounce":0.01, 
       "bonusFlickerTime":220,
       "aimMaxAngle":1.5707963267948966,
       "aimMinAngle":-1.227184630308513,

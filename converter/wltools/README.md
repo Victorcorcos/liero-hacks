@@ -8,7 +8,7 @@ Then, simply run `make` to compile wltools. wltools has been tested on Linux wit
 
 ## Usage
 
-```
+```ruby
 Usage:
   wltools [-?|-h|--help] <source> <destination>
 
@@ -27,13 +27,14 @@ Options, arguments:
 ```
 
 ## Example
-```
+
+```ruby
 ./wltools data/liero.wlsprt data/dump/
-# contents of data/liero.wlsprt converted to data/dump/
+# Convert the file data/liero.wlsprt into picture files inside data/dump/
 
 cp -r data/dump data/import
 # >> edit / add remove images <<
 
 ./wltools data/import/ data/import.wlsprt
-# contents of data/import/ converted to data/import.wlsprt
+# Convert back the pictures from data/import/ to data/import.wlsprt
 ```

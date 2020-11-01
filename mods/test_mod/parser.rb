@@ -32,7 +32,6 @@ weapons = {
   "shotgun": {
     "name":"SHOTGUN",
     "parts":10,
-    "bulletType":0,
     "bulletSpeed":2.3,
     "bulletSpeedInherit":0,
     "distribution":0.4999847412109375,
@@ -46,7 +45,8 @@ weapons = {
     "laserSight":false,
     "laserBeam":false,
     "launchSound":0,
-    "playReloadSound":true
+    "playReloadSound":true,
+    "bulletType":0, # wObject id
   },
   "h_k_g3_sg_1": {
     "name":"H&K G3/SG-1",
@@ -844,7 +844,6 @@ liero_config = {
          "addSpeed":3,
          "distribution":0.4999847412109375,
          "multSpeed":1,
-         "createOnExp":9,
          "dirtEffect":-1,
          "wormExplode":false,
          "explGround":true,
@@ -863,16 +862,17 @@ liero_config = {
          "shotType":4,
          "repeat":8,
          "colorBullets":161,
-         "splinterAmount":1,
          "splinterColour":71,
-         "splinterType":4,
          "splinterScatter":1,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":230
+         "speed":230,
+         "createOnExp":9,  # sObject created on explosion
+         "splinterType":2, # nObject created on explosion
+         "splinterAmount":1, # ^ Ammount
+         "objTrailType":-1, # sObject created on trail
+         "partTrailObj":-1  # nObject created on trail
       },
       {
          "detectDistance":2,
@@ -2375,18 +2375,18 @@ liero_config = {
          "numFrames":3,
          "drawOnMap":false,
          "colorBullets":0,
-         "createOnExp":-1,
          "affectByExplosions":false,
          "dirtEffect":-1,
          "splinterAmount":0,
          "splinterColour":0,
-         "splinterType":6,
          "bloodTrail":true,
          "bloodTrailDelay":1,
-         "leaveObj":-1,
          "leaveObjDelay":0,
          "timeToExplo":200,
-         "timeToExploV":50
+         "timeToExploV":50,
+         "createOnExp":-1, # sObject created on explosion
+         "splinterType":6, # nObject created on explosion
+         "leaveObj":-1 # sObject created on trail
       },
       {
          "detectDistance":3,

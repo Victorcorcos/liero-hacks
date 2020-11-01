@@ -247,7 +247,11 @@ wObjects: [
     createOnExp: 2,
 
     /*
-      Which dirt mask sprite to use. -1 is none.
+      Which dirt mask sprite to use.
+      -1 is none.
+      0 destroy dirt
+      4 creates brown dirt
+      6 creates green dirt
     */
     dirtEffect: -1,
 
@@ -527,7 +531,11 @@ nObjects: [
     affectByExplosions: false,
 
     /*
-      Which dirt mask sprite to use. -1 is none.
+      Which dirt mask sprite to use.
+      -1 is none.
+      0 destroy dirt
+      4 creates brown dirt
+      6 creates green dirt
     */
     dirtEffect: -1,
 
@@ -664,7 +672,11 @@ sObjects: [
     flash: 8,
 
     /*
-      Which dirt mask sprite to use. -1 is none.
+      Which dirt mask sprite to use.
+      -1 is none.
+      0 destroy dirt
+      4 creates brown dirt
+      6 creates green dirt
     */
     dirtEffect: 0
   },
@@ -675,70 +687,25 @@ sObjects: [
 
 ## Textures 🎨
 
-`textures` are *under construction* 🏗️
+These `textures` parameters has the reference in `nObject`, `wObject` and `sObject` as `dirtEffect`s.
 
-If someone can help me to document them, I'll be very appreciated.
+`dirtEffect` is a parameter present on all object types (`nObject`, `wObject` and `sObject`).
+
+Changes here affects all dirts on the map and how the gunshots interact with them.
 
 ```js
 textures: [
   {
     nDrawBack: true,
-    mFrame: 0,
-    sFrame: 73,
-    rFrame: 2
+    mFrame: 0, // Related to the size of dirtEffect. Should not be changed from 0.
+    sFrame: 73, // The sprite id of the dirtEffect. Should not be changed from 73. Implications: https://i.imgur.com/fGWyxRW.png
+    rFrame: 2 // Related to the size of dirtEffect. Should not be changed from 2.
   },
-  {
-    nDrawBack: true,
-    mFrame: 1,
-    sFrame: 73,
-    rFrame: 2
-  },
-  {
-    nDrawBack: true,
-    mFrame: 2,
-    sFrame: 73,
-    rFrame: 2
-  },
-  {
-    nDrawBack: true,
-    mFrame: 37,
-    sFrame: 73,
-    rFrame: 2
-  },
-  {
-    nDrawBack: false,
-    mFrame: 0,
-    sFrame: 87,
-    rFrame: 2
-  },
-  {
-    nDrawBack: true,
-    mFrame: 39,
-    sFrame: 73,
-    rFrame: 2
-  },
-  {
-    nDrawBack: false,
-    mFrame: 38,
-    sFrame: 82,
-    rFrame: 2
-  },
-  {
-    nDrawBack: true,
-    mFrame: 99,
-    sFrame: 73,
-    rFrame: 2
-  },
-  {
-    nDrawBack: true,
-    mFrame: 37,
-    sFrame: 73,
-    rFrame: 2
-  }
+  // rest of textures follow here
 ],
-colorAnim: [129, 131, 133, 136, 152, 159, 168, 171],
-textSpritesStartIdx: 240,
-crossHairSprite: 153
+colorAnim: [129, 131, 133, 136, 152, 159, 168, 171], // The id colors which are animated.
+textSpritesStartIdx: 240, // The sprite id of the letters used in weapon names when u change weapons. Should not be changed from 240. Implications: https://i.imgur.com/K9olpMu.png
+crossHairSprite: 153 // The sprite id of The crosshair used.
 ```
 
 

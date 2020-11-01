@@ -696,7 +696,7 @@ Changes here affects all dirts on the map and how the gunshots interact with the
 ```js
 textures: [
   {
-    nDrawBack: true,
+    nDrawBack: true, // Related to create dirts on shots. Implications: https://i.imgur.com/FYmjd9g.png
     mFrame: 0, // Related to the size of dirtEffect. Should not be changed from 0.
     sFrame: 73, // The sprite id of the dirtEffect. Should not be changed from 73. Implications: https://i.imgur.com/fGWyxRW.png
     rFrame: 2 // Related to the size of dirtEffect. Should not be changed from 2.

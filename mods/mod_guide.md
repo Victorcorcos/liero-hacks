@@ -16,6 +16,7 @@ Few general assumptions:
 5. [nObjects](#nobjects-)
 6. [sObjects](#sobjects-)
 7. [Textures](#textures-)
+8. [The Connection Between Objects](#the-connection-between-objects-)
 
 
 ## Soundpack 🔉
@@ -508,8 +509,10 @@ nObjects: [
     drawOnMap: true,
 
     /*
-      Color of the bullet. Note: Some ranges in the palette are causing the bullet color to be slightly randomized.
-      TODO: Verify how exactly does this work. 
+      Color of the bullet. It references the color position of the pallete
+      If startFrame is -1, it will use this colorBullets color
+      Otherwise, the colorBullets won't work because there are ready sprites starting from startFrame index
+      Note: Some ranges in the palette are causing the bullet color to be slightly randomized.
     */
     colorBullets: 0,
 
@@ -737,3 +740,12 @@ colorAnim: [129, 131, 133, 136, 152, 159, 168, 171],
 textSpritesStartIdx: 240,
 crossHairSprite: 153
 ```
+
+
+## The Connection Between Objects 🧬
+
+1. In `wObject` u have `createOnExp`: refers to `sObject` id. Created on explosion.
+2. In `wObject` u have `splinterAmount`: refers to the amount of `nObjects` created during explosion.
+3. In `wObject` u have `objTrailType`: refers to `sObject` id. Created on trail.
+4. In `wObject` u have `partTrailObj`: refers to `nObject` id. Created on trail.
+

@@ -703,7 +703,7 @@ textures: [
   },
   // rest of textures follow here
 ],
-colorAnim: [171, 168, 159, 152, 136, 133, 131, 129], // The id colors which are animated.
+colorAnim: [129, 131, 133, 136, 152, 159, 168, 171], // The id colors which are animated.
 textSpritesStartIdx: 240, // The sprite id of the letters used in weapon names when u change weapons. Should not be changed from 240, unless you change the orders in which sprites are placed on the `sprites.wlsprt` file. Implications: https://i.imgur.com/K9olpMu.png
 crossHairSprite: 153 // The sprite id of The crosshair used.
 ```

@@ -60,19 +60,19 @@ constants: {
   aimFric: 0.83, // aim friction
   nrThrowVel: 8, // ninjarope throw velocity
   nrForce: 0.08333333333333333, // ninjarope pull strength
-  bonusBounce: 0.4,
+  bonusBounce: 0.4, // u can make bonuses (health and weapons) bounce more
   bonusFlickerTime: 220, // amount of time in game ticks before the bonus pack explodes
   aimMaxAngle: 1.5707963267948966,
   aimMinAngle: -1.521708941582556,
   nrAdjustVel: 1.5, // ninjarope length adjust speed, probably unused
-  nrColourBegin: 24,
-  nrColourEnd: 27,
+  nrColourBegin: 24, // the scolor of the rope (index of pallete.png file)
+  nrColourEnd: 27, // the color of the rope (index of pallete.png file)
   bonusExplodeRisk: 100, // chances for a bonus to spontaneously explode
   bonusHealthVar: 20, // variance of health given by bonus
   bonusMinHealth: 10, // minimum bonus health. So in this setting healing range is 10-30
-  firstBloodColour: 80,
+  firstBloodColour: 80, // the color of the blood here (index of pallete.png file)
   numBloodColours: 2,
-  bObjGravity: 0.0152587890625, // TODO: check if this is not overlapping bonusGravity
+  bObjGravity: 0.0152587890625, // the gravity of worm's blood
   splinterLarpaVelDiv: 3,
   splinterCracklerVelDiv: 3,
   fallDamageHoriz: 0,
@@ -697,14 +697,14 @@ Changes here affects all dirts on the map and how the gunshots interact with the
 textures: [
   {
     nDrawBack: true, // Related to create dirts on shots. Implications: https://i.imgur.com/FYmjd9g.png
-    mFrame: 0, // Related to the size of dirtEffect. Should not be changed from 0.
-    sFrame: 73, // The sprite id of the dirtEffect. Should not be changed from 73. Implications: https://i.imgur.com/fGWyxRW.png
-    rFrame: 2 // Related to the size of dirtEffect. Should not be changed from 2.
+    mFrame: 0, // Related to the size of dirtEffect. 0 is The biggest, 1 is medium, 2 is Small, 37 and 99 are rarher medium/small. Should not be changed from 0 unless you know what you are doing.
+    sFrame: 73, // The sprite id of the dirtEffect. 73 cleans dirt pixels and makes background pixels. Should not be changed from 73, unless you change the orders in which sprites are placed on the `sprites.wlsprt` file. Implications: https://i.imgur.com/fGWyxRW.png
+    rFrame: 2 // Related to the size of dirtEffect. 0 is The biggest, 1 is medium, 2 is Small, 37 and 99 are rarher medium/small. Should not be changed from 2 unless you know what you are doing.
   },
   // rest of textures follow here
 ],
-colorAnim: [129, 131, 133, 136, 152, 159, 168, 171], // The id colors which are animated.
-textSpritesStartIdx: 240, // The sprite id of the letters used in weapon names when u change weapons. Should not be changed from 240. Implications: https://i.imgur.com/K9olpMu.png
+colorAnim: [171, 168, 159, 152, 136, 133, 131, 129], // The id colors which are animated.
+textSpritesStartIdx: 240, // The sprite id of the letters used in weapon names when u change weapons. Should not be changed from 240, unless you change the orders in which sprites are placed on the `sprites.wlsprt` file. Implications: https://i.imgur.com/K9olpMu.png
 crossHairSprite: 153 // The sprite id of The crosshair used.
 ```
 

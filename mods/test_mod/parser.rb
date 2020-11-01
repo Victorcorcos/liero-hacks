@@ -1,3 +1,16 @@
+# https://github.com/Victorcorcos/liero-hacks/tree/main/mods#the-connection-between-objects-
+
+# weapons => bulletType: refers to the wObject id. Created on gunshot.
+
+# wObject => createOnExp: refers to sObject id. Created on explosion.
+# wObject => splinterType: refers to nObject id. Created on explosion. splinterAmount refers to the ammount.
+# wObject => objTrailType: refers to sObject id. Created on trail.
+# wObject => partTrailObj: refers to nObject id. Created on trail.
+
+# nObject => createOnExp: refers to sObject id. Created on explosion.
+# nObject => splinterType: refers to nObject id. Created on explosion. splinterAmount refers to the ammount.
+# nObject => leaveObj: refers to sObject id. Created on trail.
+
 require 'json'
 
 # Execute this file with: `ruby parser.rb`

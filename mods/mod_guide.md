@@ -711,8 +711,11 @@ crossHairSprite: 153 // The sprite id of The crosshair used.
 
 ## The Connection Between Objects 🧬
 
-1. In `wObject` u have `createOnExp`: refers to `sObject` id. Created on explosion.
-2. In `wObject` u have `splinterAmount`: refers to the amount of `nObjects` created during explosion.
-3. In `wObject` u have `objTrailType`: refers to `sObject` id. Created on trail.
-4. In `wObject` u have `partTrailObj`: refers to `nObject` id. Created on trail.
-
+1. In `weapons` u have `bulletType`: refers to the `wObject` id. Created on gunshot.
+2. In `wObject` u have `createOnExp`: refers to `sObject` id. Created on explosion.
+3. In `wObject` u have `splinterType`: refers to `nObject` id. Created on explosion. `splinterAmount` refers to the ammount.
+4. In `wObject` u have `objTrailType`: refers to `sObject` id. Created on trail.
+5. In `wObject` u have `partTrailObj`: refers to `nObject` id. Created on trail.
+6. In `nObject` u have `createOnExp`: refers to `sObject` id. Created on explosion.
+7. In `nObject` u have `splinterType`: refers to `nObject` id. Created on explosion. `splinterAmount` refers to the ammount.
+8. In `nObject` u have `leaveObj`: refers to `sObject` id. Created on trail.

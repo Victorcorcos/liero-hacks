@@ -589,7 +589,7 @@ nObjects: [
 ```
 
 
-## sObjects 🗿
+## sObjects 💥
 
 `sObjects` are **special** Objects.
 

@@ -43,6 +43,7 @@
   },
   "weapons": [
     {
+      // Just the SHOTGUN!
       "name": "SHOTGUN",
       "parts": 10,
       "bulletSpeed": 2.3,
@@ -59,11 +60,12 @@
       "laserBeam": false,
       "launchSound": 0,
       "playReloadSound": true,
-      "bulletType": 0
+      "bulletType": 0// wObject id
     }
   ],
   "wObjects": [
     {
+      // SHOTGUN wObject (from weapons bulletType)
       "detectDistance": 1,
       "blowAway": 0.05,
       "gravity": 0.002288818359375,
@@ -95,15 +97,16 @@
       "partTrailType": 0,
       "partTrailDelay": 0,
       "speed": 230,
-      "createOnExp": -1,
-      "splinterType": 0,
-      "splinterAmount": 0,
-      "objTrailType": -1,
-      "partTrailObj": -1
+      "createOnExp": -1,  // sObject created on explosion
+      "splinterType": 0,  // nObject created on explosion
+      "splinterAmount": 0,// ^ Ammount
+      "objTrailType": -1, // sObject created on trail
+      "partTrailObj": -1// nObject created on trail
     }
   ],
   "nObjects": [
     {
+      // SHOTGUN nObject (from wObject splinterType)
       "detectDistance": 1,
       "gravity": 0.1434326171875,
       "speed": 1,
@@ -128,14 +131,15 @@
       "leaveObjDelay": 1,
       "timeToExplo": 10,
       "timeToExploV": 3,
-      "createOnExp": -1,
-      "splinterType": -1,
-      "splinterAmount": 0,
-      "leaveObj": 1
+      "createOnExp": -1,  // sObject created on explosion
+      "splinterType": -1, // nObject created on explosion
+      "splinterAmount": 0,// ^ Ammount
+      "leaveObj": 1// sObject created on trail
     }
   ],
   "sObjects": [
     {
+      // SHOTGUN sObject (from wObject createOnExp)
       "startSound": -1,
       "numSounds": 0,
       "animDelay": 4,
@@ -150,6 +154,7 @@
       "dirtEffect": -1
     },
     {
+      // SHOTGUN sObject (from nObject leaveObj)
       "startSound": -1,
       "numSounds": 0,
       "animDelay": 0,

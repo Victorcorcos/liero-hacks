@@ -43,7 +43,7 @@
    },
    "weapons":[
       {
-         // wid1
+         // wid0
          "name":"SHOTGUN",
          "parts":10,
          "bulletType":0,
@@ -63,7 +63,7 @@
          "playReloadSound":true
       },
       {
-         // wid2
+         // wid1
          "name":"H&K G3/SG-1",
          "parts":1,
          "bulletType":1,
@@ -83,7 +83,7 @@
          "playReloadSound":true
       },
       {
-         // wid3
+         // wid2
          "name":"MAGNUM SRIFLE",
          "parts":4,
          "bulletType":2,
@@ -103,7 +103,7 @@
          "playReloadSound":true
       },
       {
-         // wid4
+         // wid3
          "name":"SPEARGUN",
          "parts":1,
          "bulletType":3,
@@ -123,7 +123,7 @@
          "playReloadSound":true
       },
       {
-         // wid5
+         // wid4
          "name":"MACHINEPISTOL",
          "parts":1,
          "bulletType":4,
@@ -143,7 +143,7 @@
          "playReloadSound":true
       },
       {
-         // wid6
+         // wid5
          "name":"MINI GUN",
          "parts":1,
          "bulletType":5,
@@ -163,7 +163,7 @@
          "playReloadSound":false
       },
       {
-         // wid7
+         // wid6
          "name":"PROXYMINE",
          "parts":1,
          "bulletType":6,
@@ -183,7 +183,7 @@
          "playReloadSound":false
       },
       {
-         // wid8
+         // wid7
          "name":"GLOCK18BURSTF",
          "parts":3,
          "bulletType":7,
@@ -203,7 +203,7 @@
          "playReloadSound":true
       },
       {
-         // wid9
+         // wid8
          "name":"CLUSTER MINE",
          "parts":1,
          "bulletType":8,
@@ -223,7 +223,7 @@
          "playReloadSound":true
       },
       {
-         // wid10
+         // wid9
          "name":"FLAMER",
          "parts":2,
          "bulletType":9,
@@ -243,7 +243,7 @@
          "playReloadSound":false
       },
       {
-         // wid11
+         // wid10
          "name":"HE GRENADE",
          "parts":1,
          "bulletType":10,
@@ -263,7 +263,7 @@
          "playReloadSound":false
       },
       {
-         // wid12
+         // wid11
          "name":"20MMAUTOCANNO",
          "parts":1,
          "bulletType":11,
@@ -283,7 +283,7 @@
          "playReloadSound":true
       },
       {
-         // wid13
+         // wid12
          "name":"NIGHT HAWK",
          "parts":1,
          "bulletType":12,
@@ -303,7 +303,7 @@
          "playReloadSound":true
       },
       {
-         // wid14
+         // wid13
          "name":"AIR MINE",
          "parts":1,
          "bulletType":13,
@@ -323,7 +323,7 @@
          "playReloadSound":false
       },
       {
-         // wid15
+         // wid14
          "name":"KALASHNIKOV47",
          "parts":1,
          "bulletType":14,
@@ -343,7 +343,7 @@
          "playReloadSound":true
       },
       {
-         // wid16
+         // wid15
          "name":"FLASHBANG",
          "parts":1,
          "bulletType":15,
@@ -363,7 +363,7 @@
          "playReloadSound":false
       },
       {
-         // wid17
+         // wid16
          "name":"AUTO SHOTGUN",
          "parts":6,
          "bulletType":16,
@@ -383,7 +383,7 @@
          "playReloadSound":true
       },
       {
-         // wid18
+         // wid17
          "name":"COLT-CARBINE",
          "parts":1,
          "bulletType":17,
@@ -403,7 +403,7 @@
          "playReloadSound":true
       },
       {
-         // wid19
+         // wid18
          "name":"UMP .45CAL",
          "parts":1,
          "bulletType":18,
@@ -423,7 +423,7 @@
          "playReloadSound":true
       },
       {
-         // wid20
+         // wid19
          "name":"FORCE FIELD",
          "parts":1,
          "bulletType":19,
@@ -443,7 +443,7 @@
          "playReloadSound":false
       },
       {
-         // wid21
+         // wid20
          "name":"VIRUS",
          "parts":1,
          "bulletType":20,
@@ -463,7 +463,7 @@
          "playReloadSound":true
       },
       {
-         // wid22
+         // wid21
          "name":"USP TACTICAL",
          "parts":1,
          "bulletType":21,
@@ -483,7 +483,7 @@
          "playReloadSound":true
       },
       {
-         // wid23
+         // wid22
          "name":"MORTAR",
          "parts":1,
          "bulletType":22,
@@ -503,7 +503,7 @@
          "playReloadSound":false
       },
       {
-         // wid24
+         // wid23
          "name":"HELLFIREROCKE",
          "parts":1,
          "bulletType":23,
@@ -523,7 +523,7 @@
          "playReloadSound":true
       },
       {
-         // wid25
+         // wid24
          "name":"COMBAT KNIFE",
          "parts":1,
          "bulletType":24,
@@ -543,7 +543,7 @@
          "playReloadSound":false
       },
       {
-         // wid26
+         // wid25
          "name":"GRENADE",
          "parts":1,
          "bulletType":25,
@@ -563,7 +563,7 @@
          "playReloadSound":true
       },
       {
-         // wid27
+         // wid26
          "name":"PARA M249",
          "parts":1,
          "bulletType":26,
@@ -583,7 +583,7 @@
          "playReloadSound":true
       },
       {
-         // wid28
+         // wid27
          "name":"CLUSTERBOMB",
          "parts":1,
          "bulletType":27,
@@ -603,7 +603,7 @@
          "playReloadSound":true
       },
       {
-         // wid29
+         // wid28
          "name":"EXCIMER LASER",
          "parts":1,
          "bulletType":28,
@@ -623,7 +623,7 @@
          "playReloadSound":true
       },
       {
-         // wid30
+         // wid29
          "name":"HE BAZOOKA",
          "parts":1,
          "bulletType":29,
@@ -643,7 +643,7 @@
          "playReloadSound":true
       },
       {
-         // wid31
+         // wid30
          "name":"M I R V E",
          "parts":1,
          "bulletType":30,
@@ -663,7 +663,7 @@
          "playReloadSound":false
       },
       {
-         // wid32
+         // wid31
          "name":"DESERT EAGLE",
          "parts":1,
          "bulletType":31,
@@ -683,7 +683,7 @@
          "playReloadSound":true
       },
       {
-         // wid33
+         // wid32
          "name":"STINGERMISL",
          "parts":1,
          "bulletType":32,
@@ -703,7 +703,7 @@
          "playReloadSound":true
       },
       {
-         // wid34
+         // wid33
          "name":"APSHOCKCANNON",
          "parts":1,
          "bulletType":33,
@@ -723,7 +723,7 @@
          "playReloadSound":false
       },
       {
-         // wid35
+         // wid34
          "name":"BOOBY TRAP",
          "parts":1,
          "bulletType":34,
@@ -743,7 +743,7 @@
          "playReloadSound":false
       },
       {
-         // wid36
+         // wid35
          "name":"SUICIDE",
          "parts":1,
          "bulletType":35,
@@ -763,7 +763,7 @@
          "playReloadSound":false
       },
       {
-         // wid37
+         // wid36
          "name":"NAILGUN",
          "parts":4,
          "bulletType":36,
@@ -783,7 +783,7 @@
          "playReloadSound":true
       },
       {
-         // wid38
+         // wid37
          "name":"P90",
          "parts":1,
          "bulletType":37,
@@ -803,7 +803,7 @@
          "playReloadSound":false
       },
       {
-         // wid39
+         // wid38
          "name":"SIG SG-550 SN",
          "parts":1,
          "bulletType":38,
@@ -823,7 +823,7 @@
          "playReloadSound":true
       },
       {
-         // wid40
+         // wid39
          "name":"STEYR SCOUT",
          "parts":2,
          "bulletType":39,
@@ -845,7 +845,7 @@
    ],
    "wObjects":[
       {
-         // woid1 - SHOTGUN
+         // woid0 => "SHOTGUN"
          "detectDistance":1,
          "blowAway":0.05,
          "gravity":0.002288818359375,
@@ -884,7 +884,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid2 => H&K G3/- 1
+         // woid1 => "H&K G3/SG-1"
          "detectDistance":2,
          "blowAway":0.34,
          "gravity":0.0022125244140625,
@@ -923,7 +923,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid3 => - SRIFLE
+         // woid2 => "MAGNUM SRIFLE"
          "detectDistance":1,
          "blowAway":0.8,
          "gravity":0.0000152587890625,
@@ -962,7 +962,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid4 - SPEARGUN
+         // woid3 => "SPEARGUN"
          "detectDistance":2,
          "blowAway":0.3,
          "gravity":0.002288818359375,
@@ -1001,7 +1001,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid5 - MACHINEPISTOL
+         // woid4 => "MACHINEPISTOL"
          "detectDistance":1,
          "blowAway":0.09,
          "gravity":0.0030517578125,
@@ -1040,7 +1040,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid6 => - GUN
+         // woid5 => "MINI GUN"
          "detectDistance":2,
          "blowAway":0.05,
          "gravity":0.005340576171875,
@@ -1079,7 +1079,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid7 - PROXYMINE
+         // woid6 => "PROXYMINE"
          "detectDistance":1,
          "blowAway":0.03,
          "gravity":0.03814697265625,
@@ -1118,7 +1118,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid8 - GLOCK18BURSTF
+         // woid7 => "GLOCK18BURSTF"
          "detectDistance":1,
          "blowAway":0.1,
          "gravity":0.003814697265625,
@@ -1157,7 +1157,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid9 => - MINE
+         // woid8 => "CLUSTER MINE"
          "detectDistance":2,
          "blowAway":0.1,
          "gravity":0.030517578125,
@@ -1196,7 +1196,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid10 - FLAMER
+         // woid9 => "FLAMER"
          "detectDistance":3,
          "blowAway":0.01,
          "gravity":-0.003204345703125,
@@ -1235,7 +1235,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid11 => - GRENADE
+         // woid10 => "HE GRENADE"
          "detectDistance":3,
          "blowAway":0.04,
          "gravity":0.0508575439453125,
@@ -1274,7 +1274,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid12 - 20MMAUTOCANNO
+         // woid11 => "20MMAUTOCANNO"
          "detectDistance":2,
          "blowAway":0.25,
          "gravity":0.0035552978515625,
@@ -1313,7 +1313,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid13 => - HAWK
+         // woid12 => "NIGHT HAWK"
          "detectDistance":1,
          "blowAway":0.2,
          "gravity":0.003662109375,
@@ -1352,7 +1352,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid14 => - MINE
+         // woid13 => "AIR MINE"
          "detectDistance":2,
          "blowAway":0.02,
          "gravity":0,
@@ -1391,7 +1391,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid15 - KALASHNIKOV47
+         // woid14 => "KALASHNIKOV47"
          "detectDistance":1,
          "blowAway":0.25,
          "gravity":0.003204345703125,
@@ -1430,7 +1430,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid16 - FLASHBANG
+         // woid15 => "FLASHBANG"
          "detectDistance":3,
          "blowAway":0.04,
          "gravity":0.0457763671875,
@@ -1469,7 +1469,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid17 => - SHOTGUN
+         // woid16 => "AUTO SHOTGUN"
          "detectDistance":1,
          "blowAway":0.05,
          "gravity":0.0018310546875,
@@ -1508,7 +1508,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid18 => - CARBINE
+         // woid17 => "COLT-CARBINE"
          "detectDistance":1,
          "blowAway":0.2,
          "gravity":0.0034332275390625,
@@ -1547,7 +1547,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid19 => UMP - 45CAL
+         // woid18 => "UMP .45CAL"
          "detectDistance":1,
          "blowAway":0.11,
          "gravity":0.0030517578125,
@@ -1586,7 +1586,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid20 => - FIELD
+         // woid19 => "FORCE FIELD"
          "detectDistance":0,
          "blowAway":0,
          "gravity":0,
@@ -1625,7 +1625,7 @@
          "partTrailObj":22,// (noid created on trail)
       },
       {
-         // woid21 - VIRUS
+         // woid20 => "VIRUS"
          "detectDistance":4,
          "blowAway":0.4,
          "gravity":0.0847625732421875,
@@ -1664,7 +1664,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid22 => - TACTICAL
+         // woid21 => "USP TACTICAL"
          "detectDistance":1,
          "blowAway":0.12,
          "gravity":0.00396728515625,
@@ -1703,7 +1703,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid23 - MORTAR
+         // woid22 => "MORTAR"
          "detectDistance":1,
          "blowAway":0.2,
          "gravity":0.02288818359375,
@@ -1742,7 +1742,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid24 - HELLFIREROCKE
+         // woid23 => "HELLFIREROCKE"
          "detectDistance":2,
          "blowAway":0.35,
          "gravity":0.002899169921875,
@@ -1781,7 +1781,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid25 => - KNIFE
+         // woid24 => "COMBAT KNIFE"
          "detectDistance":1,
          "blowAway":0.3,
          "gravity":0,
@@ -1820,7 +1820,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid26 - GRENADE
+         // woid25 => "GRENADE"
          "detectDistance":3,
          "blowAway":0.04,
          "gravity":0.0508575439453125,
@@ -1859,7 +1859,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid27 => - M249
+         // woid26 => "PARA M249"
          "detectDistance":1,
          "blowAway":0.28,
          "gravity":0.003204345703125,
@@ -1898,7 +1898,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid28 - CLUSTERBOMB
+         // woid27 => "CLUSTERBOMB"
          "detectDistance":2,
          "blowAway":0.04,
          "gravity":0.02288818359375,
@@ -1937,7 +1937,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid29 => - LASER
+         // woid28 => "EXCIMER LASER"
          "detectDistance":2,
          "blowAway":0,
          "gravity":0.000762939453125,
@@ -1976,7 +1976,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid30 => - BAZOOKA
+         // woid29 => "HE BAZOOKA"
          "detectDistance":3,
          "blowAway":0.2,
          "gravity":0.00152587890625,
@@ -2015,7 +2015,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid31 => M I R - E
+         // woid30 => "M I R V E"
          "detectDistance":5,
          "blowAway":0.2,
          "gravity":0.0018310546875,
@@ -2054,7 +2054,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid32 => - EAGLE
+         // woid31 => "DESERT EAGLE"
          "detectDistance":1,
          "blowAway":0.28,
          "gravity":0.003662109375,
@@ -2093,7 +2093,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid33 - STINGERMISL
+         // woid32 => "STINGERMISL"
          "detectDistance":1,
          "blowAway":0,
          "gravity":0,
@@ -2132,7 +2132,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid34 - APSHOCKCANNON
+         // woid33 => "APSHOCKCANNON"
          "detectDistance":3,
          "blowAway":0.6,
          "gravity":0.0091552734375,
@@ -2171,7 +2171,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid35 => - TRAP
+         // woid34 => "BOOBY TRAP"
          "detectDistance":3,
          "blowAway":0,
          "gravity":0.02288818359375,
@@ -2210,7 +2210,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid36 - SUICIDE
+         // woid35 => "SUICIDE"
          "detectDistance":1,
          "blowAway":0,
          "gravity":0,
@@ -2249,7 +2249,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid37 - NAILGUN
+         // woid36 => "NAILGUN"
          "detectDistance":2,
          "blowAway":0,
          "gravity":0.000762939453125,
@@ -2288,7 +2288,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid38 - P90
+         // woid37 => "P90"
          "detectDistance":1,
          "blowAway":0.13,
          "gravity":0.0018310546875,
@@ -2327,7 +2327,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid39 => SIG SG-- SN
+         // woid38 => "SIG SG-550 SN"
          "detectDistance":2,
          "blowAway":0.25,
          "gravity":0.00244140625,
@@ -2366,7 +2366,7 @@
          "partTrailObj":-1,// (noid created on trail)
       },
       {
-         // woid40 => - SCOUT
+         // woid39 => "STEYR SCOUT"
          "detectDistance":2,
          "blowAway":0.25,
          "gravity":0.000762939453125,
@@ -2407,7 +2407,8 @@
    ],
    "nObjects":[
       {
-         // noid1
+         // noid0
+         // Worm 1 parts
          "detectDistance":3,
          "gravity":0.030517578125,
          "speed":1,
@@ -2438,7 +2439,8 @@
          "leaveObj":-1,// soid (created on trail)
       },
       {
-         // noid2
+         // noid1
+         // Worm 2 parts
          "detectDistance":3,
          "gravity":0.030517578125,
          "speed":1,
@@ -2469,7 +2471,8 @@
          "leaveObj":-1,// soid (created on trail)
       },
       {
-         // noid3
+         // noid2
+         // Particle (disappearing non-dmg)
          "detectDistance":0,
          "gravity":0.01068115234375,
          "speed":0.2,
@@ -2500,7 +2503,8 @@
          "leaveObj":-1,// soid (created on trail)
       },
       {
-         // noid4
+         // noid3
+         // Particle (small damage)
          "detectDistance":2,
          "gravity":0.0457763671875,
          "speed":4,
@@ -2531,7 +2535,8 @@
          "leaveObj":7,// soid (created on trail)
       },
       {
-         // noid5
+         // noid4
+         // Particle (medium damage)
          "detectDistance":1,
          "gravity":0.1434326171875,
          "speed":1,
@@ -2562,7 +2567,8 @@
          "leaveObj":6,// soid (created on trail)
       },
       {
-         // noid6
+         // noid5
+         // Particle (larger damage)
          "detectDistance":2,
          "gravity":0.06103515625,
          "speed":5,
@@ -2593,7 +2599,8 @@
          "leaveObj":-1,// soid (created on trail)
       },
       {
-         // noid7
+         // noid6
+         // Blood
          "detectDistance":0,
          "gravity":0.0152587890625,
          "speed":0.1,
@@ -2624,7 +2631,8 @@
          "leaveObj":-1,// soid (created on trail)
       },
       {
-         // noid8
+         // noid7
+         // Shells
          "detectDistance":0,
          "gravity":0.0152587890625,
          "speed":0.2,
@@ -2655,7 +2663,7 @@
          "leaveObj":-1,// soid (created on trail)
       },
       {
-         // noid9
+         // noid8
          "detectDistance":3,
          "gravity":0.0152587890625,
          "speed":4,
@@ -2686,7 +2694,7 @@
          "leaveObj":4,// soid (created on trail)
       },
       {
-         // noid10
+         // noid9
          "detectDistance":20,
          "gravity":0.0152587890625,
          "speed":0.01,
@@ -2717,7 +2725,7 @@
          "leaveObj":2,// soid (created on trail)
       },
       {
-         // noid11
+         // noid10
          "detectDistance":1,
          "gravity":0,
          "speed":0.01,
@@ -2748,7 +2756,7 @@
          "leaveObj":-1,// soid (created on trail)
       },
       {
-         // noid12
+         // noid11
          "detectDistance":15,
          "gravity":0,
          "speed":0.4,
@@ -2779,7 +2787,7 @@
          "leaveObj":-1,// soid (created on trail)
       },
       {
-         // noid13
+         // noid12
          "detectDistance":2,
          "gravity":-0.091552734375,
          "speed":3,
@@ -2810,7 +2818,7 @@
          "leaveObj":-1,// soid (created on trail)
       },
       {
-         // noid14
+         // noid13
          "detectDistance":0,
          "gravity":0,
          "speed":2,
@@ -2841,7 +2849,7 @@
          "leaveObj":-1,// soid (created on trail)
       },
       {
-         // noid15
+         // noid14
          "detectDistance":1,
          "gravity":-0.0762939453125,
          "speed":0.2,
@@ -2872,7 +2880,7 @@
          "leaveObj":-1,// soid (created on trail)
       },
       {
-         // noid16
+         // noid15
          "detectDistance":9,
          "gravity":0.01373291015625,
          "speed":4,
@@ -2903,7 +2911,7 @@
          "leaveObj":6,// soid (created on trail)
       },
       {
-         // noid17
+         // noid16
          "detectDistance":1,
          "gravity":-0.003387451171875,
          "speed":1.2,
@@ -2934,7 +2942,7 @@
          "leaveObj":-1,// soid (created on trail)
       },
       {
-         // noid18
+         // noid17
          "detectDistance":4,
          "gravity":0.030517578125,
          "speed":1.5,
@@ -2965,7 +2973,7 @@
          "leaveObj":-1,// soid (created on trail)
       },
       {
-         // noid19
+         // noid18
          "detectDistance":0,
          "gravity":0,
          "speed":0.1,
@@ -2996,7 +3004,7 @@
          "leaveObj":-1,// soid (created on trail)
       },
       {
-         // noid20
+         // noid19
          "detectDistance":1,
          "gravity":0.05340576171875,
          "speed":2.5,
@@ -3027,7 +3035,7 @@
          "leaveObj":-1,// soid (created on trail)
       },
       {
-         // noid21
+         // noid20
          "detectDistance":5,
          "gravity":0.0152587890625,
          "speed":0,
@@ -3058,7 +3066,7 @@
          "leaveObj":-1,// soid (created on trail)
       },
       {
-         // noid22
+         // noid21
          "detectDistance":5,
          "gravity":0.0152587890625,
          "speed":0,
@@ -3089,7 +3097,7 @@
          "leaveObj":-1,// soid (created on trail)
       },
       {
-         // noid23
+         // noid22
          "detectDistance":3,
          "gravity":-0.06103515625,
          "speed":0.04,
@@ -3120,7 +3128,7 @@
          "leaveObj":-1,// soid (created on trail)
       },
       {
-         // noid24
+         // noid23
          "detectDistance":7,
          "gravity":0.030517578125,
          "speed":1,
@@ -3153,7 +3161,7 @@
    ],
    "sObjects":[
       {
-         // soid1
+         // soid0
          "startSound":10,
          "numSounds":3,
          "animDelay":4,
@@ -3168,7 +3176,7 @@
          "dirtEffect":0
       },
       {
-         // soid2
+         // soid1
          "startSound":10,
          "numSounds":0,
          "animDelay":0,
@@ -3183,7 +3191,7 @@
          "dirtEffect":1
       },
       {
-         // soid3
+         // soid2
          "startSound":25,
          "numSounds":3,
          "animDelay":5,
@@ -3198,7 +3206,7 @@
          "dirtEffect":2
       },
       {
-         // soid4
+         // soid3
          "startSound":-1,
          "numSounds":0,
          "animDelay":2,
@@ -3213,7 +3221,7 @@
          "dirtEffect":-1
       },
       {
-         // soid5
+         // soid4
          "startSound":-1,
          "numSounds":0,
          "animDelay":0,
@@ -3228,7 +3236,7 @@
          "dirtEffect":5
       },
       {
-         // soid6
+         // soid5
          "startSound":-1,
          "numSounds":0,
          "animDelay":0,
@@ -3243,7 +3251,7 @@
          "dirtEffect":-1
       },
       {
-         // soid7
+         // soid6
          "startSound":-1,
          "numSounds":0,
          "animDelay":0,
@@ -3258,7 +3266,7 @@
          "dirtEffect":-1
       },
       {
-         // soid8
+         // soid7
          "startSound":-1,
          "numSounds":0,
          "animDelay":4,
@@ -3273,7 +3281,7 @@
          "dirtEffect":-1
       },
       {
-         // soid9
+         // soid8
          "startSound":25,
          "numSounds":3,
          "animDelay":4,
@@ -3288,7 +3296,7 @@
          "dirtEffect":2
       },
       {
-         // soid10
+         // soid9
          "startSound":-1,
          "numSounds":0,
          "animDelay":4,
@@ -3303,7 +3311,7 @@
          "dirtEffect":5
       },
       {
-         // soid11
+         // soid10
          "startSound":25,
          "numSounds":2,
          "animDelay":3,
@@ -3318,7 +3326,7 @@
          "dirtEffect":8
       },
       {
-         // soid12
+         // soid11
          "startSound":10,
          "numSounds":0,
          "animDelay":0,
@@ -3333,7 +3341,7 @@
          "dirtEffect":1
       },
       {
-         // soid13
+         // soid12
          "startSound":10,
          "numSounds":3,
          "animDelay":4,
@@ -3348,7 +3356,7 @@
          "dirtEffect":1
       },
       {
-         // soid14
+         // soid13
          "startSound":10,
          "numSounds":3,
          "animDelay":6,

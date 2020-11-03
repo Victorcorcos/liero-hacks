@@ -43,6 +43,8 @@
    },
    "weapons":[
       {
+         // wid1
+         "name":"SHOTGUN",
          "parts":10,
          "bulletType":0,
          "bulletSpeed":2.3,
@@ -58,10 +60,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":0,
-         "playReloadSound":true,
-         "name":"SHOTGUN"
+         "playReloadSound":true
       },
       {
+         // wid2
+         "name":"H&K G3/SG-1",
          "parts":1,
          "bulletType":1,
          "bulletSpeed":3.6,
@@ -77,10 +80,11 @@
          "laserSight":true,
          "laserBeam":false,
          "launchSound":9,
-         "playReloadSound":true,
-         "name":"H&K G3/SG-1"
+         "playReloadSound":true
       },
       {
+         // wid3
+         "name":"MAGNUM SRIFLE",
          "parts":4,
          "bulletType":2,
          "bulletSpeed":4,
@@ -96,10 +100,11 @@
          "laserSight":true,
          "laserBeam":false,
          "launchSound":8,
-         "playReloadSound":true,
-         "name":"MAGNUM SRIFLE"
+         "playReloadSound":true
       },
       {
+         // wid4
+         "name":"SPEARGUN",
          "parts":1,
          "bulletType":3,
          "bulletSpeed":5,
@@ -115,10 +120,11 @@
          "laserSight":true,
          "laserBeam":false,
          "launchSound":5,
-         "playReloadSound":true,
-         "name":"SPEARGUN"
+         "playReloadSound":true
       },
       {
+         // wid5
+         "name":"MACHINEPISTOL",
          "parts":1,
          "bulletType":4,
          "bulletSpeed":3.5,
@@ -134,10 +140,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":4,
-         "playReloadSound":true,
-         "name":"MACHINEPISTOL"
+         "playReloadSound":true
       },
       {
+         // wid6
+         "name":"MINI GUN",
          "parts":1,
          "bulletType":5,
          "bulletSpeed":2.5,
@@ -153,10 +160,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":4,
-         "playReloadSound":false,
-         "name":"MINI GUN"
+         "playReloadSound":false
       },
       {
+         // wid7
+         "name":"PROXYMINE",
          "parts":1,
          "bulletType":6,
          "bulletSpeed":1.3,
@@ -172,10 +180,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":5,
-         "playReloadSound":false,
-         "name":"PROXYMINE"
+         "playReloadSound":false
       },
       {
+         // wid8
+         "name":"GLOCK18BURSTF",
          "parts":3,
          "bulletType":7,
          "bulletSpeed":3.2,
@@ -191,10 +200,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":14,
-         "playReloadSound":true,
-         "name":"GLOCK18BURSTF"
+         "playReloadSound":true
       },
       {
+         // wid9
+         "name":"CLUSTER MINE",
          "parts":1,
          "bulletType":8,
          "bulletSpeed":3.58,
@@ -210,10 +220,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":6,
-         "playReloadSound":true,
-         "name":"CLUSTER MINE"
+         "playReloadSound":true
       },
       {
+         // wid10
+         "name":"FLAMER",
          "parts":2,
          "bulletType":9,
          "bulletSpeed":3.4,
@@ -229,10 +240,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":-1,
-         "playReloadSound":false,
-         "name":"FLAMER"
+         "playReloadSound":false
       },
       {
+         // wid11
+         "name":"HE GRENADE",
          "parts":1,
          "bulletType":10,
          "bulletSpeed":2.5,
@@ -248,10 +260,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":5,
-         "playReloadSound":false,
-         "name":"HE GRENADE"
+         "playReloadSound":false
       },
       {
+         // wid12
+         "name":"20MMAUTOCANNO",
          "parts":1,
          "bulletType":11,
          "bulletSpeed":3.5,
@@ -267,10 +280,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":29,
-         "playReloadSound":true,
-         "name":"20MMAUTOCANNO"
+         "playReloadSound":true
       },
       {
+         // wid13
+         "name":"NIGHT HAWK",
          "parts":1,
          "bulletType":12,
          "bulletSpeed":3,
@@ -286,10 +300,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":13,
-         "playReloadSound":true,
-         "name":"NIGHT HAWK"
+         "playReloadSound":true
       },
       {
+         // wid14
+         "name":"AIR MINE",
          "parts":1,
          "bulletType":13,
          "bulletSpeed":2.4,
@@ -305,10 +320,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":-1,
-         "playReloadSound":false,
-         "name":"AIR MINE"
+         "playReloadSound":false
       },
       {
+         // wid15
+         "name":"KALASHNIKOV47",
          "parts":1,
          "bulletType":14,
          "bulletSpeed":3.3,
@@ -324,10 +340,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":7,
-         "playReloadSound":true,
-         "name":"KALASHNIKOV47"
+         "playReloadSound":true
       },
       {
+         // wid16
+         "name":"FLASHBANG",
          "parts":1,
          "bulletType":15,
          "bulletSpeed":3.3,
@@ -343,10 +360,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":5,
-         "playReloadSound":false,
-         "name":"FLASHBANG"
+         "playReloadSound":false
       },
       {
+         // wid17
+         "name":"AUTO SHOTGUN",
          "parts":6,
          "bulletType":16,
          "bulletSpeed":2.2,
@@ -362,10 +380,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":28,
-         "playReloadSound":true,
-         "name":"AUTO SHOTGUN"
+         "playReloadSound":true
       },
       {
+         // wid18
+         "name":"COLT-CARBINE",
          "parts":1,
          "bulletType":17,
          "bulletSpeed":3.6,
@@ -381,10 +400,11 @@
          "laserSight":true,
          "laserBeam":false,
          "launchSound":23,
-         "playReloadSound":true,
-         "name":"COLT-CARBINE"
+         "playReloadSound":true
       },
       {
+         // wid19
+         "name":"UMP .45CAL",
          "parts":1,
          "bulletType":18,
          "bulletSpeed":3.5,
@@ -400,10 +420,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":22,
-         "playReloadSound":true,
-         "name":"UMP .45CAL"
+         "playReloadSound":true
       },
       {
+         // wid20
+         "name":"FORCE FIELD",
          "parts":1,
          "bulletType":19,
          "bulletSpeed":3.7,
@@ -419,10 +440,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":5,
-         "playReloadSound":false,
-         "name":"FORCE FIELD"
+         "playReloadSound":false
       },
       {
+         // wid21
+         "name":"VIRUS",
          "parts":1,
          "bulletType":20,
          "bulletSpeed":3.7,
@@ -438,10 +460,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":5,
-         "playReloadSound":true,
-         "name":"VIRUS"
+         "playReloadSound":true
       },
       {
+         // wid22
+         "name":"USP TACTICAL",
          "parts":1,
          "bulletType":21,
          "bulletSpeed":3.3,
@@ -457,10 +480,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":23,
-         "playReloadSound":true,
-         "name":"USP TACTICAL"
+         "playReloadSound":true
       },
       {
+         // wid23
+         "name":"MORTAR",
          "parts":1,
          "bulletType":22,
          "bulletSpeed":4,
@@ -476,10 +500,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":1,
-         "playReloadSound":false,
-         "name":"MORTAR"
+         "playReloadSound":false
       },
       {
+         // wid24
+         "name":"HELLFIREROCKE",
          "parts":1,
          "bulletType":23,
          "bulletSpeed":2.4,
@@ -495,10 +520,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":3,
-         "playReloadSound":true,
-         "name":"HELLFIREROCKE"
+         "playReloadSound":true
       },
       {
+         // wid25
+         "name":"COMBAT KNIFE",
          "parts":1,
          "bulletType":24,
          "bulletSpeed":1,
@@ -514,10 +540,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":-1,
-         "playReloadSound":false,
-         "name":"COMBAT KNIFE"
+         "playReloadSound":false
       },
       {
+         // wid26
+         "name":"GRENADE",
          "parts":1,
          "bulletType":25,
          "bulletSpeed":2.44,
@@ -533,10 +560,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":5,
-         "playReloadSound":true,
-         "name":"GRENADE"
+         "playReloadSound":true
       },
       {
+         // wid27
+         "name":"PARA M249",
          "parts":1,
          "bulletType":26,
          "bulletSpeed":3.5,
@@ -552,10 +580,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":1,
-         "playReloadSound":true,
-         "name":"PARA M249"
+         "playReloadSound":true
       },
       {
+         // wid28
+         "name":"CLUSTERBOMB",
          "parts":1,
          "bulletType":27,
          "bulletSpeed":2,
@@ -571,10 +600,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":5,
-         "playReloadSound":true,
-         "name":"CLUSTERBOMB"
+         "playReloadSound":true
       },
       {
+         // wid29
+         "name":"EXCIMER LASER",
          "parts":1,
          "bulletType":28,
          "bulletSpeed":3,
@@ -590,10 +620,11 @@
          "laserSight":true,
          "laserBeam":true,
          "launchSound":-1,
-         "playReloadSound":true,
-         "name":"EXCIMER LASER"
+         "playReloadSound":true
       },
       {
+         // wid30
+         "name":"HE BAZOOKA",
          "parts":1,
          "bulletType":29,
          "bulletSpeed":1,
@@ -609,10 +640,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":3,
-         "playReloadSound":true,
-         "name":"HE BAZOOKA"
+         "playReloadSound":true
       },
       {
+         // wid31
+         "name":"M I R V E",
          "parts":1,
          "bulletType":30,
          "bulletSpeed":2,
@@ -628,10 +660,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":5,
-         "playReloadSound":false,
-         "name":"M I R V E"
+         "playReloadSound":false
       },
       {
+         // wid32
+         "name":"DESERT EAGLE",
          "parts":1,
          "bulletType":31,
          "bulletSpeed":3.3,
@@ -647,10 +680,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":13,
-         "playReloadSound":true,
-         "name":"DESERT EAGLE"
+         "playReloadSound":true
       },
       {
+         // wid33
+         "name":"STINGERMISL",
          "parts":1,
          "bulletType":32,
          "bulletSpeed":3,
@@ -666,10 +700,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":3,
-         "playReloadSound":true,
-         "name":"STINGERMISL"
+         "playReloadSound":true
       },
       {
+         // wid34
+         "name":"APSHOCKCANNON",
          "parts":1,
          "bulletType":33,
          "bulletSpeed":2.5,
@@ -685,10 +720,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":29,
-         "playReloadSound":false,
-         "name":"APSHOCKCANNON"
+         "playReloadSound":false
       },
       {
+         // wid35
+         "name":"BOOBY TRAP",
          "parts":1,
          "bulletType":34,
          "bulletSpeed":1,
@@ -704,10 +740,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":5,
-         "playReloadSound":false,
-         "name":"BOOBY TRAP"
+         "playReloadSound":false
       },
       {
+         // wid36
+         "name":"SUICIDE",
          "parts":1,
          "bulletType":35,
          "bulletSpeed":1,
@@ -723,10 +760,11 @@
          "laserSight":true,
          "laserBeam":false,
          "launchSound":21,
-         "playReloadSound":false,
-         "name":"SUICIDE"
+         "playReloadSound":false
       },
       {
+         // wid37
+         "name":"NAILGUN",
          "parts":4,
          "bulletType":36,
          "bulletSpeed":5,
@@ -742,10 +780,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":22,
-         "playReloadSound":true,
-         "name":"NAILGUN"
+         "playReloadSound":true
       },
       {
+         // wid38
+         "name":"P90",
          "parts":1,
          "bulletType":37,
          "bulletSpeed":3,
@@ -761,10 +800,11 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":6,
-         "playReloadSound":false,
-         "name":"P90"
+         "playReloadSound":false
       },
       {
+         // wid39
+         "name":"SIG SG-550 SN",
          "parts":1,
          "bulletType":38,
          "bulletSpeed":3.6,
@@ -780,10 +820,11 @@
          "laserSight":true,
          "laserBeam":false,
          "launchSound":29,
-         "playReloadSound":true,
-         "name":"SIG SG-550 SN"
+         "playReloadSound":true
       },
       {
+         // wid40
+         "name":"STEYR SCOUT",
          "parts":2,
          "bulletType":39,
          "bulletSpeed":4,
@@ -799,12 +840,12 @@
          "laserSight":true,
          "laserBeam":false,
          "launchSound":2,
-         "playReloadSound":true,
-         "name":"STEYR SCOUT"
+         "playReloadSound":true
       }
    ],
    "wObjects":[
       {
+         // woid1 - SHOTGUN
          "detectDistance":1,
          "blowAway":0.05,
          "gravity":0.002288818359375,
@@ -812,7 +853,6 @@
          "addSpeed":3,
          "distribution":0.4999847412109375,
          "multSpeed":1,
-         "createOnExp":9,
          "dirtEffect":-1,
          "wormExplode":false,
          "explGround":true,
@@ -833,16 +873,18 @@
          "colorBullets":161,
          "splinterAmount":1,
          "splinterColour":71,
-         "splinterType":4,
          "splinterScatter":1,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":230
+         "speed":230,
+         "createOnExp":9,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":4,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid2 => H&K G3/- 1
          "detectDistance":2,
          "blowAway":0.34,
          "gravity":0.0022125244140625,
@@ -850,7 +892,6 @@
          "addSpeed":0,
          "distribution":0.0457763671875,
          "multSpeed":1,
-         "createOnExp":2,
          "dirtEffect":-1,
          "wormExplode":false,
          "explGround":true,
@@ -871,16 +912,18 @@
          "colorBullets":160,
          "splinterAmount":8,
          "splinterColour":75,
-         "splinterType":4,
          "splinterScatter":1,
-         "objTrailType":4,
          "objTrailDelay":1,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":360
+         "speed":360,
+         "createOnExp":2,// (soid created on explosion)
+         "objTrailType":4,// (soid created on trail)
+         "splinterType":4,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid3 => - SRIFLE
          "detectDistance":1,
          "blowAway":0.8,
          "gravity":0.0000152587890625,
@@ -888,7 +931,6 @@
          "addSpeed":0,
          "distribution":0,
          "multSpeed":1,
-         "createOnExp":2,
          "dirtEffect":0,
          "wormExplode":false,
          "explGround":true,
@@ -909,16 +951,18 @@
          "colorBullets":161,
          "splinterAmount":4,
          "splinterColour":75,
-         "splinterType":4,
          "splinterScatter":1,
-         "objTrailType":4,
          "objTrailDelay":1,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":400
+         "speed":400,
+         "createOnExp":2,// (soid created on explosion)
+         "objTrailType":4,// (soid created on trail)
+         "splinterType":4,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid4 - SPEARGUN
          "detectDistance":2,
          "blowAway":0.3,
          "gravity":0.002288818359375,
@@ -926,7 +970,6 @@
          "addSpeed":1,
          "distribution":0.00152587890625,
          "multSpeed":1,
-         "createOnExp":8,
          "dirtEffect":2,
          "wormExplode":false,
          "explGround":true,
@@ -947,16 +990,18 @@
          "colorBullets":74,
          "splinterAmount":5,
          "splinterColour":29,
-         "splinterType":4,
          "splinterScatter":0,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":500
+         "speed":500,
+         "createOnExp":8,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":4,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid5 - MACHINEPISTOL
          "detectDistance":1,
          "blowAway":0.09,
          "gravity":0.0030517578125,
@@ -964,7 +1009,6 @@
          "addSpeed":0,
          "distribution":0.2558441162109375,
          "multSpeed":1,
-         "createOnExp":9,
          "dirtEffect":-1,
          "wormExplode":false,
          "explGround":true,
@@ -985,16 +1029,18 @@
          "colorBullets":161,
          "splinterAmount":1,
          "splinterColour":0,
-         "splinterType":4,
          "splinterScatter":1,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":350
+         "speed":350,
+         "createOnExp":9,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":4,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid6 => - GUN
          "detectDistance":2,
          "blowAway":0.05,
          "gravity":0.005340576171875,
@@ -1002,7 +1048,6 @@
          "addSpeed":0,
          "distribution":0.4999847412109375,
          "multSpeed":1,
-         "createOnExp":9,
          "dirtEffect":-1,
          "wormExplode":false,
          "explGround":true,
@@ -1023,16 +1068,18 @@
          "colorBullets":161,
          "splinterAmount":1,
          "splinterColour":75,
-         "splinterType":4,
          "splinterScatter":0,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":250
+         "speed":250,
+         "createOnExp":9,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":4,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid7 - PROXYMINE
          "detectDistance":1,
          "blowAway":0.03,
          "gravity":0.03814697265625,
@@ -1040,7 +1087,6 @@
          "addSpeed":0,
          "distribution":0.1220703125,
          "multSpeed":1,
-         "createOnExp":10,
          "dirtEffect":2,
          "wormExplode":false,
          "explGround":false,
@@ -1061,16 +1107,18 @@
          "colorBullets":168,
          "splinterAmount":1,
          "splinterColour":0,
-         "splinterType":9,
          "splinterScatter":1,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":130
+         "speed":130,
+         "createOnExp":10,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":9,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid8 - GLOCK18BURSTF
          "detectDistance":1,
          "blowAway":0.1,
          "gravity":0.003814697265625,
@@ -1078,7 +1126,6 @@
          "addSpeed":3,
          "distribution":0.3204345703125,
          "multSpeed":1,
-         "createOnExp":2,
          "dirtEffect":-1,
          "wormExplode":false,
          "explGround":true,
@@ -1099,16 +1146,18 @@
          "colorBullets":161,
          "splinterAmount":1,
          "splinterColour":71,
-         "splinterType":4,
          "splinterScatter":0,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":320
+         "speed":320,
+         "createOnExp":2,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":4,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid9 => - MINE
          "detectDistance":2,
          "blowAway":0.1,
          "gravity":0.030517578125,
@@ -1116,7 +1165,6 @@
          "addSpeed":0,
          "distribution":0.1983642578125,
          "multSpeed":1,
-         "createOnExp":3,
          "dirtEffect":-1,
          "wormExplode":true,
          "explGround":true,
@@ -1137,16 +1185,18 @@
          "colorBullets":161,
          "splinterAmount":9,
          "splinterColour":12,
-         "splinterType":17,
          "splinterScatter":0,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":358
+         "speed":358,
+         "createOnExp":3,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":17,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid10 - FLAMER
          "detectDistance":3,
          "blowAway":0.01,
          "gravity":-0.003204345703125,
@@ -1154,7 +1204,6 @@
          "addSpeed":0,
          "distribution":0.30517578125,
          "multSpeed":0.93,
-         "createOnExp":-1,
          "dirtEffect":-1,
          "wormExplode":true,
          "explGround":true,
@@ -1175,16 +1224,18 @@
          "colorBullets":75,
          "splinterAmount":1,
          "splinterColour":0,
-         "splinterType":16,
          "splinterScatter":1,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":1,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":340
+         "speed":340,
+         "createOnExp":-1,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":16,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid11 => - GRENADE
          "detectDistance":3,
          "blowAway":0.04,
          "gravity":0.0508575439453125,
@@ -1192,7 +1243,6 @@
          "addSpeed":0,
          "distribution":0.1068115234375,
          "multSpeed":1,
-         "createOnExp":13,
          "dirtEffect":0,
          "wormExplode":false,
          "explGround":false,
@@ -1213,16 +1263,18 @@
          "colorBullets":0,
          "splinterAmount":4,
          "splinterColour":222,
-         "splinterType":14,
          "splinterScatter":0,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":250
+         "speed":250,
+         "createOnExp":13,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":14,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid12 - 20MMAUTOCANNO
          "detectDistance":2,
          "blowAway":0.25,
          "gravity":0.0035552978515625,
@@ -1230,7 +1282,6 @@
          "addSpeed":0,
          "distribution":0.4425048828125,
          "multSpeed":1,
-         "createOnExp":2,
          "dirtEffect":2,
          "wormExplode":true,
          "explGround":true,
@@ -1251,16 +1302,18 @@
          "colorBullets":161,
          "splinterAmount":3,
          "splinterColour":29,
-         "splinterType":12,
          "splinterScatter":0,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":350
+         "speed":350,
+         "createOnExp":2,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":12,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid13 => - HAWK
          "detectDistance":1,
          "blowAway":0.2,
          "gravity":0.003662109375,
@@ -1268,7 +1321,6 @@
          "addSpeed":0,
          "distribution":0.2288818359375,
          "multSpeed":1,
-         "createOnExp":10,
          "dirtEffect":-1,
          "wormExplode":true,
          "explGround":true,
@@ -1289,16 +1341,18 @@
          "colorBullets":161,
          "splinterAmount":2,
          "splinterColour":117,
-         "splinterType":4,
          "splinterScatter":1,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":300
+         "speed":300,
+         "createOnExp":10,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":4,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid14 => - MINE
          "detectDistance":2,
          "blowAway":0.02,
          "gravity":0,
@@ -1306,7 +1360,6 @@
          "addSpeed":0,
          "distribution":0.0030517578125,
          "multSpeed":0.84,
-         "createOnExp":3,
          "dirtEffect":-1,
          "wormExplode":false,
          "explGround":false,
@@ -1327,16 +1380,18 @@
          "colorBullets":2,
          "splinterAmount":1,
          "splinterColour":0,
-         "splinterType":11,
          "splinterScatter":1,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":240
+         "speed":240,
+         "createOnExp":3,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":11,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid15 - KALASHNIKOV47
          "detectDistance":1,
          "blowAway":0.25,
          "gravity":0.003204345703125,
@@ -1344,7 +1399,6 @@
          "addSpeed":3,
          "distribution":0.3509521484375,
          "multSpeed":1,
-         "createOnExp":8,
          "dirtEffect":-1,
          "wormExplode":false,
          "explGround":true,
@@ -1365,16 +1419,18 @@
          "colorBullets":161,
          "splinterAmount":2,
          "splinterColour":75,
-         "splinterType":4,
          "splinterScatter":0,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":330
+         "speed":330,
+         "createOnExp":8,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":4,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid16 - FLASHBANG
          "detectDistance":3,
          "blowAway":0.04,
          "gravity":0.0457763671875,
@@ -1382,7 +1438,6 @@
          "addSpeed":5,
          "distribution":0.1068115234375,
          "multSpeed":1,
-         "createOnExp":1,
          "dirtEffect":-1,
          "wormExplode":true,
          "explGround":false,
@@ -1403,16 +1458,18 @@
          "colorBullets":0,
          "splinterAmount":20,
          "splinterColour":0,
-         "splinterType":4,
          "splinterScatter":0,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":1,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":330
+         "speed":330,
+         "createOnExp":1,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":4,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid17 => - SHOTGUN
          "detectDistance":1,
          "blowAway":0.05,
          "gravity":0.0018310546875,
@@ -1420,7 +1477,6 @@
          "addSpeed":3,
          "distribution":0.4999847412109375,
          "multSpeed":1,
-         "createOnExp":9,
          "dirtEffect":-1,
          "wormExplode":false,
          "explGround":true,
@@ -1441,16 +1497,18 @@
          "colorBullets":161,
          "splinterAmount":1,
          "splinterColour":71,
-         "splinterType":4,
          "splinterScatter":0,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":220
+         "speed":220,
+         "createOnExp":9,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":4,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid18 => - CARBINE
          "detectDistance":1,
          "blowAway":0.2,
          "gravity":0.0034332275390625,
@@ -1458,7 +1516,6 @@
          "addSpeed":3,
          "distribution":0.2288818359375,
          "multSpeed":1,
-         "createOnExp":8,
          "dirtEffect":-1,
          "wormExplode":false,
          "explGround":true,
@@ -1479,16 +1536,18 @@
          "colorBullets":161,
          "splinterAmount":1,
          "splinterColour":75,
-         "splinterType":4,
          "splinterScatter":0,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":360
+         "speed":360,
+         "createOnExp":8,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":4,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid19 => UMP - 45CAL
          "detectDistance":1,
          "blowAway":0.11,
          "gravity":0.0030517578125,
@@ -1496,7 +1555,6 @@
          "addSpeed":3,
          "distribution":0.152587890625,
          "multSpeed":1,
-         "createOnExp":2,
          "dirtEffect":-1,
          "wormExplode":false,
          "explGround":true,
@@ -1517,16 +1575,18 @@
          "colorBullets":161,
          "splinterAmount":2,
          "splinterColour":74,
-         "splinterType":4,
          "splinterScatter":1,
-         "objTrailType":4,
          "objTrailDelay":1,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":350
+         "speed":350,
+         "createOnExp":2,// (soid created on explosion)
+         "objTrailType":4,// (soid created on trail)
+         "splinterType":4,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid20 => - FIELD
          "detectDistance":0,
          "blowAway":0,
          "gravity":0,
@@ -1534,7 +1594,6 @@
          "addSpeed":0,
          "distribution":0.00006103515625,
          "multSpeed":0.85,
-         "createOnExp":11,
          "dirtEffect":-1,
          "wormExplode":false,
          "explGround":true,
@@ -1555,16 +1614,18 @@
          "colorBullets":0,
          "splinterAmount":4,
          "splinterColour":24,
-         "splinterType":22,
          "splinterScatter":1,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":1,
-         "partTrailObj":22,
          "partTrailDelay":3,
-         "speed":370
+         "speed":370,
+         "createOnExp":11,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":22,// (noid created on explosion)
+         "partTrailObj":22,// (noid created on trail)
       },
       {
+         // woid21 - VIRUS
          "detectDistance":4,
          "blowAway":0.4,
          "gravity":0.0847625732421875,
@@ -1572,7 +1633,6 @@
          "addSpeed":0,
          "distribution":0.00152587890625,
          "multSpeed":1,
-         "createOnExp":3,
          "dirtEffect":2,
          "wormExplode":true,
          "explGround":true,
@@ -1593,16 +1653,18 @@
          "colorBullets":162,
          "splinterAmount":99,
          "splinterColour":11,
-         "splinterType":18,
          "splinterScatter":0,
-         "objTrailType":3,
          "objTrailDelay":1,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":370
+         "speed":370,
+         "createOnExp":3,// (soid created on explosion)
+         "objTrailType":3,// (soid created on trail)
+         "splinterType":18,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid22 => - TACTICAL
          "detectDistance":1,
          "blowAway":0.12,
          "gravity":0.00396728515625,
@@ -1610,7 +1672,6 @@
          "addSpeed":3,
          "distribution":0.091552734375,
          "multSpeed":1,
-         "createOnExp":2,
          "dirtEffect":-1,
          "wormExplode":false,
          "explGround":true,
@@ -1631,16 +1692,18 @@
          "colorBullets":161,
          "splinterAmount":1,
          "splinterColour":75,
-         "splinterType":4,
          "splinterScatter":1,
-         "objTrailType":4,
          "objTrailDelay":1,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":330
+         "speed":330,
+         "createOnExp":2,// (soid created on explosion)
+         "objTrailType":4,// (soid created on trail)
+         "splinterType":4,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid23 - MORTAR
          "detectDistance":1,
          "blowAway":0.2,
          "gravity":0.02288818359375,
@@ -1648,7 +1711,6 @@
          "addSpeed":0,
          "distribution":0.006103515625,
          "multSpeed":1,
-         "createOnExp":11,
          "dirtEffect":0,
          "wormExplode":true,
          "explGround":true,
@@ -1669,16 +1731,18 @@
          "colorBullets":75,
          "splinterAmount":6,
          "splinterColour":75,
-         "splinterType":23,
          "splinterScatter":0,
-         "objTrailType":3,
          "objTrailDelay":2,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":400
+         "speed":400,
+         "createOnExp":11,// (soid created on explosion)
+         "objTrailType":3,// (soid created on trail)
+         "splinterType":23,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid24 - HELLFIREROCKE
          "detectDistance":2,
          "blowAway":0.35,
          "gravity":0.002899169921875,
@@ -1686,7 +1750,6 @@
          "addSpeed":5,
          "distribution":0.1678466796875,
          "multSpeed":1,
-         "createOnExp":10,
          "dirtEffect":2,
          "wormExplode":true,
          "explGround":true,
@@ -1707,16 +1770,18 @@
          "colorBullets":161,
          "splinterAmount":4,
          "splinterColour":67,
-         "splinterType":4,
          "splinterScatter":0,
-         "objTrailType":7,
          "objTrailDelay":1,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":240
+         "speed":240,
+         "createOnExp":10,// (soid created on explosion)
+         "objTrailType":7,// (soid created on trail)
+         "splinterType":4,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid25 => - KNIFE
          "detectDistance":1,
          "blowAway":0.3,
          "gravity":0,
@@ -1724,7 +1789,6 @@
          "addSpeed":-15,
          "distribution":0.003814697265625,
          "multSpeed":1,
-         "createOnExp":4,
          "dirtEffect":-1,
          "wormExplode":false,
          "explGround":true,
@@ -1745,16 +1809,18 @@
          "colorBullets":0,
          "splinterAmount":0,
          "splinterColour":0,
-         "splinterType":-1,
          "splinterScatter":0,
-         "objTrailType":4,
          "objTrailDelay":1,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":100
+         "speed":100,
+         "createOnExp":4,// (soid created on explosion)
+         "objTrailType":4,// (soid created on trail)
+         "splinterType":-1,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid26 - GRENADE
          "detectDistance":3,
          "blowAway":0.04,
          "gravity":0.0508575439453125,
@@ -1762,7 +1828,6 @@
          "addSpeed":0,
          "distribution":0.1068115234375,
          "multSpeed":1,
-         "createOnExp":11,
          "dirtEffect":-1,
          "wormExplode":false,
          "explGround":false,
@@ -1783,16 +1848,18 @@
          "colorBullets":0,
          "splinterAmount":40,
          "splinterColour":53,
-         "splinterType":5,
          "splinterScatter":0,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":1,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":244
+         "speed":244,
+         "createOnExp":11,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":5,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid27 => - M249
          "detectDistance":1,
          "blowAway":0.28,
          "gravity":0.003204345703125,
@@ -1800,7 +1867,6 @@
          "addSpeed":2,
          "distribution":0.4796142578125,
          "multSpeed":1,
-         "createOnExp":2,
          "dirtEffect":2,
          "wormExplode":false,
          "explGround":true,
@@ -1821,16 +1887,18 @@
          "colorBullets":161,
          "splinterAmount":3,
          "splinterColour":75,
-         "splinterType":4,
          "splinterScatter":1,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":350
+         "speed":350,
+         "createOnExp":2,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":4,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid28 - CLUSTERBOMB
          "detectDistance":2,
          "blowAway":0.04,
          "gravity":0.02288818359375,
@@ -1838,7 +1906,6 @@
          "addSpeed":0,
          "distribution":0.06103515625,
          "multSpeed":1,
-         "createOnExp":11,
          "dirtEffect":2,
          "wormExplode":false,
          "explGround":false,
@@ -1859,16 +1926,18 @@
          "colorBullets":0,
          "splinterAmount":8,
          "splinterColour":67,
-         "splinterType":23,
          "splinterScatter":0,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":200
+         "speed":200,
+         "createOnExp":11,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":23,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid29 => - LASER
          "detectDistance":2,
          "blowAway":0,
          "gravity":0.000762939453125,
@@ -1876,7 +1945,6 @@
          "addSpeed":0,
          "distribution":0.000762939453125,
          "multSpeed":1,
-         "createOnExp":2,
          "dirtEffect":-1,
          "wormExplode":false,
          "explGround":true,
@@ -1897,16 +1965,18 @@
          "colorBullets":161,
          "splinterAmount":5,
          "splinterColour":75,
-         "splinterType":4,
          "splinterScatter":0,
-         "objTrailType":6,
          "objTrailDelay":1,
          "partTrailType":1,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":300
+         "speed":300,
+         "createOnExp":2,// (soid created on explosion)
+         "objTrailType":6,// (soid created on trail)
+         "splinterType":4,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid30 => - BAZOOKA
          "detectDistance":3,
          "blowAway":0.2,
          "gravity":0.00152587890625,
@@ -1914,7 +1984,6 @@
          "addSpeed":40,
          "distribution":0.030517578125,
          "multSpeed":1,
-         "createOnExp":0,
          "dirtEffect":-1,
          "wormExplode":true,
          "explGround":true,
@@ -1935,16 +2004,18 @@
          "colorBullets":0,
          "splinterAmount":20,
          "splinterColour":71,
-         "splinterType":4,
          "splinterScatter":0,
-         "objTrailType":3,
          "objTrailDelay":1,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":20
+         "speed":20,
+         "createOnExp":0,// (soid created on explosion)
+         "objTrailType":3,// (soid created on trail)
+         "splinterType":4,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid31 => M I R - E
          "detectDistance":5,
          "blowAway":0.2,
          "gravity":0.0018310546875,
@@ -1952,7 +2023,6 @@
          "addSpeed":200,
          "distribution":0.1068115234375,
          "multSpeed":1,
-         "createOnExp":11,
          "dirtEffect":-1,
          "wormExplode":true,
          "explGround":true,
@@ -1973,16 +2043,18 @@
          "colorBullets":161,
          "splinterAmount":4,
          "splinterColour":162,
-         "splinterType":15,
          "splinterScatter":1,
-         "objTrailType":6,
          "objTrailDelay":1,
          "partTrailType":1,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":200
+         "speed":200,
+         "createOnExp":11,// (soid created on explosion)
+         "objTrailType":6,// (soid created on trail)
+         "splinterType":15,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid32 => - EAGLE
          "detectDistance":1,
          "blowAway":0.28,
          "gravity":0.003662109375,
@@ -1990,7 +2062,6 @@
          "addSpeed":0,
          "distribution":0.335693359375,
          "multSpeed":1,
-         "createOnExp":2,
          "dirtEffect":2,
          "wormExplode":false,
          "explGround":true,
@@ -2011,16 +2082,18 @@
          "colorBullets":161,
          "splinterAmount":3,
          "splinterColour":71,
-         "splinterType":4,
          "splinterScatter":1,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":330
+         "speed":330,
+         "createOnExp":2,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":4,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid33 - STINGERMISL
          "detectDistance":1,
          "blowAway":0,
          "gravity":0,
@@ -2028,7 +2101,6 @@
          "addSpeed":200,
          "distribution":0,
          "multSpeed":1,
-         "createOnExp":12,
          "dirtEffect":-1,
          "wormExplode":true,
          "explGround":true,
@@ -2049,16 +2121,18 @@
          "colorBullets":0,
          "splinterAmount":15,
          "splinterColour":66,
-         "splinterType":8,
          "splinterScatter":0,
-         "objTrailType":3,
          "objTrailDelay":1,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":300
+         "speed":300,
+         "createOnExp":12,// (soid created on explosion)
+         "objTrailType":3,// (soid created on trail)
+         "splinterType":8,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid34 - APSHOCKCANNON
          "detectDistance":3,
          "blowAway":0.6,
          "gravity":0.0091552734375,
@@ -2066,7 +2140,6 @@
          "addSpeed":0,
          "distribution":0.030517578125,
          "multSpeed":1,
-         "createOnExp":11,
          "dirtEffect":0,
          "wormExplode":true,
          "explGround":true,
@@ -2087,16 +2160,18 @@
          "colorBullets":222,
          "splinterAmount":20,
          "splinterColour":65,
-         "splinterType":12,
          "splinterScatter":0,
-         "objTrailType":4,
          "objTrailDelay":1,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":250
+         "speed":250,
+         "createOnExp":11,// (soid created on explosion)
+         "objTrailType":4,// (soid created on trail)
+         "splinterType":12,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid35 => - TRAP
          "detectDistance":3,
          "blowAway":0,
          "gravity":0.02288818359375,
@@ -2104,7 +2179,6 @@
          "addSpeed":0,
          "distribution":0.30517578125,
          "multSpeed":1,
-         "createOnExp":0,
          "dirtEffect":-1,
          "wormExplode":true,
          "explGround":false,
@@ -2125,16 +2199,18 @@
          "colorBullets":0,
          "splinterAmount":0,
          "splinterColour":0,
-         "splinterType":-1,
          "splinterScatter":0,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":100
+         "speed":100,
+         "createOnExp":0,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":-1,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid36 - SUICIDE
          "detectDistance":1,
          "blowAway":0,
          "gravity":0,
@@ -2142,7 +2218,6 @@
          "addSpeed":0,
          "distribution":0,
          "multSpeed":1,
-         "createOnExp":-1,
          "dirtEffect":-1,
          "wormExplode":true,
          "explGround":true,
@@ -2163,16 +2238,18 @@
          "colorBullets":0,
          "splinterAmount":255,
          "splinterColour":54,
-         "splinterType":15,
          "splinterScatter":0,
-         "objTrailType":0,
          "objTrailDelay":1,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":0
+         "speed":0,
+         "createOnExp":-1,// (soid created on explosion)
+         "objTrailType":0,// (soid created on trail)
+         "splinterType":15,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid37 - NAILGUN
          "detectDistance":2,
          "blowAway":0,
          "gravity":0.000762939453125,
@@ -2180,7 +2257,6 @@
          "addSpeed":1,
          "distribution":0.12969970703125,
          "multSpeed":1,
-         "createOnExp":9,
          "dirtEffect":2,
          "wormExplode":false,
          "explGround":true,
@@ -2201,16 +2277,18 @@
          "colorBullets":161,
          "splinterAmount":2,
          "splinterColour":75,
-         "splinterType":4,
          "splinterScatter":1,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":500
+         "speed":500,
+         "createOnExp":9,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":4,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid38 - P90
          "detectDistance":1,
          "blowAway":0.13,
          "gravity":0.0018310546875,
@@ -2218,7 +2296,6 @@
          "addSpeed":0,
          "distribution":0.3509521484375,
          "multSpeed":1,
-         "createOnExp":9,
          "dirtEffect":-1,
          "wormExplode":false,
          "explGround":true,
@@ -2239,16 +2316,18 @@
          "colorBullets":161,
          "splinterAmount":1,
          "splinterColour":75,
-         "splinterType":4,
          "splinterScatter":1,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":300
+         "speed":300,
+         "createOnExp":9,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":4,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid39 => SIG SG-- SN
          "detectDistance":2,
          "blowAway":0.25,
          "gravity":0.00244140625,
@@ -2256,7 +2335,6 @@
          "addSpeed":0,
          "distribution":0.1220703125,
          "multSpeed":1,
-         "createOnExp":2,
          "dirtEffect":-1,
          "wormExplode":false,
          "explGround":true,
@@ -2277,16 +2355,18 @@
          "colorBullets":161,
          "splinterAmount":8,
          "splinterColour":75,
-         "splinterType":4,
          "splinterScatter":1,
-         "objTrailType":4,
          "objTrailDelay":1,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":360
+         "speed":360,
+         "createOnExp":2,// (soid created on explosion)
+         "objTrailType":4,// (soid created on trail)
+         "splinterType":4,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
+         // woid40 => - SCOUT
          "detectDistance":2,
          "blowAway":0.25,
          "gravity":0.000762939453125,
@@ -2294,7 +2374,6 @@
          "addSpeed":0,
          "distribution":0.00006103515625,
          "multSpeed":1,
-         "createOnExp":2,
          "dirtEffect":1,
          "wormExplode":false,
          "explGround":true,
@@ -2315,18 +2394,20 @@
          "colorBullets":160,
          "splinterAmount":5,
          "splinterColour":75,
-         "splinterType":4,
          "splinterScatter":1,
-         "objTrailType":4,
          "objTrailDelay":1,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":400
+         "speed":400,
+         "createOnExp":2,// (soid created on explosion)
+         "objTrailType":4,// (soid created on trail)
+         "splinterType":4,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       }
    ],
    "nObjects":[
       {
+         // noid1
          "detectDistance":3,
          "gravity":0.030517578125,
          "speed":1,
@@ -2343,20 +2424,21 @@
          "numFrames":3,
          "drawOnMap":false,
          "colorBullets":0,
-         "createOnExp":-1,
          "affectByExplosions":false,
          "dirtEffect":-1,
          "splinterAmount":0,
          "splinterColour":0,
-         "splinterType":6,
          "bloodTrail":true,
          "bloodTrailDelay":1,
-         "leaveObj":-1,
          "leaveObjDelay":0,
          "timeToExplo":200,
-         "timeToExploV":50
+         "timeToExploV":50,
+         "createOnExp":-1,// soid (created on explosion)
+         "splinterType":6,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
       },
       {
+         // noid2
          "detectDistance":3,
          "gravity":0.030517578125,
          "speed":1,
@@ -2373,20 +2455,21 @@
          "numFrames":3,
          "drawOnMap":false,
          "colorBullets":0,
-         "createOnExp":-1,
          "affectByExplosions":false,
          "dirtEffect":-1,
          "splinterAmount":0,
          "splinterColour":0,
-         "splinterType":6,
          "bloodTrail":true,
          "bloodTrailDelay":1,
-         "leaveObj":-1,
          "leaveObjDelay":0,
          "timeToExplo":200,
-         "timeToExploV":50
+         "timeToExploV":50,
+         "createOnExp":-1,// soid (created on explosion)
+         "splinterType":6,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
       },
       {
+         // noid3
          "detectDistance":0,
          "gravity":0.01068115234375,
          "speed":0.2,
@@ -2403,20 +2486,21 @@
          "numFrames":0,
          "drawOnMap":false,
          "colorBullets":68,
-         "createOnExp":-1,
          "affectByExplosions":false,
          "dirtEffect":-1,
          "splinterAmount":0,
          "splinterColour":0,
-         "splinterType":-1,
          "bloodTrail":false,
          "bloodTrailDelay":0,
-         "leaveObj":-1,
          "leaveObjDelay":0,
          "timeToExplo":30,
-         "timeToExploV":2
+         "timeToExploV":2,
+         "createOnExp":-1,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
       },
       {
+         // noid4
          "detectDistance":2,
          "gravity":0.0457763671875,
          "speed":4,
@@ -2433,20 +2517,21 @@
          "numFrames":0,
          "drawOnMap":false,
          "colorBullets":0,
-         "createOnExp":-1,
          "affectByExplosions":false,
          "dirtEffect":-1,
          "splinterAmount":0,
          "splinterColour":0,
-         "splinterType":-1,
          "bloodTrail":false,
          "bloodTrailDelay":0,
-         "leaveObj":7,
          "leaveObjDelay":1,
          "timeToExplo":15,
-         "timeToExploV":3
+         "timeToExploV":3,
+         "createOnExp":-1,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":7,// soid (created on trail)
       },
       {
+         // noid5
          "detectDistance":1,
          "gravity":0.1434326171875,
          "speed":1,
@@ -2463,20 +2548,21 @@
          "numFrames":0,
          "drawOnMap":false,
          "colorBullets":75,
-         "createOnExp":-1,
          "affectByExplosions":false,
          "dirtEffect":-1,
          "splinterAmount":0,
          "splinterColour":0,
-         "splinterType":-1,
          "bloodTrail":false,
          "bloodTrailDelay":0,
-         "leaveObj":6,
          "leaveObjDelay":1,
          "timeToExplo":10,
-         "timeToExploV":3
+         "timeToExploV":3,
+         "createOnExp":-1,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":6,// soid (created on trail)
       },
       {
+         // noid6
          "detectDistance":2,
          "gravity":0.06103515625,
          "speed":5,
@@ -2493,20 +2579,21 @@
          "numFrames":3,
          "drawOnMap":false,
          "colorBullets":54,
-         "createOnExp":2,
          "affectByExplosions":false,
          "dirtEffect":-1,
          "splinterAmount":2,
          "splinterColour":0,
-         "splinterType":19,
          "bloodTrail":false,
          "bloodTrailDelay":0,
-         "leaveObj":-1,
          "leaveObjDelay":0,
          "timeToExplo":0,
-         "timeToExploV":0
+         "timeToExploV":0,
+         "createOnExp":2,// soid (created on explosion)
+         "splinterType":19,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
       },
       {
+         // noid7
          "detectDistance":0,
          "gravity":0.0152587890625,
          "speed":0.1,
@@ -2523,20 +2610,21 @@
          "numFrames":0,
          "drawOnMap":false,
          "colorBullets":0,
-         "createOnExp":-1,
          "affectByExplosions":false,
          "dirtEffect":-1,
          "splinterAmount":0,
          "splinterColour":0,
-         "splinterType":-1,
          "bloodTrail":true,
          "bloodTrailDelay":1,
-         "leaveObj":-1,
          "leaveObjDelay":0,
          "timeToExplo":15,
-         "timeToExploV":3
+         "timeToExploV":3,
+         "createOnExp":-1,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
       },
       {
+         // noid8
          "detectDistance":0,
          "gravity":0.0152587890625,
          "speed":0.2,
@@ -2553,20 +2641,21 @@
          "numFrames":0,
          "drawOnMap":false,
          "colorBullets":57,
-         "createOnExp":-1,
          "affectByExplosions":false,
          "dirtEffect":-1,
          "splinterAmount":0,
          "splinterColour":0,
-         "splinterType":-1,
          "bloodTrail":false,
          "bloodTrailDelay":0,
-         "leaveObj":-1,
          "leaveObjDelay":0,
          "timeToExplo":0,
-         "timeToExploV":0
+         "timeToExploV":0,
+         "createOnExp":-1,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
       },
       {
+         // noid9
          "detectDistance":3,
          "gravity":0.0152587890625,
          "speed":4,
@@ -2583,20 +2672,21 @@
          "numFrames":0,
          "drawOnMap":false,
          "colorBullets":29,
-         "createOnExp":2,
          "affectByExplosions":false,
          "dirtEffect":-1,
          "splinterAmount":0,
          "splinterColour":0,
-         "splinterType":-1,
          "bloodTrail":false,
          "bloodTrailDelay":0,
-         "leaveObj":4,
          "leaveObjDelay":1,
          "timeToExplo":0,
-         "timeToExploV":0
+         "timeToExploV":0,
+         "createOnExp":2,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":4,// soid (created on trail)
       },
       {
+         // noid10
          "detectDistance":20,
          "gravity":0.0152587890625,
          "speed":0.01,
@@ -2613,20 +2703,21 @@
          "numFrames":3,
          "drawOnMap":false,
          "colorBullets":168,
-         "createOnExp":13,
          "affectByExplosions":true,
          "dirtEffect":-1,
          "splinterAmount":10,
          "splinterColour":75,
-         "splinterType":5,
          "bloodTrail":false,
          "bloodTrailDelay":0,
-         "leaveObj":2,
          "leaveObjDelay":200,
          "timeToExplo":0,
-         "timeToExploV":0
+         "timeToExploV":0,
+         "createOnExp":13,// soid (created on explosion)
+         "splinterType":5,// noid (created on trail)
+         "leaveObj":2,// soid (created on trail)
       },
       {
+         // noid11
          "detectDistance":1,
          "gravity":0,
          "speed":0.01,
@@ -2643,20 +2734,21 @@
          "numFrames":0,
          "drawOnMap":false,
          "colorBullets":116,
-         "createOnExp":0,
          "affectByExplosions":false,
          "dirtEffect":0,
          "splinterAmount":255,
          "splinterColour":143,
-         "splinterType":3,
          "bloodTrail":false,
          "bloodTrailDelay":0,
-         "leaveObj":-1,
          "leaveObjDelay":0,
          "timeToExplo":65,
-         "timeToExploV":0
+         "timeToExploV":0,
+         "createOnExp":0,// soid (created on explosion)
+         "splinterType":3,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
       },
       {
+         // noid12
          "detectDistance":15,
          "gravity":0,
          "speed":0.4,
@@ -2673,20 +2765,21 @@
          "numFrames":0,
          "drawOnMap":false,
          "colorBullets":54,
-         "createOnExp":5,
          "affectByExplosions":true,
          "dirtEffect":-1,
          "splinterAmount":1,
          "splinterColour":0,
-         "splinterType":10,
          "bloodTrail":false,
          "bloodTrailDelay":0,
-         "leaveObj":-1,
          "leaveObjDelay":0,
          "timeToExplo":10000,
-         "timeToExploV":0
+         "timeToExploV":0,
+         "createOnExp":5,// soid (created on explosion)
+         "splinterType":10,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
       },
       {
+         // noid13
          "detectDistance":2,
          "gravity":-0.091552734375,
          "speed":3,
@@ -2703,20 +2796,21 @@
          "numFrames":0,
          "drawOnMap":false,
          "colorBullets":10,
-         "createOnExp":-1,
          "affectByExplosions":false,
          "dirtEffect":2,
          "splinterAmount":0,
          "splinterColour":0,
-         "splinterType":-1,
          "bloodTrail":false,
          "bloodTrailDelay":0,
-         "leaveObj":-1,
          "leaveObjDelay":0,
          "timeToExplo":20,
-         "timeToExploV":5
+         "timeToExploV":5,
+         "createOnExp":-1,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
       },
       {
+         // noid14
          "detectDistance":0,
          "gravity":0,
          "speed":2,
@@ -2733,20 +2827,21 @@
          "numFrames":0,
          "drawOnMap":false,
          "colorBullets":0,
-         "createOnExp":-1,
          "affectByExplosions":false,
          "dirtEffect":4,
          "splinterAmount":0,
          "splinterColour":0,
-         "splinterType":-1,
          "bloodTrail":false,
          "bloodTrailDelay":0,
-         "leaveObj":-1,
          "leaveObjDelay":0,
          "timeToExplo":1,
-         "timeToExploV":0
+         "timeToExploV":0,
+         "createOnExp":-1,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
       },
       {
+         // noid15
          "detectDistance":1,
          "gravity":-0.0762939453125,
          "speed":0.2,
@@ -2763,20 +2858,21 @@
          "numFrames":0,
          "drawOnMap":false,
          "colorBullets":0,
-         "createOnExp":-1,
          "affectByExplosions":false,
          "dirtEffect":-1,
          "splinterAmount":3,
          "splinterColour":161,
-         "splinterType":4,
          "bloodTrail":false,
          "bloodTrailDelay":0,
-         "leaveObj":-1,
          "leaveObjDelay":0,
          "timeToExplo":25,
-         "timeToExploV":5
+         "timeToExploV":5,
+         "createOnExp":-1,// soid (created on explosion)
+         "splinterType":4,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
       },
       {
+         // noid16
          "detectDistance":9,
          "gravity":0.01373291015625,
          "speed":4,
@@ -2793,20 +2889,21 @@
          "numFrames":0,
          "drawOnMap":false,
          "colorBullets":29,
-         "createOnExp":10,
          "affectByExplosions":true,
          "dirtEffect":-1,
          "splinterAmount":1,
          "splinterColour":29,
-         "splinterType":5,
          "bloodTrail":false,
          "bloodTrailDelay":0,
-         "leaveObj":6,
          "leaveObjDelay":1,
          "timeToExplo":0,
-         "timeToExploV":0
+         "timeToExploV":0,
+         "createOnExp":10,// soid (created on explosion)
+         "splinterType":5,// noid (created on trail)
+         "leaveObj":6,// soid (created on trail)
       },
       {
+         // noid17
          "detectDistance":1,
          "gravity":-0.003387451171875,
          "speed":1.2,
@@ -2823,20 +2920,21 @@
          "numFrames":3,
          "drawOnMap":false,
          "colorBullets":0,
-         "createOnExp":-1,
          "affectByExplosions":true,
          "dirtEffect":2,
          "splinterAmount":0,
          "splinterColour":0,
-         "splinterType":-1,
          "bloodTrail":false,
          "bloodTrailDelay":0,
-         "leaveObj":-1,
          "leaveObjDelay":0,
          "timeToExplo":15,
-         "timeToExploV":1
+         "timeToExploV":1,
+         "createOnExp":-1,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
       },
       {
+         // noid18
          "detectDistance":4,
          "gravity":0.030517578125,
          "speed":1.5,
@@ -2853,20 +2951,21 @@
          "numFrames":0,
          "drawOnMap":false,
          "colorBullets":29,
-         "createOnExp":8,
          "affectByExplosions":true,
          "dirtEffect":-1,
          "splinterAmount":3,
          "splinterColour":29,
-         "splinterType":3,
          "bloodTrail":false,
          "bloodTrailDelay":0,
-         "leaveObj":-1,
          "leaveObjDelay":0,
          "timeToExplo":5000,
-         "timeToExploV":2500
+         "timeToExploV":2500,
+         "createOnExp":8,// soid (created on explosion)
+         "splinterType":3,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
       },
       {
+         // noid19
          "detectDistance":0,
          "gravity":0,
          "speed":0.1,
@@ -2883,20 +2982,21 @@
          "numFrames":0,
          "drawOnMap":false,
          "colorBullets":82,
-         "createOnExp":5,
          "affectByExplosions":true,
          "dirtEffect":-1,
          "splinterAmount":0,
          "splinterColour":0,
-         "splinterType":-1,
          "bloodTrail":false,
          "bloodTrailDelay":0,
-         "leaveObj":-1,
          "leaveObjDelay":0,
          "timeToExplo":600,
-         "timeToExploV":300
+         "timeToExploV":300,
+         "createOnExp":5,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
       },
       {
+         // noid20
          "detectDistance":1,
          "gravity":0.05340576171875,
          "speed":2.5,
@@ -2913,20 +3013,21 @@
          "numFrames":3,
          "drawOnMap":false,
          "colorBullets":0,
-         "createOnExp":9,
          "affectByExplosions":true,
          "dirtEffect":-1,
          "splinterAmount":0,
          "splinterColour":0,
-         "splinterType":-1,
          "bloodTrail":false,
          "bloodTrailDelay":0,
-         "leaveObj":-1,
          "leaveObjDelay":0,
          "timeToExplo":0,
-         "timeToExploV":0
+         "timeToExploV":0,
+         "createOnExp":9,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
       },
       {
+         // noid21
          "detectDistance":5,
          "gravity":0.0152587890625,
          "speed":0,
@@ -2943,20 +3044,21 @@
          "numFrames":0,
          "drawOnMap":false,
          "colorBullets":0,
-         "createOnExp":0,
          "affectByExplosions":true,
          "dirtEffect":-1,
          "splinterAmount":0,
          "splinterColour":0,
-         "splinterType":-1,
          "bloodTrail":false,
          "bloodTrailDelay":0,
-         "leaveObj":-1,
          "leaveObjDelay":0,
          "timeToExplo":0,
-         "timeToExploV":0
+         "timeToExploV":0,
+         "createOnExp":0,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
       },
       {
+         // noid22
          "detectDistance":5,
          "gravity":0.0152587890625,
          "speed":0,
@@ -2973,20 +3075,21 @@
          "numFrames":0,
          "drawOnMap":false,
          "colorBullets":0,
-         "createOnExp":0,
          "affectByExplosions":true,
          "dirtEffect":-1,
          "splinterAmount":0,
          "splinterColour":0,
-         "splinterType":-1,
          "bloodTrail":false,
          "bloodTrailDelay":0,
-         "leaveObj":-1,
          "leaveObjDelay":0,
          "timeToExplo":1000,
-         "timeToExploV":0
+         "timeToExploV":0,
+         "createOnExp":0,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
       },
       {
+         // noid23
          "detectDistance":3,
          "gravity":-0.06103515625,
          "speed":0.04,
@@ -3003,20 +3106,21 @@
          "numFrames":0,
          "drawOnMap":false,
          "colorBullets":51,
-         "createOnExp":-1,
          "affectByExplosions":true,
          "dirtEffect":2,
          "splinterAmount":0,
          "splinterColour":0,
-         "splinterType":-1,
          "bloodTrail":false,
          "bloodTrailDelay":0,
-         "leaveObj":-1,
          "leaveObjDelay":0,
          "timeToExplo":0,
-         "timeToExploV":0
+         "timeToExploV":0,
+         "createOnExp":-1,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
       },
       {
+         // noid24
          "detectDistance":7,
          "gravity":0.030517578125,
          "speed":1,
@@ -3033,22 +3137,23 @@
          "numFrames":0,
          "drawOnMap":false,
          "colorBullets":117,
-         "createOnExp":8,
          "affectByExplosions":true,
          "dirtEffect":1,
          "splinterAmount":5,
          "splinterColour":55,
-         "splinterType":5,
          "bloodTrail":false,
          "bloodTrailDelay":0,
-         "leaveObj":3,
          "leaveObjDelay":5,
          "timeToExplo":0,
-         "timeToExploV":0
+         "timeToExploV":0,
+         "createOnExp":8,// soid (created on explosion)
+         "splinterType":5,// noid (created on trail)
+         "leaveObj":3,// soid (created on trail)
       }
    ],
    "sObjects":[
       {
+         // soid1
          "startSound":10,
          "numSounds":3,
          "animDelay":4,
@@ -3063,6 +3168,7 @@
          "dirtEffect":0
       },
       {
+         // soid2
          "startSound":10,
          "numSounds":0,
          "animDelay":0,
@@ -3077,6 +3183,7 @@
          "dirtEffect":1
       },
       {
+         // soid3
          "startSound":25,
          "numSounds":3,
          "animDelay":5,
@@ -3091,6 +3198,7 @@
          "dirtEffect":2
       },
       {
+         // soid4
          "startSound":-1,
          "numSounds":0,
          "animDelay":2,
@@ -3105,6 +3213,7 @@
          "dirtEffect":-1
       },
       {
+         // soid5
          "startSound":-1,
          "numSounds":0,
          "animDelay":0,
@@ -3119,6 +3228,7 @@
          "dirtEffect":5
       },
       {
+         // soid6
          "startSound":-1,
          "numSounds":0,
          "animDelay":0,
@@ -3133,6 +3243,7 @@
          "dirtEffect":-1
       },
       {
+         // soid7
          "startSound":-1,
          "numSounds":0,
          "animDelay":0,
@@ -3147,6 +3258,7 @@
          "dirtEffect":-1
       },
       {
+         // soid8
          "startSound":-1,
          "numSounds":0,
          "animDelay":4,
@@ -3161,6 +3273,7 @@
          "dirtEffect":-1
       },
       {
+         // soid9
          "startSound":25,
          "numSounds":3,
          "animDelay":4,
@@ -3175,6 +3288,7 @@
          "dirtEffect":2
       },
       {
+         // soid10
          "startSound":-1,
          "numSounds":0,
          "animDelay":4,
@@ -3189,6 +3303,7 @@
          "dirtEffect":5
       },
       {
+         // soid11
          "startSound":25,
          "numSounds":2,
          "animDelay":3,
@@ -3203,6 +3318,7 @@
          "dirtEffect":8
       },
       {
+         // soid12
          "startSound":10,
          "numSounds":0,
          "animDelay":0,
@@ -3217,6 +3333,7 @@
          "dirtEffect":1
       },
       {
+         // soid13
          "startSound":10,
          "numSounds":3,
          "animDelay":4,
@@ -3231,6 +3348,7 @@
          "dirtEffect":1
       },
       {
+         // soid14
          "startSound":10,
          "numSounds":3,
          "animDelay":6,

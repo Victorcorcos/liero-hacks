@@ -1,240 +1,1174 @@
 {
-  "soundpack": "csliero.zip",
-  "constants": {
-    "nrInitialLength": 250,
-    "nrAttachLength": 28.125,
-    "minBounceUp": -0.8125,
-    "minBounceDown": 0.8125,
-    "minBounceHoriz": 0.8125,
-    "wormGravity": 0.02288818359375,
-    "wormAcc": 0.0762939453125,
-    "wormMaxVel": 0.9542236328125,
-    "jumpForce": 0.9918212890625,
-    "maxAimVel": 0.05243098363280296,
-    "aimAcc": 0.005,
-    "ninjaropeGravity": 0.0152587890625,
-    "nrMinLength": 10.625,
-    "nrMaxLength": 250,
-    "bonusGravity": 0.02288818359375,
-    "wormFricMult": 0.8899999856948853,
-    "aimFric": 0.8299999833106995,
-    "nrThrowVel": 8,
-    "nrForce": 0.0833333358168602,
-    "bonusBounce": 0.4000000059604645,
-    "bonusFlickerTime": 220,
-    "aimMaxAngle": 1.5707963705062866,
-    "aimMinAngle": -1.57,
-    "nrAdjustVel": 1.5,
-    "nrColourBegin": 19,
-    "nrColourEnd": 22,
-    "bonusExplodeRisk": 13,
-    "bonusHealthVar": 15,
-    "bonusMinHealth": 7,
-    "firstBloodColour": 80,
-    "numBloodColours": 2,
-    "bObjGravity": 0.0152587890625,
-    "splinterLarpaVelDiv": 3,
-    "splinterCracklerVelDiv": 3,
-    "fallDamageHoriz": 0,
-    "fallDamageDown": 0,
-    "fallDamageUp": 0,
-    "hFallDamage": true,
-    "hBonusReloadOnly": false
-  },
-  "weapons": [
-    {
-      // Just the SHOTGUN!
-      "name": "SHOTGUN",
-      "parts": 10,
-      "bulletSpeed": 2.3,
-      "bulletSpeedInherit": 0,
-      "distribution": 0.4999847412109375,
-      "recoil": 0.25,
-      "ammo": 8,
-      "delay": 56,
-      "loadingTime": 680,
-      "leaveShells": 0,
-      "leaveShellDelay": 28,
-      "fireCone": 4,
-      "laserSight": false,
-      "laserBeam": false,
-      "launchSound": 0,
-      "playReloadSound": true,
-      "bulletType": 0// wObject id
-    }
-  ],
-  "wObjects": [
-    {
-      // SHOTGUN wObject (from weapons bulletType)
-      "detectDistance": 1,
-      "blowAway": 0.05,
-      "gravity": 0.002288818359375,
-      "exploSound": 10,
-      "addSpeed": 3,
-      "distribution": 0.4999847412109375,
-      "multSpeed": 1,
-      "dirtEffect": -1,
-      "wormExplode": false,
-      "explGround": true,
-      "wormCollide": true,
-      "collideWithObjects": true,
-      "affectByExplosions": true,
-      "bounce": 0,
-      "bounceFriction": 0.8,
-      "timeToExplo": 0,
-      "timeToExploV": 0,
-      "hitDamage": 10,
-      "bloodOnHit": 1,
-      "startFrame": -1,
-      "numFrames": 0,
-      "loopAnim": false,
-      "shotType": 4,
-      "repeat": 8,
-      "colorBullets": 161,
-      "splinterColour": 71,
-      "splinterScatter": 1,
-      "objTrailDelay": 0,
-      "partTrailType": 0,
-      "partTrailDelay": 0,
-      "speed": 230,
-      "createOnExp": -1,  // sObject created on explosion
-      "splinterType": 0,  // nObject created on explosion
-      "splinterAmount": 0,// ^ Ammount
-      "objTrailType": -1, // sObject created on trail
-      "partTrailObj": -1// nObject created on trail
-    }
-  ],
-  "nObjects": [
-    {
-      // SHOTGUN nObject (from wObject splinterType)
-      "detectDistance": 1,
-      "gravity": 0.1434326171875,
-      "speed": 1,
-      "speedV": 0.1,
-      "distribution": 0.4999847412109375,
-      "blowAway": 0.1,
-      "bounce": 0.2,
-      "hitDamage": 4,
-      "wormExplode": true,
-      "explGround": true,
-      "wormDestroy": true,
-      "bloodOnHit": 2,
-      "startFrame": 0,
-      "numFrames": 0,
-      "drawOnMap": false,
-      "colorBullets": 75,
-      "affectByExplosions": false,
-      "dirtEffect": -1,
-      "splinterColour": 0,
-      "bloodTrail": false,
-      "bloodTrailDelay": 0,
-      "leaveObjDelay": 1,
-      "timeToExplo": 10,
-      "timeToExploV": 3,
-      "createOnExp": -1,  // sObject created on explosion
-      "splinterType": -1, // nObject created on explosion
-      "splinterAmount": 0,// ^ Ammount
-      "leaveObj": 1// sObject created on trail
-    }
-  ],
-  "sObjects": [
-    {
-      // SHOTGUN sObject (from wObject createOnExp)
-      "startSound": -1,
-      "numSounds": 0,
-      "animDelay": 4,
-      "startFrame": 64,
-      "numFrames": 4,
-      "detectRange": 3,
-      "damage": 2,
-      "blowAway": 0.0030517578125,
-      "shadow": true,
-      "shake": 0,
-      "flash": 0,
-      "dirtEffect": -1
-    },
-    {
-      // SHOTGUN sObject (from nObject leaveObj)
-      "startSound": -1,
-      "numSounds": 0,
-      "animDelay": 0,
-      "startFrame": 76,
-      "numFrames": 2,
-      "detectRange": 2,
-      "damage": 1,
-      "blowAway": 7.62939453125e-05,
-      "shadow": true,
-      "shake": 0,
-      "flash": 0,
-      "dirtEffect": -1
-    }
-  ],
-  "textures": [
-    {
-      "nDrawBack": true,
-      "mFrame": 0,
-      "sFrame": 73,
-      "rFrame": 2
-    },
-    {
-      "nDrawBack": true,
-      "mFrame": 1,
-      "sFrame": 73,
-      "rFrame": 2
-    },
-    {
-      "nDrawBack": true,
-      "mFrame": 2,
-      "sFrame": 73,
-      "rFrame": 2
-    },
-    {
-      "nDrawBack": true,
-      "mFrame": 37,
-      "sFrame": 73,
-      "rFrame": 2
-    },
-    {
-      "nDrawBack": false,
-      "mFrame": 0,
-      "sFrame": 87,
-      "rFrame": 2
-    },
-    {
-      "nDrawBack": true,
-      "mFrame": 39,
-      "sFrame": 73,
-      "rFrame": 2
-    },
-    {
-      "nDrawBack": false,
-      "mFrame": 38,
-      "sFrame": 82,
-      "rFrame": 2
-    },
-    {
-      "nDrawBack": true,
-      "mFrame": 99,
-      "sFrame": 73,
-      "rFrame": 2
-    },
-    {
-      "nDrawBack": true,
-      "mFrame": 37,
-      "sFrame": 73,
-      "rFrame": 2
-    }
-  ],
-  "colorAnim": [
-    129,
-    131,
-    133,
-    136,
-    152,
-    159,
-    168,
-    171
-  ],
-  "textSpritesStartIdx": 240,
-  "crossHairSprite": 153
+   "soundpack":"csliero.zip",
+   "constants":{
+      "nrInitialLength":250,
+      "nrAttachLength":28.125,
+      "minBounceUp":-0.8125,
+      "minBounceDown":0.8125,
+      "minBounceHoriz":0.8125,
+      "wormGravity":0.02288818359375,
+      "wormAcc":0.0762939453125,
+      "wormMaxVel":0.9542236328125,
+      "jumpForce":0.9918212890625,
+      "maxAimVel":0.05243098363280296,
+      "aimAcc":0.005,
+      "ninjaropeGravity":0.0152587890625,
+      "nrMinLength":10.625,
+      "nrMaxLength":250,
+      "bonusGravity":0.02288818359375,
+      "wormFricMult":0.8899999856948853,
+      "aimFric":0.8299999833106995,
+      "nrThrowVel":8,
+      "nrForce":0.0833333358168602,
+      "bonusBounce":0.4000000059604645,
+      "bonusFlickerTime":220,
+      "aimMaxAngle":1.5707963705062866,
+      "aimMinAngle":-1.57,
+      "nrAdjustVel":1.5,
+      "nrColourBegin":19,
+      "nrColourEnd":22,
+      "bonusExplodeRisk":13,
+      "bonusHealthVar":15,
+      "bonusMinHealth":7,
+      "firstBloodColour":80,
+      "numBloodColours":2,
+      "bObjGravity":0.0152587890625,
+      "splinterLarpaVelDiv":3,
+      "splinterCracklerVelDiv":3,
+      "fallDamageHoriz":0,
+      "fallDamageDown":0,
+      "fallDamageUp":0,
+      "hFallDamage":true,
+      "hBonusReloadOnly":false
+   },
+   "weapons":[
+     {
+       // wid0
+       "name": "SHOTGUN",
+       "parts": 10,
+       "bulletType": 0,
+       "bulletSpeed": 2.3,
+       "bulletSpeedInherit": 0,
+       "distribution": 0.4999847412109375,
+       "recoil": 0.25,
+       "ammo": 8,
+       "delay": 56,
+       "loadingTime": 680,
+       "leaveShells": 1,
+       "leaveShellDelay": 28,
+       "fireCone": 4,
+       "laserSight": false,
+       "laserBeam": false,
+       "launchSound": 0,
+       "playReloadSound": true
+     }
+   ],
+   "wObjects":[
+     {
+       // woid0 => "SHOTGUN"
+       "detectDistance": 1,
+       "blowAway": 0.05,
+       "gravity": 0.002288818359375,
+       "exploSound": -1,
+       "addSpeed": 3,
+       "distribution": 0.4999847412109375,
+       "multSpeed": 1,
+       "dirtEffect": -1,
+       "wormExplode": false,
+       "explGround": true,
+       "wormCollide": true,
+       "collideWithObjects": true,
+       "affectByExplosions": true,
+       "bounce": 0,
+       "bounceFriction": 0.8,
+       "timeToExplo": 0,
+       "timeToExploV": 0,
+       "hitDamage": 10,
+       "bloodOnHit": 1,
+       "startFrame": -1,
+       "numFrames": 0,
+       "loopAnim": false,
+       "shotType": 4,
+       "repeat": 8,
+       "colorBullets": 161,
+       "splinterAmount": 1,
+       "splinterColour": 71,
+       "splinterScatter": 1,
+       "objTrailDelay": 0,
+       "partTrailType": 0,
+       "partTrailDelay": 0,
+       "speed": 230,
+       "createOnExp": 9,// (soid created on explosion)
+       "objTrailType": -1,// (soid created on trail)
+       "splinterType": 4,// (noid created on explosion)
+       "partTrailObj": -1// (noid created on trail)
+     }
+   ],
+   "nObjects":[
+      {
+         // noid0
+         // Worm 1 parts
+         "detectDistance":3,
+         "gravity":0.030517578125,
+         "speed":1,
+         "speedV":0.4,
+         "distribution":0.1220703125,
+         "blowAway":0.05,
+         "bounce":0.2,
+         "hitDamage":0,
+         "wormExplode":false,
+         "explGround":true,
+         "wormDestroy":false,
+         "bloodOnHit":0,
+         "startFrame":165,
+         "numFrames":3,
+         "drawOnMap":false,
+         "colorBullets":0,
+         "affectByExplosions":false,
+         "dirtEffect":-1,
+         "splinterAmount":0,
+         "splinterColour":0,
+         "bloodTrail":true,
+         "bloodTrailDelay":1,
+         "leaveObjDelay":0,
+         "timeToExplo":200,
+         "timeToExploV":50,
+         "createOnExp":-1,// soid (created on explosion)
+         "splinterType":6,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
+      },
+      {
+         // noid1
+         // Worm 2 parts
+         "detectDistance":3,
+         "gravity":0.030517578125,
+         "speed":1,
+         "speedV":0.4,
+         "distribution":0.1220703125,
+         "blowAway":0.05,
+         "bounce":0.2,
+         "hitDamage":0,
+         "wormExplode":false,
+         "explGround":true,
+         "wormDestroy":false,
+         "bloodOnHit":0,
+         "startFrame":169,
+         "numFrames":3,
+         "drawOnMap":false,
+         "colorBullets":0,
+         "affectByExplosions":false,
+         "dirtEffect":-1,
+         "splinterAmount":0,
+         "splinterColour":0,
+         "bloodTrail":true,
+         "bloodTrailDelay":1,
+         "leaveObjDelay":0,
+         "timeToExplo":200,
+         "timeToExploV":50,
+         "createOnExp":-1,// soid (created on explosion)
+         "splinterType":6,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
+      },
+      {
+         // noid2
+         // Particle (disappearing non-dmg)
+         "detectDistance":0,
+         "gravity":0.01068115234375,
+         "speed":0.2,
+         "speedV":0.4,
+         "distribution":0.091552734375,
+         "blowAway":0,
+         "bounce":0,
+         "hitDamage":0,
+         "wormExplode":false,
+         "explGround":true,
+         "wormDestroy":false,
+         "bloodOnHit":0,
+         "startFrame":0,
+         "numFrames":0,
+         "drawOnMap":false,
+         "colorBullets":68,
+         "affectByExplosions":false,
+         "dirtEffect":-1,
+         "splinterAmount":0,
+         "splinterColour":0,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":0,
+         "timeToExplo":30,
+         "timeToExploV":2,
+         "createOnExp":-1,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
+      },
+      {
+         // noid3
+         // Particle (small damage)
+         "detectDistance":2,
+         "gravity":0.0457763671875,
+         "speed":4,
+         "speedV":1,
+         "distribution":0.30517578125,
+         "blowAway":0.06,
+         "bounce":0,
+         "hitDamage":9,
+         "wormExplode":true,
+         "explGround":true,
+         "wormDestroy":true,
+         "bloodOnHit":1,
+         "startFrame":0,
+         "numFrames":0,
+         "drawOnMap":false,
+         "colorBullets":0,
+         "affectByExplosions":false,
+         "dirtEffect":-1,
+         "splinterAmount":0,
+         "splinterColour":0,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":1,
+         "timeToExplo":15,
+         "timeToExploV":3,
+         "createOnExp":-1,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":7,// soid (created on trail)
+      },
+      {
+         // noid4
+         // Particle (medium damage)
+         // (SHOTGUN splinterType)
+         "detectDistance":1,
+         "gravity":0.1434326171875,
+         "speed":1,
+         "speedV":0.1,
+         "distribution":0.4999847412109375,
+         "blowAway":0.1,
+         "bounce":0.2,
+         "hitDamage":4,
+         "wormExplode":true,
+         "explGround":true,
+         "wormDestroy":true,
+         "bloodOnHit":2,
+         "startFrame":0,
+         "numFrames":0,
+         "drawOnMap":false,
+         "colorBullets":75,
+         "affectByExplosions":false,
+         "dirtEffect":-1,
+         "splinterAmount":0,
+         "splinterColour":0,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":1,
+         "timeToExplo":10,
+         "timeToExploV":3,
+         "createOnExp":-1,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":6,// soid (created on trail)
+      },
+      {
+         // noid5
+         // Particle (larger damage)
+         "detectDistance":2,
+         "gravity":0.06103515625,
+         "speed":5,
+         "speedV":0,
+         "distribution":0,
+         "blowAway":0.2,
+         "bounce":0,
+         "hitDamage":9,
+         "wormExplode":false,
+         "explGround":true,
+         "wormDestroy":true,
+         "bloodOnHit":3,
+         "startFrame":202,
+         "numFrames":3,
+         "drawOnMap":false,
+         "colorBullets":54,
+         "affectByExplosions":false,
+         "dirtEffect":-1,
+         "splinterAmount":2,
+         "splinterColour":0,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":0,
+         "timeToExplo":0,
+         "timeToExploV":0,
+         "createOnExp":2,// soid (created on explosion)
+         "splinterType":19,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
+      },
+      {
+         // noid6
+         // Blood
+         "detectDistance":0,
+         "gravity":0.0152587890625,
+         "speed":0.1,
+         "speedV":2,
+         "distribution":0.30517578125,
+         "blowAway":0,
+         "bounce":0.2,
+         "hitDamage":0,
+         "wormExplode":false,
+         "explGround":true,
+         "wormDestroy":false,
+         "bloodOnHit":0,
+         "startFrame":0,
+         "numFrames":0,
+         "drawOnMap":false,
+         "colorBullets":0,
+         "affectByExplosions":false,
+         "dirtEffect":-1,
+         "splinterAmount":0,
+         "splinterColour":0,
+         "bloodTrail":true,
+         "bloodTrailDelay":1,
+         "leaveObjDelay":0,
+         "timeToExplo":15,
+         "timeToExploV":3,
+         "createOnExp":-1,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
+      },
+      {
+         // noid7
+         // Shells
+         "detectDistance":0,
+         "gravity":0.0152587890625,
+         "speed":0.2,
+         "speedV":0.3,
+         "distribution":0.1220703125,
+         "blowAway":0,
+         "bounce":0,
+         "hitDamage":0,
+         "wormExplode":false,
+         "explGround":true,
+         "wormDestroy":false,
+         "bloodOnHit":0,
+         "startFrame":0,
+         "numFrames":0,
+         "drawOnMap":false,
+         "colorBullets":57,
+         "affectByExplosions":false,
+         "dirtEffect":-1,
+         "splinterAmount":0,
+         "splinterColour":0,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":0,
+         "timeToExplo":0,
+         "timeToExploV":0,
+         "createOnExp":-1,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
+      },
+      {
+         // noid8
+         // ? Clusterbomb bombs
+         "detectDistance":3,
+         "gravity":0.0152587890625,
+         "speed":4,
+         "speedV":0.1,
+         "distribution":0.48828125,
+         "blowAway":0.3,
+         "bounce":0,
+         "hitDamage":10,
+         "wormExplode":false,
+         "explGround":true,
+         "wormDestroy":true,
+         "bloodOnHit":10,
+         "startFrame":0,
+         "numFrames":0,
+         "drawOnMap":false,
+         "colorBullets":29,
+         "affectByExplosions":false,
+         "dirtEffect":-1,
+         "splinterAmount":0,
+         "splinterColour":0,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":1,
+         "timeToExplo":0,
+         "timeToExploV":0,
+         "createOnExp":2,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":4,// soid (created on trail)
+      },
+      {
+         // noid9
+         // ? Large nukes
+         "detectDistance":20,
+         "gravity":0.0152587890625,
+         "speed":0.01,
+         "speedV":0,
+         "distribution":0.030517578125,
+         "blowAway":0,
+         "bounce":0,
+         "hitDamage":4,
+         "wormExplode":true,
+         "explGround":false,
+         "wormDestroy":true,
+         "bloodOnHit":10,
+         "startFrame":0,
+         "numFrames":3,
+         "drawOnMap":false,
+         "colorBullets":168,
+         "affectByExplosions":true,
+         "dirtEffect":-1,
+         "splinterAmount":10,
+         "splinterColour":75,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":200,
+         "timeToExplo":0,
+         "timeToExploV":0,
+         "createOnExp":13,// soid (created on explosion)
+         "splinterType":5,// noid (created on trail)
+         "leaveObj":2,// soid (created on trail)
+      },
+      {
+         // noid10
+         // ? Hellraider bullets
+         "detectDistance":1,
+         "gravity":0,
+         "speed":0.01,
+         "speedV":0.01,
+         "distribution":0.00762939453125,
+         "blowAway":0.15,
+         "bounce":0.2,
+         "hitDamage":8,
+         "wormExplode":false,
+         "explGround":true,
+         "wormDestroy":false,
+         "bloodOnHit":0,
+         "startFrame":179,
+         "numFrames":0,
+         "drawOnMap":false,
+         "colorBullets":116,
+         "affectByExplosions":false,
+         "dirtEffect":0,
+         "splinterAmount":255,
+         "splinterColour":143,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":0,
+         "timeToExplo":65,
+         "timeToExploV":0,
+         "createOnExp":0,// soid (created on explosion)
+         "splinterType":3,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
+      },
+      {
+         // noid11
+         // ? Small nukes
+         "detectDistance":15,
+         "gravity":0,
+         "speed":0.4,
+         "speedV":0.4,
+         "distribution":0,
+         "blowAway":0,
+         "bounce":0.25,
+         "hitDamage":5,
+         "wormExplode":true,
+         "explGround":false,
+         "wormDestroy":true,
+         "bloodOnHit":3,
+         "startFrame":178,
+         "numFrames":0,
+         "drawOnMap":false,
+         "colorBullets":54,
+         "affectByExplosions":true,
+         "dirtEffect":-1,
+         "splinterAmount":1,
+         "splinterColour":0,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":0,
+         "timeToExplo":10000,
+         "timeToExploV":0,
+         "createOnExp":5,// soid (created on explosion)
+         "splinterType":10,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
+      },
+      {
+         // noid12
+         // ? Napalm fireballs
+         "detectDistance":2,
+         "gravity":-0.091552734375,
+         "speed":3,
+         "speedV":1,
+         "distribution":0.4999847412109375,
+         "blowAway":0.1,
+         "bounce":0,
+         "hitDamage":6,
+         "wormExplode":true,
+         "explGround":true,
+         "wormDestroy":true,
+         "bloodOnHit":3,
+         "startFrame":0,
+         "numFrames":0,
+         "drawOnMap":false,
+         "colorBullets":10,
+         "affectByExplosions":false,
+         "dirtEffect":2,
+         "splinterAmount":0,
+         "splinterColour":0,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":0,
+         "timeToExplo":20,
+         "timeToExploV":5,
+         "createOnExp":-1,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
+      },
+      {
+         // noid13
+         // ? Dirt
+         "detectDistance":0,
+         "gravity":0,
+         "speed":2,
+         "speedV":0.8,
+         "distribution":0,
+         "blowAway":0,
+         "bounce":1,
+         "hitDamage":0,
+         "wormExplode":false,
+         "explGround":false,
+         "wormDestroy":false,
+         "bloodOnHit":0,
+         "startFrame":0,
+         "numFrames":0,
+         "drawOnMap":false,
+         "colorBullets":0,
+         "affectByExplosions":false,
+         "dirtEffect":4,
+         "splinterAmount":0,
+         "splinterColour":0,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":0,
+         "timeToExplo":1,
+         "timeToExploV":0,
+         "createOnExp":-1,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
+      },
+      {
+         // noid14
+         // ? Chiquitabomb bombs
+         "detectDistance":1,
+         "gravity":-0.0762939453125,
+         "speed":0.2,
+         "speedV":0.2,
+         "distribution":0.30517578125,
+         "blowAway":0.2,
+         "bounce":1,
+         "hitDamage":10,
+         "wormExplode":false,
+         "explGround":false,
+         "wormDestroy":false,
+         "bloodOnHit":0,
+         "startFrame":0,
+         "numFrames":0,
+         "drawOnMap":false,
+         "colorBullets":0,
+         "affectByExplosions":false,
+         "dirtEffect":-1,
+         "splinterAmount":3,
+         "splinterColour":161,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":0,
+         "timeToExplo":25,
+         "timeToExploV":5,
+         "createOnExp":-1,// soid (created on explosion)
+         "splinterType":4,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
+      },
+      {
+         // noid15
+         // ? Grasshopper 1
+         "detectDistance":9,
+         "gravity":0.01373291015625,
+         "speed":4,
+         "speedV":0,
+         "distribution":0.498291015625,
+         "blowAway":0.2,
+         "bounce":0,
+         "hitDamage":1,
+         "wormExplode":true,
+         "explGround":true,
+         "wormDestroy":true,
+         "bloodOnHit":4,
+         "startFrame":0,
+         "numFrames":0,
+         "drawOnMap":false,
+         "colorBullets":29,
+         "affectByExplosions":true,
+         "dirtEffect":-1,
+         "splinterAmount":1,
+         "splinterColour":29,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":1,
+         "timeToExplo":0,
+         "timeToExploV":0,
+         "createOnExp":10,// soid (created on explosion)
+         "splinterType":5,// noid (created on trail)
+         "leaveObj":6,// soid (created on trail)
+      },
+      {
+         // noid16
+         // ? Grasshopper 2
+         "detectDistance":1,
+         "gravity":-0.003387451171875,
+         "speed":1.2,
+         "speedV":0.4,
+         "distribution":0.457763671875,
+         "blowAway":0,
+         "bounce":0.2,
+         "hitDamage":4,
+         "wormExplode":true,
+         "explGround":true,
+         "wormDestroy":true,
+         "bloodOnHit":3,
+         "startFrame":219,
+         "numFrames":3,
+         "drawOnMap":false,
+         "colorBullets":0,
+         "affectByExplosions":true,
+         "dirtEffect":2,
+         "splinterAmount":0,
+         "splinterColour":0,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":0,
+         "timeToExplo":15,
+         "timeToExploV":1,
+         "createOnExp":-1,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
+      },
+      {
+         // noid17
+         // ? Grasshopper 3
+         "detectDistance":4,
+         "gravity":0.030517578125,
+         "speed":1.5,
+         "speedV":0.15,
+         "distribution":0.48828125,
+         "blowAway":0.5,
+         "bounce":0,
+         "hitDamage":1,
+         "wormExplode":true,
+         "explGround":false,
+         "wormDestroy":true,
+         "bloodOnHit":5,
+         "startFrame":0,
+         "numFrames":0,
+         "drawOnMap":false,
+         "colorBullets":29,
+         "affectByExplosions":true,
+         "dirtEffect":-1,
+         "splinterAmount":3,
+         "splinterColour":29,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":0,
+         "timeToExplo":5000,
+         "timeToExploV":2500,
+         "createOnExp":8,// soid (created on explosion)
+         "splinterType":3,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
+      },
+      {
+         // noid18
+         // ? Grasshopper 4
+         "detectDistance":0,
+         "gravity":0,
+         "speed":0.1,
+         "speedV":0.1,
+         "distribution":0,
+         "blowAway":0.05,
+         "bounce":0.1,
+         "hitDamage":2,
+         "wormExplode":false,
+         "explGround":false,
+         "wormDestroy":false,
+         "bloodOnHit":0,
+         "startFrame":0,
+         "numFrames":0,
+         "drawOnMap":false,
+         "colorBullets":82,
+         "affectByExplosions":true,
+         "dirtEffect":-1,
+         "splinterAmount":0,
+         "splinterColour":0,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":0,
+         "timeToExplo":600,
+         "timeToExploV":300,
+         "createOnExp":5,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
+      },
+      {
+         // noid19
+         // ? Grasshopper 5
+         "detectDistance":1,
+         "gravity":0.05340576171875,
+         "speed":2.5,
+         "speedV":1.2,
+         "distribution":0,
+         "blowAway":0.15,
+         "bounce":0,
+         "hitDamage":5,
+         "wormExplode":true,
+         "explGround":true,
+         "wormDestroy":true,
+         "bloodOnHit":3,
+         "startFrame":202,
+         "numFrames":3,
+         "drawOnMap":false,
+         "colorBullets":0,
+         "affectByExplosions":true,
+         "dirtEffect":-1,
+         "splinterAmount":0,
+         "splinterColour":0,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":0,
+         "timeToExplo":0,
+         "timeToExploV":0,
+         "createOnExp":9,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
+      },
+      {
+         // noid20
+         // ? Flag 1
+         "detectDistance":5,
+         "gravity":0.0152587890625,
+         "speed":0,
+         "speedV":0,
+         "distribution":0,
+         "blowAway":0,
+         "bounce":0.4,
+         "hitDamage":0,
+         "wormExplode":false,
+         "explGround":false,
+         "wormDestroy":false,
+         "bloodOnHit":0,
+         "startFrame":213,
+         "numFrames":0,
+         "drawOnMap":false,
+         "colorBullets":0,
+         "affectByExplosions":true,
+         "dirtEffect":-1,
+         "splinterAmount":0,
+         "splinterColour":0,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":0,
+         "timeToExplo":0,
+         "timeToExploV":0,
+         "createOnExp":0,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
+      },
+      {
+         // noid21
+         // ? Flag 2
+         "detectDistance":5,
+         "gravity":0.0152587890625,
+         "speed":0,
+         "speedV":0,
+         "distribution":0,
+         "blowAway":0,
+         "bounce":0.4,
+         "hitDamage":0,
+         "wormExplode":false,
+         "explGround":false,
+         "wormDestroy":false,
+         "bloodOnHit":0,
+         "startFrame":214,
+         "numFrames":0,
+         "drawOnMap":false,
+         "colorBullets":0,
+         "affectByExplosions":true,
+         "dirtEffect":-1,
+         "splinterAmount":0,
+         "splinterColour":0,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":0,
+         "timeToExplo":1000,
+         "timeToExploV":0,
+         "createOnExp":0,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
+      },
+      {
+         // noid22
+         // ? Grasshopper 6
+         "detectDistance":3,
+         "gravity":-0.06103515625,
+         "speed":0.04,
+         "speedV":0.01,
+         "distribution":0,
+         "blowAway":0.2,
+         "bounce":0,
+         "hitDamage":10,
+         "wormExplode":false,
+         "explGround":true,
+         "wormDestroy":false,
+         "bloodOnHit":0,
+         "startFrame":0,
+         "numFrames":0,
+         "drawOnMap":false,
+         "colorBullets":51,
+         "affectByExplosions":true,
+         "dirtEffect":2,
+         "splinterAmount":0,
+         "splinterColour":0,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":0,
+         "timeToExplo":0,
+         "timeToExploV":0,
+         "createOnExp":-1,// soid (created on explosion)
+         "splinterType":-1,// noid (created on trail)
+         "leaveObj":-1,// soid (created on trail)
+      },
+      {
+         // noid23
+         // ? Grasshopper 7
+         "detectDistance":7,
+         "gravity":0.030517578125,
+         "speed":1,
+         "speedV":0.01,
+         "distribution":0,
+         "blowAway":0.25,
+         "bounce":0,
+         "hitDamage":5,
+         "wormExplode":true,
+         "explGround":true,
+         "wormDestroy":true,
+         "bloodOnHit":15,
+         "startFrame":0,
+         "numFrames":0,
+         "drawOnMap":false,
+         "colorBullets":117,
+         "affectByExplosions":true,
+         "dirtEffect":1,
+         "splinterAmount":5,
+         "splinterColour":55,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":5,
+         "timeToExplo":0,
+         "timeToExploV":0,
+         "createOnExp":8,// soid (created on explosion)
+         "splinterType":5,// noid (created on trail)
+         "leaveObj":3,// soid (created on trail)
+      }
+   ],
+   "sObjects":[
+      {
+         // soid0
+         // Large explosion
+         "startSound":10,
+         "numSounds":3,
+         "animDelay":4,
+         "startFrame":40,
+         "numFrames":15,
+         "detectRange":35,
+         "damage":90,
+         "blowAway":0.05340576171875,
+         "shadow":true,
+         "shake":5,
+         "flash":2,
+         "dirtEffect":0
+      },
+      {
+         // soid1
+         // Medium explosion
+         "startSound":10,
+         "numSounds":0,
+         "animDelay":0,
+         "startFrame":45,
+         "numFrames":10,
+         "detectRange":5,
+         "damage":5,
+         "blowAway":0.030517578125,
+         "shadow":true,
+         "shake":32,
+         "flash":55,
+         "dirtEffect":1
+      },
+      {
+         // soid2
+         // Small explosion
+         "startSound":25,
+         "numSounds":3,
+         "animDelay":5,
+         "startFrame":104,
+         "numFrames":3,
+         "detectRange":4,
+         "damage":6,
+         "blowAway":0.0457763671875,
+         "shadow":false,
+         "shake":2,
+         "flash":1,
+         "dirtEffect":2
+      },
+      {
+         // soid3
+         // Hellraider smoke
+         "startSound":-1,
+         "numSounds":0,
+         "animDelay":2,
+         "startFrame":64,
+         "numFrames":4,
+         "detectRange":2,
+         "damage":1,
+         "blowAway":0,
+         "shadow":false,
+         "shake":1,
+         "flash":0,
+         "dirtEffect":-1
+      },
+      {
+         // soid4
+         // Zimm flash
+         "startSound":-1,
+         "numSounds":0,
+         "animDelay":0,
+         "startFrame":100,
+         "numFrames":0,
+         "detectRange":1,
+         "damage":0,
+         "blowAway":0.000030517578125,
+         "shadow":true,
+         "shake":0,
+         "flash":0,
+         "dirtEffect":5
+      },
+      {
+         // soid5
+         // Nuke smoke
+         "startSound":-1,
+         "numSounds":0,
+         "animDelay":0,
+         "startFrame":100,
+         "numFrames":0,
+         "detectRange":1,
+         "damage":2,
+         "blowAway":0.0000152587890625,
+         "shadow":false,
+         "shake":0,
+         "flash":0,
+         "dirtEffect":-1
+      },
+      {
+         // soid6
+         // Flashing pixel
+         // (SHOTGUN leaveObj)
+         "startSound":-1,
+         "numSounds":0,
+         "animDelay":0,
+         "startFrame":76,
+         "numFrames":2,
+         "detectRange":2,
+         "damage":1,
+         "blowAway":0.0000762939453125,
+         "shadow":true,
+         "shake":0,
+         "flash":0,
+         "dirtEffect":-1
+      },
+      {
+         // soid7
+         // Teleport flash
+         "startSound":-1,
+         "numSounds":0,
+         "animDelay":4,
+         "startFrame":100,
+         "numFrames":3,
+         "detectRange":0,
+         "damage":0,
+         "blowAway":0.000030517578125,
+         "shadow":true,
+         "shake":0,
+         "flash":0,
+         "dirtEffect":-1
+      },
+      {
+         // soid8
+         // Small explosion, silent
+         "startSound":25,
+         "numSounds":3,
+         "animDelay":4,
+         "startFrame":64,
+         "numFrames":4,
+         "detectRange":3,
+         "damage":4,
+         "blowAway":0.030517578125,
+         "shadow":true,
+         "shake":0,
+         "flash":0,
+         "dirtEffect":2
+      },
+      {
+         // soid9
+         // Very small explosion, silent
+         // (SHOTGUN createOnExp)
+         "startSound":-1,
+         "numSounds":0,
+         "animDelay":4,
+         "startFrame":64,
+         "numFrames":4,
+         "detectRange":3,
+         "damage":2,
+         "blowAway":0.0030517578125,
+         "shadow":true,
+         "shake":0,
+         "flash":0,
+         "dirtEffect":5
+      },
+      {
+         // soid10
+         // Medium explosion, smaller
+         "startSound":25,
+         "numSounds":2,
+         "animDelay":3,
+         "startFrame":51,
+         "numFrames":4,
+         "detectRange":22,
+         "damage":9,
+         "blowAway":0.0457763671875,
+         "shadow":true,
+         "shake":2,
+         "flash":3,
+         "dirtEffect":8
+      },
+      {
+         // soid11
+         // Large explosion, smaller
+         "startSound":10,
+         "numSounds":0,
+         "animDelay":0,
+         "startFrame":49,
+         "numFrames":5,
+         "detectRange":20,
+         "damage":24,
+         "blowAway":0.0457763671875,
+         "shadow":true,
+         "shake":3,
+         "flash":6,
+         "dirtEffect":1
+      },
+      {
+         // soid12
+         // Medium explosion, bigger
+         "startSound":10,
+         "numSounds":3,
+         "animDelay":4,
+         "startFrame":46,
+         "numFrames":9,
+         "detectRange":6,
+         "damage":50,
+         "blowAway":0.06103515625,
+         "shadow":true,
+         "shake":3,
+         "flash":5,
+         "dirtEffect":1
+      },
+      {
+         // soid13
+         // Unknown
+         "startSound":10,
+         "numSounds":3,
+         "animDelay":6,
+         "startFrame":40,
+         "numFrames":15,
+         "detectRange":30,
+         "damage":100,
+         "blowAway":0.06866455078125,
+         "shadow":false,
+         "shake":0,
+         "flash":0,
+         "dirtEffect":-1
+      }
+   ],
+   "textures":[
+      {
+         "nDrawBack":true,
+         "mFrame":0,
+         "sFrame":73,
+         "rFrame":2
+      },
+      {
+         "nDrawBack":true,
+         "mFrame":1,
+         "sFrame":73,
+         "rFrame":2
+      },
+      {
+         "nDrawBack":true,
+         "mFrame":2,
+         "sFrame":73,
+         "rFrame":2
+      },
+      {
+         "nDrawBack":true,
+         "mFrame":37,
+         "sFrame":73,
+         "rFrame":2
+      },
+      {
+         "nDrawBack":false,
+         "mFrame":0,
+         "sFrame":87,
+         "rFrame":2
+      },
+      {
+         "nDrawBack":true,
+         "mFrame":39,
+         "sFrame":73,
+         "rFrame":2
+      },
+      {
+         "nDrawBack":false,
+         "mFrame":38,
+         "sFrame":82,
+         "rFrame":2
+      },
+      {
+         "nDrawBack":true,
+         "mFrame":99,
+         "sFrame":73,
+         "rFrame":2
+      },
+      {
+         "nDrawBack":true,
+         "mFrame":37,
+         "sFrame":73,
+         "rFrame":2
+      }
+   ],
+   "colorAnim":[
+      129,
+      131,
+      133,
+      136,
+      152,
+      159,
+      168,
+      171
+   ],
+   "textSpritesStartIdx":240,
+   "crossHairSprite":153
 }

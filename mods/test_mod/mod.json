@@ -53,7 +53,7 @@
       "ammo": 8,
       "delay": 56,
       "loadingTime": 680,
-      "leaveShells": 1,
+      "leaveShells": 0,
       "leaveShellDelay": 28,
       "fireCone": 4,
       "laserSight": false,

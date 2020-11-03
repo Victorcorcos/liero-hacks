@@ -43,8 +43,8 @@
    },
    "weapons":[
       {
+         "name":"SHOTGUN",
          "parts":10,
-         "bulletType":0,
          "bulletSpeed":2.3,
          "bulletSpeedInherit":0,
          "distribution":0.4999847412109375,
@@ -59,7 +59,7 @@
          "laserBeam":false,
          "launchSound":0,
          "playReloadSound":true,
-         "name":"SHOTGUN"
+         "bulletType":0// # wObject id
       },
       {
          "parts":1,

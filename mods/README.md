@@ -17,6 +17,7 @@ Few general assumptions:
 6. [sObjects](#sobjects-)
 7. [Textures](#textures-)
 8. [The Connection Between Objects](#the-connection-between-objects-)
+9. [Mandatory nObjects and sObjects](#mandatory-nobjects-and-sobjects-)
 
 
 ## Soundpack 🔉
@@ -719,3 +720,56 @@ crossHairSprite: 153 // The sprite id of The crosshair used.
 6. In `nObject` u have `createOnExp`: refers to `sObject` id. Created on explosion.
 7. In `nObject` u have `splinterType`: refers to `nObject` id. Created on explosion. `splinterAmount` refers to the ammount.
 8. In `nObject` u have `leaveObj`: refers to `sObject` id. Created on trail.
+
+
+## Mandatory nObjects and sObjects ⚠️
+
+There are some specific indexes of `nObjects` and `sObjects` that **need** to have items filled and is used on the internals of the liero game.
+
+The hardcode mandatory items.
+
+If these items are removed from the objects array, the game becomes buggy, can freeze and can generate console errors on the browser. Be aware with these items!
+
+#### `nObjects`
+
+0. - [x] Worm 1 parts
+1. - [x] Worm 2 parts
+2. - [x] Particle (disappearing)
+3. - [x] Particle (small damage)
+4. - [x] Particle (medium damage)
+5. - [x] Particle (larger damage)
+6. - [x] Blood
+7. - [x] Shells
+8.  - [ ] Clusterbomb bombs
+9.  - [ ] Large nukes
+10. - [ ] Hellraider bullets
+11. - [ ] Small nukes
+12. - [ ] Napalm fireballs
+13. - [ ] Dirt
+14. - [ ] Chiquitabomb bombs
+15. - [ ] Grasshopper 1
+16. - [ ] Grasshopper 2
+17. - [ ] Grasshopper 3
+18. - [ ] Grasshopper 4
+19. - [ ] Grasshopper 5
+20. - [ ] Flag 1
+21. - [ ] Flag 2
+22. - [ ] Grasshopper 6
+23. - [ ] Grasshopper 7
+
+#### `sObjects`
+
+0. - [x] Large explosion
+1. - [x] Medium explosion
+2. - [x] Small explosion
+3. - [x] Hellraider smoke
+4. - [x] Zimm flash
+5. - [x] Nuke smoke
+6. - [x] Flashing pixel
+7. - [x] Teleport flash
+8. - [x] Small explosion, silent
+9. - [x] Very small explosion, silent
+10. - [x] Medium explosion, smaller
+11. - [x] Large explosion, smaller
+12. - [x] Medium explosion, bigger
+13. - [x] Unknown

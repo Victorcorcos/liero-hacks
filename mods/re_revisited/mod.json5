@@ -3087,7 +3087,7 @@
    "sObjects":[
       {
          // large explosion sid0
-      startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":2,
          "startFrame":40,
@@ -3102,7 +3102,7 @@
       },
       {
          // medium explosion sid1
-      startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":2,
          "startFrame":45,
@@ -3117,7 +3117,7 @@
       },
       {
          // small explosion sid2
-      startSound:7,
+         "startSound":7,
          "numSounds":2,
          "animDelay":2,
          "startFrame":50,
@@ -3132,7 +3132,7 @@
       },
       {
          // smoke sid3
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":4,
          "startFrame":64,
@@ -3147,7 +3147,7 @@
       },
       {
          // zimm explosion sid4
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":4,
          "startFrame":100,
@@ -3162,7 +3162,7 @@
       },
       {
          // sid5
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":2,
          "startFrame":104,
@@ -3177,7 +3177,7 @@
       },
       {
          // minicocket trail sid6
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":2,
          "startFrame":76,
@@ -3192,7 +3192,7 @@
       },
       {
          // sid7
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":2,
          "startFrame":91,
@@ -3207,7 +3207,7 @@
       },
       {
          // sid8
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":2,
          "startFrame":49,
@@ -3222,7 +3222,7 @@
       },
       {
          // sid9
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":2,
          "startFrame":53,
@@ -3237,7 +3237,7 @@
       },
       {
          // sid10
-      startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":2,
          "startFrame":47,
@@ -3252,7 +3252,7 @@
       },
       {
          // sid11
-      startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":2,
          "startFrame":42,
@@ -3267,7 +3267,7 @@
       },
       {
          // sid12
-      startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":2,
          "startFrame":44,
@@ -3282,7 +3282,7 @@
       },
       {
          // sid13
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":0,
          "startFrame":0,
@@ -3297,7 +3297,7 @@
       },
       {
          // large explosion visual sid14
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":2,
          "startFrame":40,
@@ -3312,7 +3312,7 @@
       },
       {
          // smoke sid15
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":4,
          "startFrame":65,
@@ -3327,7 +3327,7 @@
       },
       {
          // large aoe explosion sid16
-      startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":2,
          "startFrame":40,
@@ -3342,7 +3342,7 @@
       },
       {
          // gauss explosion sid17
-      startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":2,
          "startFrame":45,
@@ -3357,7 +3357,7 @@
       },
       {
          // tiny long explosion sid18
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":10,
          "startFrame":76,
@@ -3372,7 +3372,7 @@
       },
       {
          // small smoke sid19
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":3,
          "startFrame":65,
@@ -3387,7 +3387,7 @@
       },
       {
          // very large aoe explosion sid20
-      startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":2,
          "startFrame":40,
@@ -3402,7 +3402,7 @@
       },
       {
          // lightning trail sid21
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":1,
          "startFrame":76,
@@ -3417,7 +3417,7 @@
       },
       {
          // mortar kick sid22
-      startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":2,
          "startFrame":40,
@@ -3432,7 +3432,7 @@
       },
       {
          // proxy mine aoe explosion sid23
-      startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":2,
          "startFrame":40,
@@ -3447,7 +3447,7 @@
       },
       {
          // large non-aoe explosion sid24
-      startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":2,
          "startFrame":40,

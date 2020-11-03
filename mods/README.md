@@ -17,7 +17,7 @@ Few general assumptions:
 6. [sObjects](#sobjects-)
 7. [Textures](#textures-)
 8. [The Connection Between Objects](#the-connection-between-objects-)
-9. [Mandatory nObjects and sObjects](#mandatory-nobjects-and-sobjects-)
+9. [Mandatory nObjects and sObjects](#mandatory-nobjects-and-sobjects-%EF%B8%8F)
 
 
 ## Soundpack 🔉

@@ -577,8 +577,8 @@
    ],
    "wObjects":[
       {
-         //sparks-sg wid0
-        detectDistance:1,
+         //sparks-sg woid0
+         "detectDistance":1,
          "blowAway":0.1,
          "gravity":0,
          "exploSound":-1,
@@ -616,8 +616,8 @@
          "speed":200
       },
       {
-         //bloodstar wid1
-        detectDistance:1,
+         //bloodstar woid1
+         "detectDistance":1,
          "blowAway":0.5,
          "gravity":0,
          "exploSound":-1,
@@ -655,8 +655,8 @@
          "speed":350
       },
       {
-         //magicmissile wid2
-        detectDistance:2,
+         //magicmissile woid2
+         "detectDistance":2,
          "blowAway":0.4,
          "gravity":0,
          "exploSound":0,
@@ -694,15 +694,14 @@
          "speed":150
       },
       {
-         //flash wid3
-        detectDistance:-5,
+         //flash woid3
+         "detectDistance":-5,
          "blowAway":0,
          "gravity":0,
          "exploSound":-1,
          "addSpeed":0,
          "distribution":0.0000152587890625,
          "multSpeed":0,
-         "createOnExp":16,
          "dirtEffect":0,
          "wormExplode":false,
          "explGround":false,
@@ -723,18 +722,19 @@
          "colorBullets":0,
          "splinterAmount":150,
          "splinterColour":0,
-         "splinterType":7,
          "splinterScatter":0,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":100
+         "speed":100,
+         "createOnExp":16,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":7,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
-         //firemissile wid4
-        detectDistance:1,
+         //firemissile woid4
+         "detectDistance":1,
          "blowAway":0.4,
          "gravity":0,
          "exploSound":-1,
@@ -772,8 +772,8 @@
          "speed":200
       },
       {
-         //psionicstorm wid5
-        detectDistance:0,
+         //psionicstorm woid5
+         "detectDistance":0,
          "blowAway":0,
          "gravity":0,
          "exploSound":-1,
@@ -811,8 +811,8 @@
          "speed":300
       },
       {
-         //crystal wid6
-        detectDistance:0,
+         //crystal woid6
+         "detectDistance":0,
          "blowAway":0.30000001192092896,
          "gravity":0.04,
          "exploSound":28,
@@ -850,8 +850,8 @@
          "speed":400
       },
       {
-         //meteorshower stage 1 wid7
-        detectDistance:0,
+         //meteorshower stage 1 woid7
+         "detectDistance":0,
          "blowAway":0,
          "gravity":-0.220703125,
          "exploSound":-1,
@@ -889,8 +889,8 @@
          "speed":300
       },
       {
-         //blast beam wid8
-        detectDistance:0,
+         //blast beam woid8
+         "detectDistance":0,
          "blowAway":0,
          "gravity":0,
          "exploSound":-1,
@@ -928,8 +928,8 @@
          "speed":0
       },
       {
-         //ball ltning wid9
-        detectDistance:2,
+         //ball ltning woid9
+         "detectDistance":2,
          "blowAway":0.1,
          "gravity":0,
          "exploSound":-1,
@@ -967,8 +967,8 @@
          "speed":600
       },
       {
-         //fireball wid10
-        detectDistance:1,
+         //fireball woid10
+         "detectDistance":1,
          "blowAway":0.30000001192092896,
          "gravity":0.01,
          "exploSound":12,
@@ -1006,8 +1006,8 @@
          "speed":350
       },
       {
-         //spiningblade wid11
-        detectDistance:1,
+         //spiningblade woid11
+         "detectDistance":1,
          "blowAway":0.5,
          "gravity":0.02,
          "exploSound":0,
@@ -1045,8 +1045,8 @@
          "speed":120
       },
       {
-         //acid spray wid12
-        detectDistance:1,
+         //acid spray woid12
+         "detectDistance":1,
          "blowAway":0.01,
          "gravity":0.02,
          "exploSound":-1,
@@ -1084,8 +1084,8 @@
          "speed":250
       },
       {
-         //icebolt wid13
-        detectDistance:0,
+         //icebolt woid13
+         "detectDistance":0,
          "blowAway":0,
          "gravity":0,
          "exploSound":-1,
@@ -1123,8 +1123,8 @@
          "speed":200
       },
       {
-         //fulminator wid14
-        detectDistance:0,
+         //fulminator woid14
+         "detectDistance":0,
          "blowAway":0,
          "gravity":0.025,
          "exploSound":12,
@@ -1162,8 +1162,8 @@
          "speed":350
       },
       {
-         //airelement wid15
-        detectDistance:13,
+         //airelement woid15
+         "detectDistance":13,
          "blowAway":0.05,
          "gravity":0,
          "exploSound":12,
@@ -1201,8 +1201,8 @@
          "speed":50
       },
       {
-         //unused (staticlightning) wid16
-        detectDistance:0,
+         //unused (staticlightning) woid16
+         "detectDistance":0,
          "blowAway":0,
          "gravity":0,
          "exploSound":-1,
@@ -1240,8 +1240,8 @@
          "speed":150
       },
       {
-         //unused wid17
-        detectDistance:0,
+         //unused woid17
+         "detectDistance":0,
          "blowAway":0,
          "gravity":0.05340576171875,
          "exploSound":-1,
@@ -1279,8 +1279,8 @@
          "speed":300
       },
       {
-         //unused wid18
-        detectDistance:1,
+         //unused woid18
+         "detectDistance":1,
          "blowAway":0.05000000074505806,
          "gravity":0,
          "exploSound":12,
@@ -1318,8 +1318,8 @@
          "speed":350
       },
       {
-         //holyfire wid19
-        detectDistance:1,
+         //holyfire woid19
+         "detectDistance":1,
          "blowAway":1,
          "gravity":0,
          "exploSound":27,
@@ -1357,8 +1357,8 @@
          "speed":200
       },
       {
-         //blizzard wid20
-        detectDistance:0,
+         //blizzard woid20
+         "detectDistance":0,
          "blowAway":0,
          "gravity":0,
          "exploSound":-1,
@@ -1396,8 +1396,8 @@
          "speed":300
       },
       {
-         //steam wid21
-        detectDistance:3,
+         //steam woid21
+         "detectDistance":3,
          "blowAway":0.055,
          "gravity":-0.02288818359375,
          "exploSound":-1,
@@ -1435,8 +1435,8 @@
          "speed":130
       },
       {
-         //unused wid22
-        detectDistance:5,
+         //unused woid22
+         "detectDistance":5,
          "blowAway":0,
          "gravity":0,
          "exploSound":-1,
@@ -1474,8 +1474,8 @@
          "speed":-400
       },
       {
-         //unused magicarrow wid23
-        detectDistance:1,
+         //unused magicarrow woid23
+         "detectDistance":1,
          "blowAway":0.029999999329447746,
          "gravity":0,
          "exploSound":-1,
@@ -1513,8 +1513,8 @@
          "speed":400
       },
       {
-         //crystallize wid24
-        detectDistance:0,
+         //crystallize woid24
+         "detectDistance":0,
          "blowAway":0,
          "gravity":0,
          "exploSound":-1,
@@ -1552,8 +1552,8 @@
          "speed":250
       },
       {
-         //unused (shockwave) wid25
-        detectDistance:0,
+         //unused (shockwave) woid25
+         "detectDistance":0,
          "blowAway":0,
          "gravity":0,
          "exploSound":2,
@@ -1591,8 +1591,8 @@
          "speed":400
       },
       {
-         //mega stage 1 wid26
-        detectDistance:0,
+         //mega stage 1 woid26
+         "detectDistance":0,
          "blowAway":0.1,
          "gravity":0,
          "exploSound":-1,
@@ -1630,8 +1630,8 @@
          "speed":600
       },
       {
-         //darkritual wid27
-        detectDistance:3,
+         //darkritual woid27
+         "detectDistance":3,
          "blowAway":0.25,
          "gravity":0,
          "exploSound":-1,
@@ -1669,8 +1669,8 @@
          "speed":300
       },
       {
-         //lightning wid28
-        detectDistance:1,
+         //lightning woid28
+         "detectDistance":1,
          "blowAway":0.2,
          "gravity":0,
          "exploSound":-1,
@@ -1708,8 +1708,8 @@
          "speed":200
       },
       {
-         //crystalstrike wid29
-        detectDistance:0,
+         //crystalstrike woid29
+         "detectDistance":0,
          "blowAway":0,
          "gravity":0,
          "exploSound":-1,
@@ -1747,8 +1747,8 @@
          "speed":250
       },
       {
-         //boils wid30
-        detectDistance:2,
+         //boils woid30
+         "detectDistance":2,
          "blowAway":0.1,
          "gravity":0.0457763671875,
          "exploSound":12,
@@ -1786,8 +1786,8 @@
          "speed":250
       },
       {
-         //unused wid31
-        detectDistance:5,
+         //unused woid31
+         "detectDistance":5,
          "blowAway":0,
          "gravity":0.030517578125,
          "exploSound":0,
@@ -1825,8 +1825,8 @@
          "speed":200
       },
       {
-         //unused (dragonbreath) wid32
-        detectDistance:1,
+         //unused (dragonbreath) woid32
+         "detectDistance":1,
          "blowAway":0,
          "gravity":-0.003814697265625,
          "exploSound":-1,
@@ -1864,8 +1864,8 @@
          "speed":160
       },
       {
-         //unused (deathtouch) wid33
-        detectDistance:0,
+         //unused (deathtouch) woid33
+         "detectDistance":0,
          "blowAway":-1,
          "gravity":0,
          "exploSound":-1,
@@ -1903,8 +1903,8 @@
          "speed":1
       },
       {
-         //unused (illusiontrap) wid34
-        detectDistance:3,
+         //unused (illusiontrap) woid34
+         "detectDistance":3,
          "blowAway":0,
          "gravity":0.02288818359375,
          "exploSound":-1,
@@ -1942,8 +1942,8 @@
          "speed":100
       },
       {
-         //frostball wid35
-        detectDistance:0,
+         //frostball woid35
+         "detectDistance":0,
          "blowAway":0,
          "gravity":0.0335693359375,
          "exploSound":28,
@@ -1981,8 +1981,8 @@
          "speed":300
       },
       {
-         //sunbeam wid36
-        detectDistance:1,
+         //sunbeam woid36
+         "detectDistance":1,
          "blowAway":1,
          "gravity":0,
          "exploSound":-1,
@@ -2020,8 +2020,8 @@
          "speed":450
       },
       {
-         //freezingbeam wid37
-        detectDistance:1,
+         //freezingbeam woid37
+         "detectDistance":1,
          "blowAway":0,
          "gravity":0,
          "exploSound":-1,
@@ -2059,8 +2059,8 @@
          "speed":250
       },
       {
-         //firebolt wid38
-        detectDistance:1,
+         //firebolt woid38
+         "detectDistance":1,
          "blowAway":0.05000000074505806,
          "gravity":0,
          "exploSound":-1,
@@ -2098,8 +2098,8 @@
          "speed":150
       },
       {
-         //incinerate wid39
-        detectDistance:3,
+         //incinerate woid39
+         "detectDistance":3,
          "blowAway":0,
          "gravity":0.02288818359375,
          "exploSound":-1,
@@ -2140,7 +2140,7 @@
    "nObjects":[
       {
          //worm part (heal) nid0
-        detectDistance:7,
+         "detectDistance":7,
          "gravity":0.0152587890625,
          "speed":0.4,
          "speedV":0.2,
@@ -2156,22 +2156,22 @@
          "numFrames":0,
          "drawOnMap":false,
          "colorBullets":0,
-         "createOnExp":32,
          "affectByExplosions":false,
          "dirtEffect":-1,
          "splinterAmount":0,
          "splinterColour":0,
-         "splinterType":17,
          "bloodTrail":false,
          "bloodTrailDelay":10,
-         "leaveObj":11,
          "leaveObjDelay":2,
          "timeToExplo":700,
-         "timeToExploV":70
+         "timeToExploV":70,
+         "createOnExp":32,// soid (created on explosion)
+         "splinterType":17,// noid (created on trail)
+         "leaveObj":11,// soid (created on trail)
       },
       {
          //slow spark nid1
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0.030517578125,
          "speed":0.4,
          "speedV":0.4000000059604645,
@@ -2202,7 +2202,7 @@
       },
       {
          //spark nid2
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0.030517578125,
          "speed":1.2,
          "speedV":0.4000000059604645,
@@ -2233,7 +2233,7 @@
       },
       {
          //psistorm nid3
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":0.4,
          "speedV":0.4,
@@ -2264,7 +2264,7 @@
       },
       {
          //boil trail nid4
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":-0.1,
          "speed":3,
          "speedV":0,
@@ -2295,7 +2295,7 @@
       },
       {
          //freezingbeam nid5
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":2,
          "speedV":2,
@@ -2326,7 +2326,7 @@
       },
       {
          //blood nid6
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0.01068115234375,
          "speed":0.75,
          "speedV":0.4000000059604645,
@@ -2357,7 +2357,7 @@
       },
       {
          //flash part nid7
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":10.5,
          "speedV":1.5,
@@ -2388,7 +2388,7 @@
       },
       {
          //frost particle nid8
-        detectDistance:1,
+         "detectDistance":1,
          "gravity":0.0457763671875,
          "speed":5,
          "speedV":3,
@@ -2419,7 +2419,7 @@
       },
       {
          //steam nid9
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0.05,
          "speed":2.2,
          "speedV":0.4000000059604645,
@@ -2450,7 +2450,7 @@
       },
       {
          //mega range indicator nid10
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":24,
          "speedV":1,
@@ -2481,7 +2481,7 @@
       },
       {
          //sunbeam blast nid11
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":1,
          "speedV":1,
@@ -2512,7 +2512,7 @@
       },
       {
          //blizzard icicle nid12
-        detectDistance:1,
+         "detectDistance":1,
          "gravity":0.07,
          "speed":0.01,
          "speedV":0.01,
@@ -2543,7 +2543,7 @@
       },
       {
          //mega blast stage 1 nid13
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":16,
          "speedV":10,
@@ -2574,7 +2574,7 @@
       },
       {
          //mega stage 2 nid14
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":0.0,
          "speedV":0.0,
@@ -2605,7 +2605,7 @@
       },
       {
          //mega blast stage 2 nid15
-        detectDistance:3,
+         "detectDistance":3,
          "gravity":0,
          "speed":0,
          "speedV":0,
@@ -2636,7 +2636,7 @@
       },
       {
          //meteor shower stage 4 (meteor) nid16
-        detectDistance:2,
+         "detectDistance":2,
          "gravity":0.04,
          "speed":0,
          "speedV":0,
@@ -2667,7 +2667,7 @@
       },
       {
          //missile smoke delayer nid17
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":0,
          "speedV":0,
@@ -2698,7 +2698,7 @@
       },
       {
          //green spark nid18
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0.030517578125,
          "speed":1.4,
          "speedV":0.8000000059604645,
@@ -2729,7 +2729,7 @@
       },
       {
          //airelement gfx psi effect nid19
-        detectDistance:1,
+         "detectDistance":1,
          "gravity":0,
          "speed":3,
          "speedV":3,
@@ -2760,7 +2760,7 @@
       },
       {
          //meteor shower stage 2 nid20
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0.2,
          "speed":0,
          "speedV":0,
@@ -2791,7 +2791,7 @@
       },
       {
          //incinerate blast nid21
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":5,
          "speedV":5,
@@ -2822,7 +2822,7 @@
       },
       {
          //fireball blast nid22
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":0.5,
          "speedV":0.2,
@@ -2853,7 +2853,7 @@
       },
       {
          //meteor blast nid23
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":0.6,
          "speedV":0.2,
@@ -2884,7 +2884,7 @@
       },
       {
          //fireball trail delayer nid24
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":0,
          "speedV":0,
@@ -2900,22 +2900,22 @@
          "numFrames":0,
          "drawOnMap":false,
          "colorBullets":0,
-         "createOnExp":33,
          "affectByExplosions":false,
          "dirtEffect":-1,
          "splinterAmount":0,
          "splinterColour":0,
-         "splinterType":0,
          "bloodTrail":false,
          "bloodTrailDelay":0,
-         "leaveObj":0,
          "leaveObjDelay":0,
          "timeToExplo":3,
-         "timeToExploV":1
+         "timeToExploV":1,
+         "createOnExp":33,// soid (created on explosion)
+         "splinterType":0,// noid (created on trail)
+         "leaveObj":0,// soid (created on trail)
       },
       {
          //meteor shower stage 3 nid25
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":0,
          "speedV":0,
@@ -2946,7 +2946,7 @@
       },
       {
          //chaos orb trail nid26
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":1,
          "speedV":1,
@@ -2977,7 +2977,7 @@
       },
       {
          //chaos orb explosion delayer nid27
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":2,
          "speedV":2,
@@ -3008,7 +3008,7 @@
       },
       {
          //crystal stage1 nid28
-        detectDistance:1,
+         "detectDistance":1,
          "gravity":0,
          "speed":0,
          "speedV":0,
@@ -3039,7 +3039,7 @@
       },
       {
          //crystal stage2 nid29
-        detectDistance:2,
+         "detectDistance":2,
          "gravity":0,
          "speed":0,
          "speedV":0,
@@ -3070,7 +3070,7 @@
       },
       {
          //crystal stage3 nid30
-        detectDistance:3,
+         "detectDistance":3,
          "gravity":0,
          "speed":0,
          "speedV":0,
@@ -3101,7 +3101,7 @@
       },
       {
          //crystal stage4 nid31
-        detectDistance:5,
+         "detectDistance":5,
          "gravity":0,
          "speed":0,
          "speedV":0,
@@ -3132,7 +3132,7 @@
       },
       {
          //crystal shard nid32
-        detectDistance:2,
+         "detectDistance":2,
          "gravity":0.0457763671875,
          "speed":2,
          "speedV":0.5,
@@ -3163,7 +3163,7 @@
       },
       {
          //vertical crystal stage 1 nid33
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":0,
          "speedV":0,
@@ -3194,7 +3194,7 @@
       },
       {
          //vertical crystal stage 2 nid34
-        detectDistance:2,
+         "detectDistance":2,
          "gravity":0,
          "speed":0,
          "speedV":0,
@@ -3225,7 +3225,7 @@
       },
       {
          //vertical crystal stage 3 nid35
-        detectDistance:4,
+         "detectDistance":4,
          "gravity":0,
          "speed":0,
          "speedV":0,
@@ -3256,7 +3256,7 @@
       },
       {
          //crystal shard slow nid36
-        detectDistance:2,
+         "detectDistance":2,
          "gravity":0.0457763671875,
          "speed":0.6,
          "speedV":0.4,
@@ -3287,7 +3287,7 @@
       },
       {
          //air crystal nid37
-        detectDistance:2,
+         "detectDistance":2,
          "gravity":-0.25,
          "speed":0,
          "speedV":0,
@@ -3318,7 +3318,7 @@
       },
       {
          //crystal shard very slow with sound nid38
-        detectDistance:2,
+         "detectDistance":2,
          "gravity":0.0457763671875,
          "speed":0.5,
          "speedV":0.1,
@@ -3349,7 +3349,7 @@
       },
       {
          //pullable crystal shard slow nid39
-        detectDistance:2,
+         "detectDistance":2,
          "gravity":0.01,
          "speed":0,
          "speedV":0,
@@ -3380,7 +3380,7 @@
       },
       {
          //bloodstar trail generator nid40
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":0,
          "speedV":0,
@@ -3411,7 +3411,7 @@
       },
       {
          //bloodstar explosion gen nid41
-        detectDistance:2,
+         "detectDistance":2,
          "gravity":0,
          "speed":0.5,
          "speedV":0.2,
@@ -3442,7 +3442,7 @@
       },
       {
          //bloodstar trail nid42
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":0,
          "speedV":0,
@@ -3473,7 +3473,7 @@
       },
       {
          //unused explosion gen2 nid43
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":0,
          "speedV":0,
@@ -3504,7 +3504,7 @@
       },
       {
          //slow spark nid44
-        detectDistance:0,
+         "detectDistance":0,
          "gravity":0.030517578125,
          "speed":0.4,
          "speedV":0.4000000059604645,
@@ -3537,7 +3537,7 @@
    "sObjects":[
       {
          //fireball explosion sid0
-        startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":3,
          "startFrame":266,
@@ -3552,7 +3552,7 @@
       },
       {
          //death explosion sid1
-        startSound:12,
+         "startSound":12,
          "numSounds":0,
          "animDelay":5,
          "startFrame":100,
@@ -3567,7 +3567,7 @@
       },
       {
          //zimm flash sid2
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":4,
          "startFrame":100,
@@ -3582,7 +3582,7 @@
       },
       {
          //large explosion nodmg sid3
-        startSound:12,
+         "startSound":12,
          "numSounds":0,
          "animDelay":3,
          "startFrame":266,
@@ -3597,7 +3597,7 @@
       },
       {
          //zimm flash sid4
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":4,
          "startFrame":100,
@@ -3612,7 +3612,7 @@
       },
       {
          //spark trail sid5
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":2,
          "startFrame":206,
@@ -3627,7 +3627,7 @@
       },
       {
          //firebolt trail sid6
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":2,
          "startFrame":76,
@@ -3642,7 +3642,7 @@
       },
       {
          //frostball trail sid7
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":2,
          "startFrame":52,
@@ -3657,7 +3657,7 @@
       },
       {
          //electric sid8
-        startSound:3,
+         "startSound":3,
          "numSounds":0,
          "animDelay":3,
          "startFrame":306,
@@ -3672,7 +3672,7 @@
       },
       {
          //sunbeam trail sid9
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":4,
          "startFrame":104,
@@ -3687,7 +3687,7 @@
       },
       {
          //firebolt explosion sid10
-        startSound:9,
+         "startSound":9,
          "numSounds":3,
          "animDelay":3,
          "startFrame":279,
@@ -3702,7 +3702,7 @@
       },
       {
          //heal trail sid11
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":3,
          "startFrame":133,
@@ -3717,7 +3717,7 @@
       },
       {
          //frost bolt trail sid12
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":1,
          "startFrame":52,
@@ -3732,7 +3732,7 @@
       },
       {
          //mega range dot trail sid13
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":10,
          "startFrame":337,
@@ -3747,7 +3747,7 @@
       },
       {
          //psistorm blast silent sid14
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":4,
          "startFrame":91,
@@ -3762,7 +3762,7 @@
       },
       {
          //psistorm gfx silent nodmg sid15
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":3,
          "startFrame":306,
@@ -3777,7 +3777,7 @@
       },
       {
          //psistorm gfx silent short nodmg sid16
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":2,
          "startFrame":306,
@@ -3792,7 +3792,7 @@
       },
       {
          //blizzard icicle hit sid17
-        startSound:1,
+         "startSound":1,
          "numSounds":0,
          "animDelay":2,
          "startFrame":104,
@@ -3807,7 +3807,7 @@
       },
       {
          //boil boom sid18
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":3,
          "startFrame":128,
@@ -3822,7 +3822,7 @@
       },
       {
          //meteor explosion sid19
-        startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":3,
          "startFrame":266,
@@ -3837,7 +3837,7 @@
       },
       {
          //flash sid20
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":4,
          "startFrame":104,
@@ -3852,7 +3852,7 @@
       },
       {
          //firebolt explosion nodmg sid21
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":3,
          "startFrame":279,
@@ -3867,7 +3867,7 @@
       },
       {
          //incinerate explosion sid22
-        startSound:9,
+         "startSound":9,
          "numSounds":3,
          "animDelay":3,
          "startFrame":279,
@@ -3882,7 +3882,7 @@
       },
       {
          //icicle sound effect sid23
-        startSound:1,
+         "startSound":1,
          "numSounds":0,
          "animDelay":1,
          "startFrame":301,
@@ -3897,7 +3897,7 @@
       },
       {
          //crystal trail sid24
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":2,
          "startFrame":48,
@@ -3912,7 +3912,7 @@
       },
       {
          //spark trail oneframe sid25
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":1,
          "startFrame":206,
@@ -3927,7 +3927,7 @@
       },
       {
          //lightning trail pixel sid26
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":2,
          "startFrame":92,
@@ -3942,7 +3942,7 @@
       },
       {
          //sun beam blast sid27
-        startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":4,
          "startFrame":100,
@@ -3957,7 +3957,7 @@
       },
       {
          //charging mega sid28
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":10,
          "startFrame":330,
@@ -3972,7 +3972,7 @@
       },
       {
          //crystal gen sid29
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":3,
          "startFrame":302,
@@ -3987,7 +3987,7 @@
       },
       {
          //rune short sid30
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":2,
          "startFrame":330,
@@ -4002,7 +4002,7 @@
       },
       {
          //boil boom sid31
-        startSound:12,
+         "startSound":12,
          "numSounds":0,
          "animDelay":2,
          "startFrame":41,
@@ -4017,7 +4017,7 @@
       },
       {
          //heal pickup sid32
-        startSound:25,
+         "startSound":25,
          "numSounds":0,
          "animDelay":3,
          "startFrame":133,
@@ -4032,7 +4032,7 @@
       },
       {
          //firebolt trail sid33
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":1,
          "startFrame":76,
@@ -4047,7 +4047,7 @@
       },
       {
          //sparks trail pixel sid34
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":1,
          "startFrame":92,
@@ -4062,7 +4062,7 @@
       },
       {
          //bloodstar blast sid35
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":2,
          "startFrame":157,
@@ -4077,7 +4077,7 @@
       },
       {
          //bloodstar core blast sid36
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":4,
          "startFrame":157,
@@ -4092,7 +4092,7 @@
       },
       {
          //crystal exp sid37
-        startSound:1,
+         "startSound":1,
          "numSounds":0,
          "animDelay":2,
          "startFrame":350,

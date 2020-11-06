@@ -939,7 +939,7 @@
    "wObjects":[
       {
          // auto shotgun wid0
-      detectDistance:1,
+         "detectDistance":1,
          "blowAway":0.01,
          "gravity":0.005068115234375,
          "exploSound":-1,
@@ -978,7 +978,7 @@
       },
       {
          // chaingun wid1
-      detectDistance:1,
+         "detectDistance":1,
          "blowAway":0.05,
          "gravity":0.0042724609375,
          "exploSound":-1,
@@ -1017,7 +1017,7 @@
       },
       {
          // rifle wid2
-      detectDistance:1,
+         "detectDistance":1,
          "blowAway":0.6,
          "gravity":0.00030517578125,
          "exploSound":-1,
@@ -1056,7 +1056,7 @@
       },
       {
          // bazooka wid3
-      detectDistance:2,
+         "detectDistance":2,
          "blowAway":0,
          "gravity":0,
          "exploSound":-1,
@@ -1095,7 +1095,7 @@
       },
       {
          // lightning gun wid4
-      detectDistance:1,
+         "detectDistance":1,
          "blowAway":0.12,
          "gravity":0,
          "exploSound":-1,
@@ -1134,7 +1134,7 @@
       },
       {
          // solar scorch wid5
-      detectDistance:0,
+         "detectDistance":0,
          "blowAway":0,
          "gravity":0,
          "exploSound":-1,
@@ -1173,7 +1173,7 @@
       },
       {
          // shockwavebomb wid6
-      detectDistance:0,
+         "detectDistance":0,
          "blowAway":0,
          "gravity":0.0152587890625,
          "exploSound":3,
@@ -1212,7 +1212,7 @@
       },
       {
          // senzubean wid7
-      detectDistance:-4,
+         "detectDistance":-4,
          "blowAway":0,
          "gravity":0,
          "exploSound":-1,
@@ -1251,7 +1251,7 @@
       },
       {
          // doomsday wid8
-      detectDistance:1,
+         "detectDistance":1,
          "blowAway":0.15,
          "gravity":0,
          "exploSound":-1,
@@ -1290,7 +1290,7 @@
       },
       {
          // flamethrower wid9
-      detectDistance:2,
+         "detectDistance":2,
          "blowAway":0,
          "gravity":-0.003814697265625,
          "exploSound":-1,
@@ -1329,7 +1329,7 @@
       },
       {
          // grnlauncher wid10
-      detectDistance:1,
+         "detectDistance":1,
          "blowAway":0.3,
          "gravity":0.01983642578125,
          "exploSound":-1,
@@ -1368,7 +1368,7 @@
       },
       {
          // cripple wid11
-      detectDistance:2,
+         "detectDistance":2,
          "blowAway":0,
          "gravity":0,
          "exploSound":28,
@@ -1407,7 +1407,7 @@
       },
       {
          // proxymine wid12
-      detectDistance:8,
+         "detectDistance":8,
          "blowAway":0.22,
          "gravity":0,
          "exploSound":-1,
@@ -1446,7 +1446,7 @@
       },
       {
          // mortar wid13
-      detectDistance:3,
+         "detectDistance":3,
          "blowAway":0.1,
          "gravity":0.00091552734375,
          "exploSound":-1,
@@ -1485,7 +1485,7 @@
       },
       {
          // minigun wid14
-      detectDistance:0,
+         "detectDistance":0,
          "blowAway":0.05,
          "gravity":0.00762939453125,
          "exploSound":-1,
@@ -1524,7 +1524,7 @@
       },
       {
          // clusterpod wid15
-      detectDistance:0,
+         "detectDistance":0,
          "blowAway":0,
          "gravity":0.01983642578125,
          "exploSound":-1,
@@ -1563,7 +1563,7 @@
       },
       {
          // supershotgun wid16
-      detectDistance:1,
+         "detectDistance":1,
          "blowAway":0.015,
          "gravity":0.005,
          "exploSound":-1,
@@ -1602,7 +1602,7 @@
       },
       {
          // tomahawk wid17
-      detectDistance:2,
+         "detectDistance":2,
          "blowAway":0.1,
          "gravity":0.02288818359375,
          "exploSound":-1,
@@ -1641,7 +1641,7 @@
       },
       {
          // chiquitagun wid18
-      detectDistance:0,
+         "detectDistance":0,
          "blowAway":0.15,
          "gravity":0.000152587890625,
          "exploSound":-1,
@@ -1680,7 +1680,7 @@
       },
       {
          // acid fan wid19
-      detectDistance:1,
+         "detectDistance":1,
          "blowAway":0.3,
          "gravity":0,
          "exploSound":-1,
@@ -1719,7 +1719,7 @@
       },
       {
          // incendiator wid20
-      detectDistance:0,
+         "detectDistance":0,
          "blowAway":0,
          "gravity":0.01,
          "exploSound":-1,
@@ -1758,7 +1758,7 @@
       },
       {
          // zimm wid21
-      detectDistance:1,
+         "detectDistance":1,
          "blowAway":0,
          "gravity":0,
          "exploSound":-1,
@@ -1797,7 +1797,7 @@
       },
       {
          // mininuke wid22
-      detectDistance:0,
+         "detectDistance":0,
          "blowAway":0,
          "gravity":0.0152587890625,
          "exploSound":4,
@@ -1836,7 +1836,7 @@
       },
       {
          // float mine wid23 (unused)
-      detectDistance:0,
+         "detectDistance":0,
          "blowAway":0,
          "gravity":0.0152587890625,
          "exploSound":4,
@@ -1875,7 +1875,7 @@
       },
       {
          // whip wid24
-      detectDistance:1,
+         "detectDistance":1,
          "blowAway":-0.8,
          "gravity":0,
          "exploSound":-1,
@@ -1914,7 +1914,7 @@
       },
       {
          // hovercrack wid25
-      detectDistance:0,
+         "detectDistance":0,
          "blowAway":0,
          "gravity":0,
          "exploSound":-1,
@@ -1953,7 +1953,7 @@
       },
       {
          // flak wid26
-      detectDistance:2,
+         "detectDistance":2,
          "blowAway":0.2,
          "gravity":0.0030517578125,
          "exploSound":7,
@@ -1992,7 +1992,7 @@
       },
       {
          // bouncylarpa wid27
-      detectDistance:1,
+         "detectDistance":1,
          "blowAway":0.4,
          "gravity":0.0030517578125,
          "exploSound":-1,
@@ -2031,7 +2031,7 @@
       },
       {
          // solarbeam wid28
-      detectDistance:0,
+         "detectDistance":0,
          "blowAway":0,
          "gravity":0,
          "exploSound":-1,
@@ -2070,7 +2070,7 @@
       },
       {
          // spikeballs wid29
-      detectDistance:2,
+         "detectDistance":2,
          "blowAway":0.2,
          "gravity":0.0152587890625,
          "exploSound":-1,
@@ -2109,7 +2109,7 @@
       },
       {
          // kamikaze wid30
-      detectDistance:-1,
+         "detectDistance":-1,
          "blowAway":0,
          "gravity":0.00091552734375,
          "exploSound":-1,
@@ -2148,7 +2148,7 @@
       },
       {
          // tupolev wid31
-      detectDistance:1,
+         "detectDistance":1,
          "blowAway":0.22,
          "gravity":0,
          "exploSound":12,
@@ -2187,7 +2187,7 @@
       },
       {
          // missile wid32
-      detectDistance:1,
+         "detectDistance":1,
          "blowAway":0,
          "gravity":0,
          "exploSound":-1,
@@ -2226,7 +2226,7 @@
       },
       {
          // chiquitabomb wid33
-      detectDistance:0,
+         "detectDistance":0,
          "blowAway":0,
          "gravity":0.01983642578125,
          "exploSound":-1,
@@ -2265,7 +2265,7 @@
       },
       {
          // doppelganger wid34
-      detectDistance:4,
+         "detectDistance":4,
          "blowAway":1.1,
          "gravity":0.02288818359375,
          "exploSound":-1,
@@ -2304,7 +2304,7 @@
       },
       {
          //slasher wid35
-      detectDistance:1,
+         "detectDistance":1,
          "blowAway":0.0000001,
          "gravity":0,
          "exploSound":-1,
@@ -2343,7 +2343,7 @@
       },
       {
          // railgun wid36
-      detectDistance:1,
+         "detectDistance":1,
          "blowAway":1.2,
          "gravity":0,
          "exploSound":-1,
@@ -2382,7 +2382,7 @@
       },
       {
          // dartgun wid37
-      detectDistance:1,
+         "detectDistance":1,
          "blowAway":0.3,
          "gravity":0.0,
          "exploSound":-1,
@@ -2421,7 +2421,7 @@
       },
       {
          // scattergun wid38
-      detectDistance:0,
+         "detectDistance":0,
          "blowAway":0.05,
          "gravity":0.01068115234375,
          "exploSound":-1,
@@ -2460,7 +2460,7 @@
       },
       {
          // gaussgun wid39
-      detectDistance:1,
+         "detectDistance":1,
          "blowAway":0.2,
          "gravity":0,
          "exploSound":-1,
@@ -2499,7 +2499,7 @@
       },
       {
          // firecracker wid40
-      detectDistance:0,
+         "detectDistance":0,
          "blowAway":0,
          "gravity":0.01983642578125,
          "exploSound":-1,
@@ -2538,7 +2538,7 @@
       },
       {
          // steam wid41
-      detectDistance:2,
+         "detectDistance":2,
          "blowAway":0,
          "gravity":-0.003814697265625,
          "exploSound":-1,
@@ -2577,7 +2577,7 @@
       },
       {
          // toxicsmoke wid42
-      detectDistance:0,
+         "detectDistance":0,
          "blowAway":0,
          "gravity":-0.003814697265625,
          "exploSound":-1,
@@ -2616,14 +2616,13 @@
       },
       {
          //kienzan wid43
-        detectDistance:-5,
+         "detectDistance":-5,
          "blowAway":0,
          "gravity":0,
          "exploSound":-1,
          "addSpeed":0,
          "distribution":0.0000152587890625,
          "multSpeed":0,
-         "createOnExp":-1,
          "dirtEffect":0,
          "wormExplode":false,
          "explGround":false,
@@ -2644,18 +2643,19 @@
          "colorBullets":43,
          "splinterAmount":150,
          "splinterColour":0,
-         "splinterType":24,
          "splinterScatter":0,
-         "objTrailType":-1,
          "objTrailDelay":0,
          "partTrailType":0,
-         "partTrailObj":-1,
          "partTrailDelay":0,
-         "speed":100
+         "speed":100,
+         "createOnExp":-1,// (soid created on explosion)
+         "objTrailType":-1,// (soid created on trail)
+         "splinterType":24,// (noid created on explosion)
+         "partTrailObj":-1,// (noid created on trail)
       },
       {
          //nuclearrain wid44
-        detectDistance:0,
+         "detectDistance":0,
          "blowAway":0,
          "gravity":-0.720703125,
          "exploSound":-1,
@@ -2694,7 +2694,7 @@
       },
       {
          // blaster wid45
-      detectDistance:2,
+         "detectDistance":2,
          "blowAway":0.05,
          "gravity":0,
          "exploSound":-1,
@@ -2732,7 +2732,7 @@
          "speed":355
       },
       {
-         // magnetic shield wid46"detectDistance":-4,
+         // magnetic shield wid46"   "detectDistance"":-4,
          "blowAway":0.3,
          "gravity":0,
          "exploSound":-1,
@@ -2771,7 +2771,7 @@
       },
       {
          // dragon wid47
-      detectDistance:0,
+         "detectDistance":0,
          "blowAway":0,
          "gravity":0.0252587890625,
          "exploSound":-1,
@@ -2810,7 +2810,7 @@
       },
       {
          // regeneration wid48
-      detectDistance:-4,
+         "detectDistance":-4,
          "blowAway":0,
          "gravity":0,
          "exploSound":-1,
@@ -2849,7 +2849,7 @@
       },
       {
          // drone wid49
-      detectDistance:3,
+         "detectDistance":3,
          "blowAway":15,
          "gravity":0,
          "exploSound":-1,
@@ -2888,7 +2888,7 @@
       },
       {
          // ectoplasm wid50
-      detectDistance:1,
+         "detectDistance":1,
          "blowAway":0.1,
          "gravity":0,
          "exploSound":-1,
@@ -2929,7 +2929,7 @@
    "nObjects":[
       {
          // worm part nid0
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":0.0152587890625,
          "speed":1.2,
          "speedV":0.4,
@@ -2960,7 +2960,7 @@
       },
       {
          // worm part nid1
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":0.0152587890625,
          "speed":1.2,
          "speedV":0.4,
@@ -2991,7 +2991,7 @@
       },
       {
          // non-damaging bullet splinter nid2
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":0.01068115234375,
          "speed":2,
          "speedV":2,
@@ -3022,7 +3022,7 @@
       },
       {
          // small damage bullet splinter nid3
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":0.01068115234375,
          "speed":1.6,
          "speedV":1.4,
@@ -3053,7 +3053,7 @@
       },
       {
          // mortar splinter final nid4
-      detectDistance:1,
+         "detectDistance":1,
          "gravity":0.01068115234375,
          "speed":4,
          "speedV":3,
@@ -3084,7 +3084,7 @@
       },
       {
          // high damage bullet splinter nid5
-      detectDistance:1,
+         "detectDistance":1,
          "gravity":0.01068115234375,
          "speed":4,
          "speedV":3,
@@ -3115,7 +3115,7 @@
       },
       {
          // nid6
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":0.01068115234375,
          "speed":0.75,
          "speedV":0.4,
@@ -3146,7 +3146,7 @@
       },
       {
          // shell nid7
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":0.0152587890625,
          "speed":0,
          "speedV":0,
@@ -3177,7 +3177,7 @@
       },
       {
          // clusterpart nid8
-      detectDistance:1,
+         "detectDistance":1,
          "gravity":0.0152587890625,
          "speed":2.2,
          "speedV":1.4,
@@ -3208,7 +3208,7 @@
       },
       {
          // tupolev bomb nid9
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":0.0152587890625,
          "speed":2,
          "speedV":1,
@@ -3239,7 +3239,7 @@
       },
       {
          // tupolev bomb nid10
-      detectDistance:1,
+         "detectDistance":1,
          "gravity":0.030517578125,
          "speed":1.8,
          "speedV":0.2,
@@ -3270,7 +3270,7 @@
       },
       {
          // mininuke part nid11
-      detectDistance:1,
+         "detectDistance":1,
          "gravity":0.0152587890625,
          "speed":2,
          "speedV":1.2,
@@ -3301,7 +3301,7 @@
       },
       {
          // napalm trail nid12
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":0.0152587890625,
          "speed":1.5,
          "speedV":0.9,
@@ -3332,7 +3332,7 @@
       },
       {
          // cripple nid13
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":1,
          "speed":3,
          "speedV":0,
@@ -3363,7 +3363,7 @@
       },
       {
          // banana nid14
-      detectDistance:1,
+         "detectDistance":1,
          "gravity":0.0152587890625,
          "speed":2.2,
          "speedV":1.5,
@@ -3394,7 +3394,7 @@
       },
       {
          // new bazooka explosion nid15
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":3,
          "speedV":3,
@@ -3425,7 +3425,7 @@
       },
       {
          // new bazooka smoke nid16
-      detectDistance:1,
+         "detectDistance":1,
          "gravity":-0.05,
          "speed":0,
          "speedV":0,
@@ -3456,7 +3456,7 @@
       },
       {
          // smoke delay nid17
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":0,
          "speedV":0,
@@ -3487,7 +3487,7 @@
       },
       {
          // light banana nid18
-      detectDistance:1,
+         "detectDistance":1,
          "gravity":0.0152587890625,
          "speed":2.2,
          "speedV":1.5,
@@ -3518,7 +3518,7 @@
       },
       {
          // mortar splinter #1 nid19
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":0.01068115234375,
          "speed":4,
          "speedV":0,
@@ -3549,7 +3549,7 @@
       },
       {
          // mortar splinter #2 nid20
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":0.01068115234375,
          "speed":1,
          "speedV":0.1,
@@ -3580,7 +3580,7 @@
       },
       {
          // mortar splinter delayer nid21
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":1,
          "speedV":0,
@@ -3611,7 +3611,7 @@
       },
       {
          // nid22
-      detectDistance:1,
+         "detectDistance":1,
          "gravity":0.0152587890625,
          "speed":1.2,
          "speedV":0.4,
@@ -3642,7 +3642,7 @@
       },
       {
          // nid23
-      detectDistance:1,
+         "detectDistance":1,
          "gravity":0.0152587890625,
          "speed":1.2,
          "speedV":0.4,
@@ -3673,7 +3673,7 @@
       },
       {
          // kienzan nid24
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":5,
          "speedV":0.05,
@@ -3689,22 +3689,22 @@
          "numFrames":0,
          "drawOnMap":false,
          "colorBullets":43,
-         "createOnExp":-1,
          "affectByExplosions":false,
          "dirtEffect":2,
          "splinterAmount":0,
          "splinterColour":0,
-         "splinterType":-1,
          "bloodTrail":false,
          "bloodTrailDelay":0,
-         "leaveObj":-1,
          "leaveObjDelay":0,
          "timeToExplo":5,
-         "timeToExploV":0
+         "timeToExploV":0,
+         "createOnExp":-1,
+         "splinterType":-1,
+         "leaveObj":-1,
       },
       {
          // new missile explosion nid25
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":3,
          "speedV":3,
@@ -3735,7 +3735,7 @@
       },
       {
          // flamer hot smoke nid26
-      detectDistance:1,
+         "detectDistance":1,
          "gravity":-0.05,
          "speed":0,
          "speedV":0,
@@ -3766,7 +3766,7 @@
       },
       {
          // grenade explosion nid27
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":3,
          "speedV":3,
@@ -3797,7 +3797,7 @@
       },
       {
          // toxic smoke nid28
-      detectDistance:1,
+         "detectDistance":1,
          "gravity":-0.05,
          "speed":0,
          "speedV":0,
@@ -3828,7 +3828,7 @@
       },
       {
          // cripple explosion nid29
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":0,
          "speedV":0,
@@ -3859,7 +3859,7 @@
       },
       {
          // worm part slasher nid30
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":0.0152587890625,
          "speed":1.2,
          "speedV":0.4,
@@ -3890,7 +3890,7 @@
       },
       {
          //nuclearrain nid31
-      detectDistance:1,
+         "detectDistance":1,
          "gravity":0.0368115234375,
          "speed":1.6,
          "speedV":1.4,
@@ -3921,7 +3921,7 @@
       },
       {
          // dragon part2 nid32
-      detectDistance:2,
+         "detectDistance":2,
          "gravity":0.01068115234375,
          "speed":4,
          "speedV":4,
@@ -3952,7 +3952,7 @@
       },
       {
          // shockwave nid33
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":0.01068115234375,
          "speed":4,
          "speedV":0,
@@ -3983,7 +3983,7 @@
       },
       {
          // dragon nid34
-      detectDistance:2,
+         "detectDistance":2,
          "gravity":0.01068115234375,
          "speed":4,
          "speedV":4,
@@ -4014,7 +4014,7 @@
       },
       {
          // cripple dirt clean nid35
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":0.0152587890625,
          "speed":1.5,
          "speedV":1.5,
@@ -4045,7 +4045,7 @@
       },
       {
          // fiery missile trail nid36
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":2,
          "speedV":2,
@@ -4076,7 +4076,7 @@
       },
       {
          // doppel shooting nid37
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":0.009,
          "speed":2,
          "speedV":0,
@@ -4107,7 +4107,7 @@
       },
       {
          // drone bullet nid38
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":0.009,
          "speed":0,
          "speedV":0,
@@ -4138,7 +4138,7 @@
       },
       {
          // ectoplasm nid39
-      detectDistance:1,
+         "detectDistance":1,
          "gravity":0.01068115234375,
          "speed":0,
          "speedV":0,
@@ -4169,7 +4169,7 @@
       },
       {
          // railgun delay nid40
-      detectDistance:0,
+         "detectDistance":0,
          "gravity":0,
          "speed":0,
          "speedV":0,
@@ -4202,7 +4202,7 @@
    "sObjects":[
       {
          // large explosion sid0
-      startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":2,
          "startFrame":40,
@@ -4217,7 +4217,7 @@
       },
       {
          // medium explosion sid1
-      startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":2,
          "startFrame":45,
@@ -4232,7 +4232,7 @@
       },
       {
          // small explosion sid2
-      startSound:7,
+         "startSound":7,
          "numSounds":2,
          "animDelay":2,
          "startFrame":50,
@@ -4247,7 +4247,7 @@
       },
       {
          // smoke sid3
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":4,
          "startFrame":64,
@@ -4262,7 +4262,7 @@
       },
       {
          // zimm explosion sid4
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":4,
          "startFrame":100,
@@ -4277,7 +4277,7 @@
       },
       {
          // sid5
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":2,
          "startFrame":104,
@@ -4292,7 +4292,7 @@
       },
       {
          // minicocket trail sid6
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":1,
          "startFrame":76,
@@ -4307,7 +4307,7 @@
       },
       {
          // sid7
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":2,
          "startFrame":91,
@@ -4322,7 +4322,7 @@
       },
       {
          // sid8
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":2,
          "startFrame":49,
@@ -4337,7 +4337,7 @@
       },
       {
          // sid9
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":2,
          "startFrame":53,
@@ -4352,7 +4352,7 @@
       },
       {
          // sid10
-      startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":2,
          "startFrame":47,
@@ -4367,7 +4367,7 @@
       },
       {
          // doppel sid11
-      startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":2,
          "startFrame":42,
@@ -4382,7 +4382,7 @@
       },
       {
          // sid12
-      startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":2,
          "startFrame":44,
@@ -4397,7 +4397,7 @@
       },
       {
          // sid13
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":0,
          "startFrame":0,
@@ -4412,7 +4412,7 @@
       },
       {
          // large explosion visual sid14
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":2,
          "startFrame":40,
@@ -4427,7 +4427,7 @@
       },
       {
          // smoke sid15
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":4,
          "startFrame":65,
@@ -4442,7 +4442,7 @@
       },
       {
          // large aoe explosion sid16
-      startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":2,
          "startFrame":40,
@@ -4457,7 +4457,7 @@
       },
       {
          // gauss explosion sid17
-      startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":2,
          "startFrame":45,
@@ -4472,7 +4472,7 @@
       },
       {
          // tiny long explosion sid18
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":10,
          "startFrame":76,
@@ -4487,7 +4487,7 @@
       },
       {
          // small smoke sid19
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":3,
          "startFrame":65,
@@ -4502,7 +4502,7 @@
       },
       {
          // very large aoe explosion sid20
-      startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":2,
          "startFrame":40,
@@ -4517,7 +4517,7 @@
       },
       {
          // lightning trail sid21
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":1,
          "startFrame":76,
@@ -4532,7 +4532,7 @@
       },
       {
          // mortar kick sid22
-      startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":2,
          "startFrame":40,
@@ -4547,7 +4547,7 @@
       },
       {
          // proxy mine aoe explosion sid23
-      startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":2,
          "startFrame":40,
@@ -4562,7 +4562,7 @@
       },
       {
          // large non-aoe explosion sid24
-      startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":2,
          "startFrame":40,
@@ -4577,7 +4577,7 @@
       },
       {
          // cripple explo sid25
-      startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":2,
          "startFrame":40,
@@ -4592,7 +4592,7 @@
       },
       {
          // nuclearrain sid26
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":4,
          "startFrame":76,
@@ -4607,7 +4607,7 @@
       },
       {
          // shieldeffect sid27
-        startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":1,
          "startFrame":100,
@@ -4622,7 +4622,7 @@
       },
       {
          // cripple final clean sid28
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":2,
          "startFrame":49,
@@ -4637,7 +4637,7 @@
       },
       {
          // fiery missile trail sid29
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":2,
          "startFrame":45,
@@ -4652,7 +4652,7 @@
       },
       {
          // senzubean sid30
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":1,
          "startFrame":202,
@@ -4667,7 +4667,7 @@
       },
       {
          // regeneration sid31
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":1,
          "startFrame":40,
@@ -4682,7 +4682,7 @@
       },
       {
          // kamikaze sid32
-      startSound:9,
+         "startSound":9,
          "numSounds":4,
          "animDelay":1,
          "startFrame":40,
@@ -4697,7 +4697,7 @@
       },
       {
          // dronestar sid33
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":8,
          "startFrame":93,
@@ -4712,7 +4712,7 @@
       },
       {
          // railgun new trail sid34
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":3,
          "startFrame":54,
@@ -4727,7 +4727,7 @@
       },
       {
          // blaster sid35
-      startSound:-1,
+         "startSound":-1,
          "numSounds":0,
          "animDelay":4,
          "startFrame":102,
@@ -4742,7 +4742,7 @@
       },
       {
          // ectoplasm sid36
-      startSound:4,
+         "startSound":4,
          "numSounds":4,
          "animDelay":2,
          "startFrame":51,

@@ -712,8 +712,6 @@ crossHairSprite: 153 // The sprite id of The crosshair used.
 
 ## The Connection Between Objects 🧬
 
-#### Overview
-
 ![objects_relation🧬](https://user-images.githubusercontent.com/7637806/98485669-c4103500-21f6-11eb-8e8c-38e59146eda3.png)
 
 #### Explanation

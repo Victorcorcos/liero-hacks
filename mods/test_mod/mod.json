@@ -134,8 +134,8 @@
          "timeToExplo":200,
          "timeToExploV":50,
          "createOnExp":-1,// soid (created on explosion)
-         "splinterType":6,// noid (created on trail)
          "leaveObj":-1,// soid (created on trail)
+         "splinterType":6,// noid (created on trail)
       },
       {
          // noid1
@@ -166,8 +166,8 @@
          "timeToExplo":200,
          "timeToExploV":50,
          "createOnExp":-1,// soid (created on explosion)
-         "splinterType":6,// noid (created on trail)
          "leaveObj":-1,// soid (created on trail)
+         "splinterType":6,// noid (created on trail)
       },
       {
          // noid2
@@ -198,8 +198,8 @@
          "timeToExplo":30,
          "timeToExploV":2,
          "createOnExp":-1,// soid (created on explosion)
-         "splinterType":-1,// noid (created on trail)
          "leaveObj":-1,// soid (created on trail)
+         "splinterType":-1,// noid (created on trail)
       },
       {
          // noid3
@@ -230,8 +230,8 @@
          "timeToExplo":15,
          "timeToExploV":3,
          "createOnExp":-1,// soid (created on explosion)
-         "splinterType":-1,// noid (created on trail)
          "leaveObj":7,// soid (created on trail)
+         "splinterType":-1,// noid (created on trail)
       },
       {
          // noid4
@@ -263,8 +263,8 @@
          "timeToExplo":10,
          "timeToExploV":3,
          "createOnExp":-1,// soid (created on explosion)
-         "splinterType":-1,// noid (created on trail)
          "leaveObj":6,// soid (created on trail)
+         "splinterType":-1,// noid (created on trail)
       },
       {
          // noid5
@@ -295,8 +295,8 @@
          "timeToExplo":0,
          "timeToExploV":0,
          "createOnExp":2,// soid (created on explosion)
-         "splinterType":19,// noid (created on trail)
          "leaveObj":-1,// soid (created on trail)
+         "splinterType":19,// noid (created on trail)
       },
       {
          // noid6
@@ -327,8 +327,8 @@
          "timeToExplo":15,
          "timeToExploV":3,
          "createOnExp":-1,// soid (created on explosion)
-         "splinterType":-1,// noid (created on trail)
          "leaveObj":-1,// soid (created on trail)
+         "splinterType":-1,// noid (created on trail)
       },
       {
          // noid7
@@ -359,8 +359,8 @@
          "timeToExplo":0,
          "timeToExploV":0,
          "createOnExp":-1,// soid (created on explosion)
-         "splinterType":-1,// noid (created on trail)
          "leaveObj":-1,// soid (created on trail)
+         "splinterType":-1,// noid (created on trail)
       },
       {
          // noid8
@@ -391,8 +391,8 @@
          "timeToExplo":0,
          "timeToExploV":0,
          "createOnExp":2,// soid (created on explosion)
-         "splinterType":-1,// noid (created on trail)
          "leaveObj":4,// soid (created on trail)
+         "splinterType":-1,// noid (created on trail)
       },
       {
          // noid9
@@ -423,8 +423,8 @@
          "timeToExplo":0,
          "timeToExploV":0,
          "createOnExp":13,// soid (created on explosion)
-         "splinterType":5,// noid (created on trail)
          "leaveObj":2,// soid (created on trail)
+         "splinterType":5,// noid (created on trail)
       },
       {
          // noid10
@@ -455,8 +455,8 @@
          "timeToExplo":65,
          "timeToExploV":0,
          "createOnExp":0,// soid (created on explosion)
-         "splinterType":3,// noid (created on trail)
          "leaveObj":-1,// soid (created on trail)
+         "splinterType":3,// noid (created on trail)
       },
       {
          // noid11
@@ -487,8 +487,8 @@
          "timeToExplo":10000,
          "timeToExploV":0,
          "createOnExp":5,// soid (created on explosion)
-         "splinterType":10,// noid (created on trail)
          "leaveObj":-1,// soid (created on trail)
+         "splinterType":10,// noid (created on trail)
       },
       {
          // noid12
@@ -519,8 +519,8 @@
          "timeToExplo":20,
          "timeToExploV":5,
          "createOnExp":-1,// soid (created on explosion)
-         "splinterType":-1,// noid (created on trail)
          "leaveObj":-1,// soid (created on trail)
+         "splinterType":-1,// noid (created on trail)
       },
       {
          // noid13
@@ -551,8 +551,8 @@
          "timeToExplo":1,
          "timeToExploV":0,
          "createOnExp":-1,// soid (created on explosion)
-         "splinterType":-1,// noid (created on trail)
          "leaveObj":-1,// soid (created on trail)
+         "splinterType":-1,// noid (created on trail)
       },
       {
          // noid14
@@ -583,8 +583,8 @@
          "timeToExplo":25,
          "timeToExploV":5,
          "createOnExp":-1,// soid (created on explosion)
-         "splinterType":4,// noid (created on trail)
          "leaveObj":-1,// soid (created on trail)
+         "splinterType":4,// noid (created on trail)
       },
       {
          // noid15
@@ -615,8 +615,8 @@
          "timeToExplo":0,
          "timeToExploV":0,
          "createOnExp":10,// soid (created on explosion)
-         "splinterType":5,// noid (created on trail)
          "leaveObj":6,// soid (created on trail)
+         "splinterType":5,// noid (created on trail)
       },
       {
          // noid16
@@ -647,8 +647,8 @@
          "timeToExplo":15,
          "timeToExploV":1,
          "createOnExp":-1,// soid (created on explosion)
-         "splinterType":-1,// noid (created on trail)
          "leaveObj":-1,// soid (created on trail)
+         "splinterType":-1,// noid (created on trail)
       },
       {
          // noid17
@@ -679,8 +679,8 @@
          "timeToExplo":5000,
          "timeToExploV":2500,
          "createOnExp":8,// soid (created on explosion)
-         "splinterType":3,// noid (created on trail)
          "leaveObj":-1,// soid (created on trail)
+         "splinterType":3,// noid (created on trail)
       },
       {
          // noid18
@@ -711,8 +711,8 @@
          "timeToExplo":600,
          "timeToExploV":300,
          "createOnExp":5,// soid (created on explosion)
-         "splinterType":-1,// noid (created on trail)
          "leaveObj":-1,// soid (created on trail)
+         "splinterType":-1,// noid (created on trail)
       },
       {
          // noid19
@@ -743,8 +743,8 @@
          "timeToExplo":0,
          "timeToExploV":0,
          "createOnExp":9,// soid (created on explosion)
-         "splinterType":-1,// noid (created on trail)
          "leaveObj":-1,// soid (created on trail)
+         "splinterType":-1,// noid (created on trail)
       },
       {
          // noid20
@@ -775,8 +775,8 @@
          "timeToExplo":0,
          "timeToExploV":0,
          "createOnExp":0,// soid (created on explosion)
-         "splinterType":-1,// noid (created on trail)
          "leaveObj":-1,// soid (created on trail)
+         "splinterType":-1,// noid (created on trail)
       },
       {
          // noid21
@@ -807,8 +807,8 @@
          "timeToExplo":1000,
          "timeToExploV":0,
          "createOnExp":0,// soid (created on explosion)
-         "splinterType":-1,// noid (created on trail)
          "leaveObj":-1,// soid (created on trail)
+         "splinterType":-1,// noid (created on trail)
       },
       {
          // noid22
@@ -839,8 +839,8 @@
          "timeToExplo":0,
          "timeToExploV":0,
          "createOnExp":-1,// soid (created on explosion)
-         "splinterType":-1,// noid (created on trail)
          "leaveObj":-1,// soid (created on trail)
+         "splinterType":-1,// noid (created on trail)
       },
       {
          // noid23
@@ -871,8 +871,8 @@
          "timeToExplo":0,
          "timeToExploV":0,
          "createOnExp":8,// soid (created on explosion)
-         "splinterType":5,// noid (created on trail)
          "leaveObj":3,// soid (created on trail)
+         "splinterType":5,// noid (created on trail)
       }
    ],
    "sObjects":[

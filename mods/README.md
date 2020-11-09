@@ -728,7 +728,7 @@ crossHairSprite: 153 // The sprite id of The crosshair used.
 
 ## Mandatory nObjects and sObjects ⚠️
 
-There are some specific indexes of `nObjects` that **need** to have items filled and is used on the internals of the liero game.
+There are some specific indexes of `nObjects` and `sObjects` that **need** to have items filled and is used on the internals of the liero game.
 
 The hardcode mandatory items.
 
@@ -763,14 +763,14 @@ If these items are removed from the objects array, the game becomes buggy, can f
 
 #### `sObjects`
 
-0. - [ ] Large explosion
-1. - [ ] Medium explosion
-2. - [ ] Small explosion
-3. - [ ] Hellraider smoke
-4. - [ ] Zimm flash
-5. - [ ] Nuke smoke
-6. - [ ] Flashing pixel
-7. - [ ] Teleport flash
+0. - [x] Large explosion
+1. - [x] Medium explosion
+2. - [x] Small explosion
+3. - [x] Hellraider smoke
+4. - [x] Zimm flash
+5. - [x] Nuke smoke
+6. - [x] Flashing pixel
+7. - [x] Teleport flash
 8. - [ ] Small explosion, silent
 9. - [ ] Very small explosion, silent
 10. - [ ] Medium explosion, smaller

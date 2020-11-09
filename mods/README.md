@@ -712,14 +712,18 @@ crossHairSprite: 153 // The sprite id of The crosshair used.
 
 ## The Connection Between Objects 🧬
 
+![objects_relation🧬](https://user-images.githubusercontent.com/7637806/98485669-c4103500-21f6-11eb-8e8c-38e59146eda3.png)
+
+#### Explanation
+
 1. In `weapons` u have `bulletType`: refers to the `wObject` id. Created on gunshot.
 2. In `wObject` u have `createOnExp`: refers to `sObject` id. Created on explosion.
-3. In `wObject` u have `splinterType`: refers to `nObject` id. Created on explosion. `splinterAmount` refers to the ammount.
-4. In `wObject` u have `objTrailType`: refers to `sObject` id. Created on trail.
+3. In `wObject` u have `objTrailType`: refers to `sObject` id. Created on trail.
+4. In `wObject` u have `splinterType`: refers to `nObject` id. Created on explosion. `splinterAmount` refers to the ammount.
 5. In `wObject` u have `partTrailObj`: refers to `nObject` id. Created on trail.
 6. In `nObject` u have `createOnExp`: refers to `sObject` id. Created on explosion.
-7. In `nObject` u have `splinterType`: refers to `nObject` id. Created on explosion. `splinterAmount` refers to the ammount.
-8. In `nObject` u have `leaveObj`: refers to `sObject` id. Created on trail.
+7. In `nObject` u have `leaveObj`: refers to `sObject` id. Created on trail.
+8. In `nObject` u have `splinterType`: refers to `nObject` id. Created on explosion. `splinterAmount` refers to the ammount.
 
 
 ## Mandatory nObjects and sObjects ⚠️
@@ -728,7 +732,7 @@ There are some specific indexes of `nObjects` and `sObjects` that **need** to ha
 
 The hardcode mandatory items.
 
-If these items are removed from the objects array, the game becomes buggy, can freeze and can generate console errors on the browser. Be aware with these items!
+If these items are removed from the objects array, the game becomes buggy, can freeze and can generate console errors on the browser. Be aware with the following marked items!
 
 #### `nObjects`
 

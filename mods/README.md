@@ -740,36 +740,36 @@ If these items are removed from the objects array, the game becomes buggy, can f
 5. - [x] Particle (larger damage)
 6. - [x] Blood
 7. - [x] Shells
-8.  - [] Clusterbomb bombs
-9.  - [] Large nukes
-10. - [] Hellraider bullets
-11. - [] Small nukes
-12. - [] Napalm fireballs
-13. - [] Dirt
-14. - [] Chiquitabomb bombs
-15. - [] Grasshopper 1
-16. - [] Grasshopper 2
-17. - [] Grasshopper 3
-18. - [] Grasshopper 4
-19. - [] Grasshopper 5
-20. - [] Flag 1
-21. - [] Flag 2
-22. - [] Grasshopper 6
-23. - [] Grasshopper 7
+8.  - [ ] Clusterbomb bombs
+9.  - [ ] Large nukes
+10. - [ ] Hellraider bullets
+11. - [ ] Small nukes
+12. - [ ] Napalm fireballs
+13. - [ ] Dirt
+14. - [ ] Chiquitabomb bombs
+15. - [ ] Grasshopper 1
+16. - [ ] Grasshopper 2
+17. - [ ] Grasshopper 3
+18. - [ ] Grasshopper 4
+19. - [ ] Grasshopper 5
+20. - [ ] Flag 1
+21. - [ ] Flag 2
+22. - [ ] Grasshopper 6
+23. - [ ] Grasshopper 7
 
 #### `sObjects`
 
-0. - [] Large explosion
-1. - [] Medium explosion
-2. - [] Small explosion
-3. - [] Hellraider smoke
-4. - [] Zimm flash
-5. - [] Nuke smoke
-6. - [] Flashing pixel
-7. - [] Teleport flash
-8. - [] Small explosion, silent
-9. - [] Very small explosion, silent
-10. - [] Medium explosion, smaller
-11. - [] Large explosion, smaller
-12. - [] Medium explosion, bigger
-13. - [] Unknown
+0. - [x] Large explosion
+1. - [x] Medium explosion
+2. - [x] Small explosion
+3. - [x] Hellraider smoke
+4. - [x] Zimm flash
+5. - [x] Nuke smoke
+6. - [x] Flashing pixel
+7. - [x] Teleport flash
+8. - [ ] Small explosion, silent
+9. - [ ] Very small explosion, silent
+10. - [ ] Medium explosion, smaller
+11. - [ ] Large explosion, smaller
+12. - [ ] Medium explosion, bigger
+13. - [ ] Unknown

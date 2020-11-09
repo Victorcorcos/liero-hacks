@@ -98,10 +98,10 @@
        "partTrailType": 0,
        "partTrailDelay": 0,
        "speed": 230,
-       "createOnExp": 2,// soid (created on explosion)
-       "objTrailType": -1,// soid (created on trail)
-       "splinterType": 4,// noid (created on explosion)
-       "partTrailObj": -1// noid (created on trail)
+       "createOnExp":8,// soid (created on explosion)
+       "objTrailType":-1,// soid (created on trail)
+       "splinterType":4,// noid (created on explosion)
+       "partTrailObj":-1// noid (created on trail)
      }
    ],
    "nObjects":[
@@ -230,7 +230,7 @@
          "timeToExplo":15,
          "timeToExploV":3,
          "createOnExp":-1,// soid (created on explosion)
-         "leaveObj":2,// soid (created on trail)
+         "leaveObj":10,// soid (created on trail)
          "splinterType":-1,// noid (created on trail)
          // "leaveObj": {
          //    // soid7
@@ -279,7 +279,7 @@
          "timeToExplo":10,
          "timeToExploV":3,
          "createOnExp":-1,// soid (created on explosion)
-         "leaveObj":1,// soid (created on trail)
+         "leaveObj":9,// soid (created on trail)
          "splinterType":-1,// noid (created on trail)
          //  "leaveObj": {
          //    // soid6
@@ -327,7 +327,7 @@
          "leaveObjDelay":0,
          "timeToExplo":0,
          "timeToExploV":0,
-         "createOnExp":0,// soid (created on explosion)
+         "createOnExp":8,// soid (created on explosion)
          "leaveObj":-1,// soid (created on trail)
          "splinterType":-1,// noid (created on trail)
       },
@@ -415,6 +415,134 @@
       },
       {
          // soid1
+         // Medium explosion
+         "startSound":10,
+         "numSounds":0,
+         "animDelay":0,
+         "startFrame":45,
+         "numFrames":10,
+         "detectRange":5,
+         "damage":5,
+         "blowAway":0.030517578125,
+         "shadow":true,
+         "shake":32,
+         "flash":55,
+         "dirtEffect":1
+      },
+      {
+         // soid2
+         // Small explosion
+         "startSound":25,
+         "numSounds":3,
+         "animDelay":5,
+         "startFrame":104,
+         "numFrames":3,
+         "detectRange":4,
+         "damage":6,
+         "blowAway":0.0457763671875,
+         "shadow":false,
+         "shake":2,
+         "flash":1,
+         "dirtEffect":2
+      },
+      {
+         // soid3
+         // Smoke1 (Hellraider)
+         "startSound":-1,
+         "numSounds":0,
+         "animDelay":2,
+         "startFrame":64,
+         "numFrames":4,
+         "detectRange":2,
+         "damage":1,
+         "blowAway":0,
+         "shadow":false,
+         "shake":1,
+         "flash":0,
+         "dirtEffect":-1
+      },
+      {
+         // soid4
+         // Flash
+         "startSound":-1,
+         "numSounds":0,
+         "animDelay":0,
+         "startFrame":100,
+         "numFrames":0,
+         "detectRange":1,
+         "damage":0,
+         "blowAway":0.000030517578125,
+         "shadow":true,
+         "shake":0,
+         "flash":0,
+         "dirtEffect":5
+      },
+      {
+         // soid5
+         // Smoke2 (Nuke)
+         "startSound":-1,
+         "numSounds":0,
+         "animDelay":0,
+         "startFrame":100,
+         "numFrames":0,
+         "detectRange":1,
+         "damage":2,
+         "blowAway":0.0000152587890625,
+         "shadow":false,
+         "shake":0,
+         "flash":0,
+         "dirtEffect":-1
+      },
+      {
+         // soid6
+         // Flashing pixel
+         "startSound":-1,
+         "numSounds":0,
+         "animDelay":0,
+         "startFrame":76,
+         "numFrames":2,
+         "detectRange":2,
+         "damage":1,
+         "blowAway":0.0000762939453125,
+         "shadow":true,
+         "shake":0,
+         "flash":0,
+         "dirtEffect":-1
+      },
+      {
+         // soid7
+         // Teleport flash
+         "startSound":-1,
+         "numSounds":0,
+         "animDelay":4,
+         "startFrame":100,
+         "numFrames":3,
+         "detectRange":0,
+         "damage":0,
+         "blowAway":0.000030517578125,
+         "shadow":true,
+         "shake":0,
+         "flash":0,
+         "dirtEffect":-1
+      },
+      {
+         // soid8
+         // (SHOTGUN createOnExp)
+         "startSound":-1,
+         "numSounds":0,
+         "animDelay":4,
+         "startFrame":64,
+         "numFrames":4,
+         "detectRange":3,
+         "damage":2,
+         "blowAway":0.0030517578125,
+         "shadow":true,
+         "shake":0,
+         "flash":0,
+         "dirtEffect":5
+      },
+      {
+         // soid9
          // Flashing pixel
          // (SHOTGUN leaveObj)
          "startSound":-1,
@@ -431,7 +559,7 @@
          "dirtEffect":-1
       },
       {
-         // soid2
+         // soid10
          "startSound":-1,
          "numSounds":0,
          "animDelay":4,

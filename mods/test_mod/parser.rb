@@ -1,36 +1,34 @@
-# https://github.com/Victorcorcos/liero-hacks/tree/main/mods#the-connection-between-objects-
-
-# weapons => bulletType: refers to the wObject id. Created on gunshot.
-
-# wObject => createOnExp: refers to sObject id. Created on explosion.
-# wObject => splinterType: refers to nObject id. Created on explosion. splinterAmount refers to the ammount.
-# wObject => objTrailType: refers to sObject id. Created on trail.
-# wObject => partTrailObj: refers to nObject id. Created on trail.
-
-# nObject => createOnExp: refers to sObject id. Created on explosion.
-# nObject => splinterType: refers to nObject id. Created on explosion. splinterAmount refers to the ammount.
-# nObject => leaveObj: refers to sObject id. Created on trail.
+# github.com/Victorcorcos/liero-hacks/tree/main/mods#the-connection-between-objects-
 
 require 'json'
 
 # Execute this file with: `ruby parser.rb`
 # It will generate the 'mod.json' file in a format importable by webliero.
 
-# This file ease the proccess to create liero mods
+# This file is created with the purpose to ease the proccess to create the association between objects in liero mods
+# Instead of requiring to place indexes on the json file structure. For example...
+#   "createOnExp": 5
+# You can place the object itself as the value. For example...
+#   "createOnExp": {
+#      # Large explosion
+#      "startSound":10,
+#      "numSounds":3,
+#      "animDelay":4,
+#      "startFrame":40,
+#      "numFrames":15,
+#      "detectRange":35,
+#      "damage":90,
+#      "blowAway":0.05340576171875,
+#      "shadow":true,
+#      "shake":5,
+#      "flash":2,
+#      "dirtEffect":0
+#   }
 
-# I noticed that, during the proccess to create a liero mod, we need to
-# Create the `weapons`, `wObjects`, `nObjects` and `sObjects`.
-# They are all related, but difficult to create and maintain, because they are on different parts of the json structure
-# We need to jump over the json to find the objects related to each other,
-# which is kinda boring and unnecessarily difficult to deal with.
-
-# This file simplifies the `mod.json` file by already linking the related objects inside the json structure.
-# Thus creating a more user friendly interface to work with.
-
-# Change/Add weapons here!
+# Change / Add your weapons here!
 config = {
    "soundpack":"csliero.zip",
-   "constants":{
+   "constants": {
       "nrInitialLength":250,
       "nrAttachLength":28.125,
       "minBounceUp":-0.8125,
@@ -72,71 +70,215 @@ config = {
       "hBonusReloadOnly":false
    },
    "weapons": [
-      {
-        # SHOTGUN
-        "name":"SHOTGUN",
-        "parts":10,
-        "bulletSpeed":2.3,
-        "bulletSpeedInherit":0,
-        "distribution":0.4999847412109375,
-        "recoil":0.25,
-        "ammo":8,
-        "delay":56,
-        "loadingTime":680,
-        "leaveShells":1,
-        "leaveShellDelay":28,
-        "fireCone":4,
-        "laserSight":false,
-        "laserBeam":false,
-        "launchSound":0,
-        "playReloadSound":true,
-        "bulletType":0 # wObject id
+     {
+       # wid0
+       "name": "SHOTGUN",
+       "parts": 10,
+       "bulletSpeed": 2.3,
+       "bulletSpeedInherit": 0,
+       "distribution": 0.4999847412109375,
+       "recoil": 0.25,
+       "ammo": 8,
+       "delay": 56,
+       "loadingTime": 680,
+       "leaveShells": 1,
+       "leaveShellDelay": 28,
+       "fireCone": 4,
+       "laserSight": false,
+       "laserBeam": false,
+       "launchSound": 0,
+       "playReloadSound": true,
+       "bulletType": {
+         # woid0 => "SHOTGUN"
+         "detectDistance": 1,
+         "blowAway": 0.05,
+         "gravity": 0.002288818359375,
+         "exploSound": -1,
+         "addSpeed": 3,
+         "distribution": 0.4999847412109375,
+         "multSpeed": 1,
+         "dirtEffect": -1,
+         "wormExplode": false,
+         "explGround": true,
+         "wormCollide": true,
+         "collideWithObjects": true,
+         "affectByExplosions": true,
+         "bounce": 0,
+         "bounceFriction": 0.8,
+         "timeToExplo": 0,
+         "timeToExploV": 0,
+         "hitDamage": 10,
+         "bloodOnHit": 1,
+         "startFrame": -1,
+         "numFrames": 0,
+         "loopAnim": false,
+         "shotType": 4,
+         "repeat": 8,
+         "colorBullets": 161,
+         "splinterAmount": 1,
+         "splinterColour": 71,
+         "splinterScatter": 1,
+         "objTrailDelay": 0,
+         "partTrailType": 0,
+         "partTrailDelay": 0,
+         "speed": 230,
+         "createOnExp": 2,# soid (created on explosion)
+         "objTrailType": -1,# soid (created on trail)
+         "splinterType": 4,# noid (created on explosion)
+         "partTrailObj": -1# noid (created on trail)
+       }
      }
    ],
-   "wObjects":[
+   "wObjects": [],
+   "nObjects": [
       {
-         # SHOTGUN wObject (from weapons bulletType)
-         "detectDistance":1,
+         # noid0
+         # Worm 1 parts
+         "detectDistance":3,
+         "gravity":0.030517578125,
+         "speed":1,
+         "speedV":0.4,
+         "distribution":0.1220703125,
          "blowAway":0.05,
-         "gravity":0.002288818359375,
-         "exploSound":10,
-         "addSpeed":3,
-         "distribution":0.4999847412109375,
-         "multSpeed":1,
-         "dirtEffect":-1,
+         "bounce":0.2,
+         "hitDamage":0,
          "wormExplode":false,
          "explGround":true,
-         "wormCollide":true,
-         "collideWithObjects":true,
-         "affectByExplosions":true,
-         "bounce":0,
-         "bounceFriction":0.8,
-         "timeToExplo":0,
-         "timeToExploV":0,
-         "hitDamage":10,
-         "bloodOnHit":1,
-         "startFrame":-1,
-         "numFrames":0,
-         "loopAnim":false,
-         "shotType":4,
-         "repeat":8,
-         "colorBullets":161,
-         "splinterColour":71,
-         "splinterScatter":1,
-         "objTrailDelay":0,
-         "partTrailType":0,
-         "partTrailDelay":0,
-         "speed":230,
-         "createOnExp":-1, # sObject created on explosion
-         "splinterType":0, # nObject created on explosion
-         "splinterAmount":0, # ^ Ammount
-         "objTrailType":-1, # sObject created on trail
-         "partTrailObj":-1  # nObject created on trail
-      }
-   ],
-   "nObjects":[
+         "wormDestroy":false,
+         "bloodOnHit":0,
+         "startFrame":165,
+         "numFrames":3,
+         "drawOnMap":false,
+         "colorBullets":0,
+         "affectByExplosions":false,
+         "dirtEffect":-1,
+         "splinterAmount":0,
+         "splinterColour":0,
+         "bloodTrail":true,
+         "bloodTrailDelay":1,
+         "leaveObjDelay":0,
+         "timeToExplo":200,
+         "timeToExploV":50,
+         "createOnExp":-1,# soid (created on explosion)
+         "leaveObj":-1,# soid (created on trail)
+         "splinterType":6,# noid (created on trail)
+      },
       {
-         # SHOTGUN nObject (from wObject splinterType)
+         # noid1
+         # Worm 2 parts
+         "detectDistance":3,
+         "gravity":0.030517578125,
+         "speed":1,
+         "speedV":0.4,
+         "distribution":0.1220703125,
+         "blowAway":0.05,
+         "bounce":0.2,
+         "hitDamage":0,
+         "wormExplode":false,
+         "explGround":true,
+         "wormDestroy":false,
+         "bloodOnHit":0,
+         "startFrame":169,
+         "numFrames":3,
+         "drawOnMap":false,
+         "colorBullets":0,
+         "affectByExplosions":false,
+         "dirtEffect":-1,
+         "splinterAmount":0,
+         "splinterColour":0,
+         "bloodTrail":true,
+         "bloodTrailDelay":1,
+         "leaveObjDelay":0,
+         "timeToExplo":200,
+         "timeToExploV":50,
+         "createOnExp":-1,# soid (created on explosion)
+         "leaveObj":-1,# soid (created on trail)
+         "splinterType":6,# noid (created on trail)
+      },
+      {
+         # noid2
+         # Particle (disappearing non-dmg)
+         "detectDistance":0,
+         "gravity":0.01068115234375,
+         "speed":0.2,
+         "speedV":0.4,
+         "distribution":0.091552734375,
+         "blowAway":0,
+         "bounce":0,
+         "hitDamage":0,
+         "wormExplode":false,
+         "explGround":true,
+         "wormDestroy":false,
+         "bloodOnHit":0,
+         "startFrame":0,
+         "numFrames":0,
+         "drawOnMap":false,
+         "colorBullets":68,
+         "affectByExplosions":false,
+         "dirtEffect":-1,
+         "splinterAmount":0,
+         "splinterColour":0,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":0,
+         "timeToExplo":30,
+         "timeToExploV":2,
+         "createOnExp":-1,# soid (created on explosion)
+         "leaveObj":-1,# soid (created on trail)
+         "splinterType":-1,# noid (created on trail)
+      },
+      {
+         # noid3
+         # Particle (small damage)
+         "detectDistance":2,
+         "gravity":0.0457763671875,
+         "speed":4,
+         "speedV":1,
+         "distribution":0.30517578125,
+         "blowAway":0.06,
+         "bounce":0,
+         "hitDamage":9,
+         "wormExplode":true,
+         "explGround":true,
+         "wormDestroy":true,
+         "bloodOnHit":1,
+         "startFrame":0,
+         "numFrames":0,
+         "drawOnMap":false,
+         "colorBullets":0,
+         "affectByExplosions":false,
+         "dirtEffect":-1,
+         "splinterAmount":0,
+         "splinterColour":0,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":1,
+         "timeToExplo":15,
+         "timeToExploV":3,
+         "createOnExp":-1,# soid (created on explosion)
+         "leaveObj":2,# soid (created on trail)
+         "splinterType":-1,# noid (created on trail)
+         # "leaveObj": {
+         #    # soid7
+         #    # Teleport flash
+         #    "startSound":-1,
+         #    "numSounds":0,
+         #    "animDelay":4,
+         #    "startFrame":100,
+         #    "numFrames":3,
+         #    "detectRange":0,
+         #    "damage":0,
+         #    "blowAway":0.000030517578125,
+         #    "shadow":true,
+         #    "shake":0,
+         #    "flash":0,
+         #    "dirtEffect":-1
+         # }
+      },
+      {
+         # noid4
+         # Particle (medium damage)
+         # (SHOTGUN splinterType)
          "detectDistance":1,
          "gravity":0.1434326171875,
          "speed":1,
@@ -155,21 +297,167 @@ config = {
          "colorBullets":75,
          "affectByExplosions":false,
          "dirtEffect":-1,
+         "splinterAmount":0,
          "splinterColour":0,
          "bloodTrail":false,
          "bloodTrailDelay":0,
          "leaveObjDelay":1,
          "timeToExplo":10,
          "timeToExploV":3,
-         "createOnExp":-1,  # sObject created on explosion
-         "splinterType":-1, # nObject created on explosion
-         "splinterAmount":0,# ^ Ammount
-         "leaveObj":1 # sObject created on trail
+         "createOnExp":-1,# soid (created on explosion)
+         "leaveObj":1,# soid (created on trail)
+         "splinterType":-1,# noid (created on trail)
+         #  "leaveObj": {
+         #    # soid6
+         #    # Flashing pixel
+         #    # (SHOTGUN leaveObj)
+         #    "startSound":-1,
+         #    "numSounds":0,
+         #    "animDelay":0,
+         #    "startFrame":76,
+         #    "numFrames":2,
+         #    "detectRange":2,
+         #    "damage":1,
+         #    "blowAway":0.0000762939453125,
+         #    "shadow":true,
+         #    "shake":0,
+         #    "flash":0,
+         #    "dirtEffect":-1
+         # },
+      },
+      {
+         # noid5
+         # Particle (larger damage)
+         "detectDistance":2,
+         "gravity":0.06103515625,
+         "speed":5,
+         "speedV":0,
+         "distribution":0,
+         "blowAway":0.2,
+         "bounce":0,
+         "hitDamage":9,
+         "wormExplode":false,
+         "explGround":true,
+         "wormDestroy":true,
+         "bloodOnHit":3,
+         "startFrame":202,
+         "numFrames":3,
+         "drawOnMap":false,
+         "colorBullets":54,
+         "affectByExplosions":false,
+         "dirtEffect":-1,
+         "splinterAmount":2,
+         "splinterColour":0,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":0,
+         "timeToExplo":0,
+         "timeToExploV":0,
+         "createOnExp":0,# soid (created on explosion)
+         "leaveObj":-1,# soid (created on trail)
+         "splinterType":-1,# noid (created on trail)
+      },
+      {
+         # noid6
+         # Blood
+         "detectDistance":0,
+         "gravity":0.0152587890625,
+         "speed":0.1,
+         "speedV":2,
+         "distribution":0.30517578125,
+         "blowAway":0,
+         "bounce":0.2,
+         "hitDamage":0,
+         "wormExplode":false,
+         "explGround":true,
+         "wormDestroy":false,
+         "bloodOnHit":0,
+         "startFrame":0,
+         "numFrames":0,
+         "drawOnMap":false,
+         "colorBullets":0,
+         "affectByExplosions":false,
+         "dirtEffect":-1,
+         "splinterAmount":0,
+         "splinterColour":0,
+         "bloodTrail":true,
+         "bloodTrailDelay":1,
+         "leaveObjDelay":0,
+         "timeToExplo":15,
+         "timeToExploV":3,
+         "createOnExp":-1,# soid (created on explosion)
+         "leaveObj":-1,# soid (created on trail)
+         "splinterType":-1,# noid (created on trail)
+      },
+      {
+         # noid7
+         # Shells
+         "detectDistance":0,
+         "gravity":0.0152587890625,
+         "speed":0.2,
+         "speedV":0.3,
+         "distribution":0.1220703125,
+         "blowAway":0,
+         "bounce":0,
+         "hitDamage":0,
+         "wormExplode":false,
+         "explGround":true,
+         "wormDestroy":false,
+         "bloodOnHit":0,
+         "startFrame":0,
+         "numFrames":0,
+         "drawOnMap":false,
+         "colorBullets":57,
+         "affectByExplosions":false,
+         "dirtEffect":-1,
+         "splinterAmount":0,
+         "splinterColour":0,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":0,
+         "timeToExplo":0,
+         "timeToExploV":0,
+         "createOnExp":-1,# soid (created on explosion)
+         "leaveObj":-1,# soid (created on trail)
+         "splinterType":-1,# noid (created on trail)
       }
    ],
-   "sObjects":[
+   "sObjects": [
       {
-         # SHOTGUN sObject (from wObject createOnExp)
+         # soid0
+         # Large explosion
+         "startSound":10,
+         "numSounds":3,
+         "animDelay":4,
+         "startFrame":40,
+         "numFrames":15,
+         "detectRange":35,
+         "damage":90,
+         "blowAway":0.05340576171875,
+         "shadow":true,
+         "shake":5,
+         "flash":2,
+         "dirtEffect":0
+      },
+      {
+         # soid1
+         # Flashing pixel
+         # (SHOTGUN leaveObj)
+         "startSound":-1,
+         "numSounds":0,
+         "animDelay":0,
+         "startFrame":76,
+         "numFrames":2,
+         "detectRange":2,
+         "damage":1,
+         "blowAway":0.0000762939453125,
+         "shadow":true,
+         "shake":0,
+         "flash":0,
+         "dirtEffect":-1
+      },
+      {
+         # soid2
          "startSound":-1,
          "numSounds":0,
          "animDelay":4,
@@ -183,23 +471,8 @@ config = {
          "flash":0,
          "dirtEffect":5
       },
-      {
-         # SHOTGUN sObject (from nObject leaveObj)
-         "startSound":-1,
-         "numSounds":0,
-         "animDelay":0,
-         "startFrame":76,
-         "numFrames":2,
-         "detectRange":2,
-         "damage":1,
-         "blowAway":0.0000762939453125,
-         "shadow":true,
-         "shake":0,
-         "flash":0,
-         "dirtEffect":-1
-      }
    ],
-   "textures":[
+   "textures": [
       {
          "nDrawBack":true,
          "mFrame":0,
@@ -255,7 +528,7 @@ config = {
          "rFrame":2
       }
    ],
-   "colorAnim":[
+   "colorAnim": [
       129,
       131,
       133,
@@ -269,10 +542,23 @@ config = {
    "crossHairSprite":153
 }
 
+def parser(config)
+  config[:weapons].each do |weapon|
+    next unless weapon[:bulletType].is_a? Hash
+    config[:wObjects].push(weapon[:bulletType])
+    weapon[:bulletType] = config[:wObjects].length - 1
+  end
+
+  config[:wObjects].each do |wObject|
+
+  end
+end
+
 def create_file(config)
   file = File.new('mod.json', 'w')
   file.puts(JSON.pretty_generate(config))
   file.close
 end
 
+parser(config)
 create_file(config)

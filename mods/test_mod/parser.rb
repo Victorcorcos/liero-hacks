@@ -658,22 +658,22 @@ def parser(config)
   config[:wObjects].each do |wObject|
     # sObjects
     if wObject[:createOnExp].is_a? Hash
-      config[:sObjects].push(wObject[:createOnExp])
-      wObject[:createOnExp] = config[:sObjects].length - 1
+      config[:sObjects].push(wObject[:createOnExp]) unless config[:sObjects].include?(wObject[:createOnExp])
+      wObject[:createOnExp] = config[:sObjects].index { |sObject| sObject == wObject[:createOnExp] }
     end
     if wObject[:objTrailType].is_a? Hash
-      config[:sObjects].push(wObject[:objTrailType])
-      wObject[:objTrailType] = config[:sObjects].length - 1
+      config[:sObjects].push(wObject[:objTrailType]) unless config[:sObjects].include?(wObject[:objTrailType])
+      wObject[:objTrailType] = config[:sObjects].index { |sObject| sObject == wObject[:objTrailType] }
     end
 
     # nObjects
     if wObject[:splinterType].is_a? Hash
-      config[:nObjects].push(wObject[:splinterType])
-      wObject[:splinterType] = config[:nObjects].length - 1
+      config[:nObjects].push(wObject[:splinterType]) unless config[:nObjects].include?(wObject[:splinterType])
+      wObject[:splinterType] = config[:nObjects].index { |nObject| nObject == wObject[:splinterType] }
     end
     if wObject[:partTrailObj].is_a? Hash
-      config[:nObjects].push(wObject[:partTrailObj])
-      wObject[:partTrailObj] = config[:nObjects].length - 1
+      config[:nObjects].push(wObject[:partTrailObj]) unless config[:nObjects].include?(wObject[:partTrailObj])
+      wObject[:partTrailObj] = config[:nObjects].index { |nObject| nObject == wObject[:partTrailObj] }
     end
   end
 
@@ -681,18 +681,19 @@ def parser(config)
   config[:nObjects].each do |nObject|
     # sObjects
     if nObject[:createOnExp].is_a? Hash
-      config[:sObjects].push(nObject[:createOnExp])
-      nObject[:createOnExp] = config[:sObjects].length - 1
+      config[:sObjects].push(nObject[:createOnExp]) unless config[:sObjects].include?(nObject[:createOnExp])
+      nObject[:createOnExp] = config[:sObjects].index { |sObject| sObject == nObject[:createOnExp] }
     end
     if nObject[:leaveObj].is_a? Hash
-      config[:sObjects].push(nObject[:leaveObj])
-      nObject[:leaveObj] = config[:sObjects].length - 1
+      config[:sObjects].push(nObject[:leaveObj]) unless config[:sObjects].include?(nObject[:leaveObj])
+      nObject[:leaveObj] = config[:sObjects].index { |sObject| sObject == nObject[:leaveObj] }
     end
 
     # nObjects
     if nObject[:splinterType].is_a? Hash
-      config[:nObjects].push(nObject[:splinterType])
+      config[:nObjects].push(nObject[:splinterType]) unless config[:nObjects].include?(nObject[:splinterType])
       nObject[:splinterType] = config[:nObjects].length - 1
+      nObject[:splinterType] = config[:nObjects].index { |nObject| nObject == nObject[:splinterType] }
     end
   end
 end

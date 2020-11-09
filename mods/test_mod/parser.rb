@@ -6,7 +6,8 @@ require 'json'
 # It will generate the 'mod.json' file in a format importable by webliero.
 
 # This file is created with the purpose to ease the proccess to create the association between objects in liero mods
-# Instead of requiring to place indexes on the json file structure. For example...
+#
+# Instead of placing indexes on the json file structure. For example...
 #   "createOnExp": 5
 # You can place the object itself as the value. For example...
 #   "createOnExp": {
@@ -28,7 +29,7 @@ require 'json'
 # Change / Add your weapons here!
 config = {
    "soundpack":"csliero.zip",
-   "constants": {
+   "constants":{
       "nrInitialLength":250,
       "nrAttachLength":28.125,
       "minBounceUp":-0.8125,
@@ -69,7 +70,7 @@ config = {
       "hFallDamage":true,
       "hBonusReloadOnly":false
    },
-   "weapons": [
+   "weapons":[
      {
        # wid0
        "name": "SHOTGUN",
@@ -89,7 +90,7 @@ config = {
        "launchSound": 0,
        "playReloadSound": true,
        "bulletType": {
-         # woid0 => "SHOTGUN"
+         # wObject ("SHOTGUN")
          "detectDistance": 1,
          "blowAway": 0.05,
          "gravity": 0.002288818359375,
@@ -122,15 +123,29 @@ config = {
          "partTrailType": 0,
          "partTrailDelay": 0,
          "speed": 230,
-         "createOnExp": 2,# soid (created on explosion)
-         "objTrailType": -1,# soid (created on trail)
-         "splinterType": 4,# noid (created on explosion)
-         "partTrailObj": -1# noid (created on trail)
+         "createOnExp": {
+           # sObject (created on explosion)
+           "startSound":-1,
+           "numSounds":0,
+           "animDelay":4,
+           "startFrame":64,
+           "numFrames":4,
+           "detectRange":3,
+           "damage":2,
+           "blowAway":0.0030517578125,
+           "shadow":true,
+           "shake":0,
+           "flash":0,
+           "dirtEffect":5
+         },
+         "objTrailType":-1,# sObject (created on trail)
+         "splinterType":4,# nObject (created on explosion)
+         "partTrailObj":-1# nObject (created on trail)
        }
      }
    ],
-   "wObjects": [],
-   "nObjects": [
+   "wObjects":[],
+   "nObjects":[
       {
          # noid0
          # Worm 1 parts
@@ -159,9 +174,9 @@ config = {
          "leaveObjDelay":0,
          "timeToExplo":200,
          "timeToExploV":50,
-         "createOnExp":-1,# soid (created on explosion)
-         "leaveObj":-1,# soid (created on trail)
-         "splinterType":6,# noid (created on trail)
+         "createOnExp":-1,# sObject (created on explosion)
+         "leaveObj":-1,# sObject (created on trail)
+         "splinterType":6,# nObject (created on trail)
       },
       {
          # noid1
@@ -191,9 +206,9 @@ config = {
          "leaveObjDelay":0,
          "timeToExplo":200,
          "timeToExploV":50,
-         "createOnExp":-1,# soid (created on explosion)
-         "leaveObj":-1,# soid (created on trail)
-         "splinterType":6,# noid (created on trail)
+         "createOnExp":-1,# sObject (created on explosion)
+         "leaveObj":-1,# sObject (created on trail)
+         "splinterType":6,# nObject (created on trail)
       },
       {
          # noid2
@@ -223,9 +238,9 @@ config = {
          "leaveObjDelay":0,
          "timeToExplo":30,
          "timeToExploV":2,
-         "createOnExp":-1,# soid (created on explosion)
-         "leaveObj":-1,# soid (created on trail)
-         "splinterType":-1,# noid (created on trail)
+         "createOnExp":-1,# sObject (created on explosion)
+         "leaveObj":-1,# sObject (created on trail)
+         "splinterType":-1,# nObject (created on trail)
       },
       {
          # noid3
@@ -255,25 +270,23 @@ config = {
          "leaveObjDelay":1,
          "timeToExplo":15,
          "timeToExploV":3,
-         "createOnExp":-1,# soid (created on explosion)
-         "leaveObj":2,# soid (created on trail)
-         "splinterType":-1,# noid (created on trail)
-         # "leaveObj": {
-         #    # soid7
-         #    # Teleport flash
-         #    "startSound":-1,
-         #    "numSounds":0,
-         #    "animDelay":4,
-         #    "startFrame":100,
-         #    "numFrames":3,
-         #    "detectRange":0,
-         #    "damage":0,
-         #    "blowAway":0.000030517578125,
-         #    "shadow":true,
-         #    "shake":0,
-         #    "flash":0,
-         #    "dirtEffect":-1
-         # }
+         "createOnExp":-1,# sObject (created on explosion)
+         "leaveObj": {
+           # sObject (created on trail)
+           "startSound":-1,
+           "numSounds":0,
+           "animDelay":4,
+           "startFrame":64,
+           "numFrames":4,
+           "detectRange":3,
+           "damage":2,
+           "blowAway":0.0030517578125,
+           "shadow":true,
+           "shake":0,
+           "flash":0,
+           "dirtEffect":5
+         },
+         "splinterType":-1# nObject (created on trail)
       },
       {
          # noid4
@@ -304,26 +317,23 @@ config = {
          "leaveObjDelay":1,
          "timeToExplo":10,
          "timeToExploV":3,
-         "createOnExp":-1,# soid (created on explosion)
-         "leaveObj":1,# soid (created on trail)
-         "splinterType":-1,# noid (created on trail)
-         #  "leaveObj": {
-         #    # soid6
-         #    # Flashing pixel
-         #    # (SHOTGUN leaveObj)
-         #    "startSound":-1,
-         #    "numSounds":0,
-         #    "animDelay":0,
-         #    "startFrame":76,
-         #    "numFrames":2,
-         #    "detectRange":2,
-         #    "damage":1,
-         #    "blowAway":0.0000762939453125,
-         #    "shadow":true,
-         #    "shake":0,
-         #    "flash":0,
-         #    "dirtEffect":-1
-         # },
+         "createOnExp":-1,# sObject (created on explosion)
+         "leaveObj": {
+           # sObject (created on trail)
+           "startSound":-1,
+           "numSounds":0,
+           "animDelay":0,
+           "startFrame":76,
+           "numFrames":2,
+           "detectRange":2,
+           "damage":1,
+           "blowAway":0.0000762939453125,
+           "shadow":true,
+           "shake":0,
+           "flash":0,
+           "dirtEffect":-1
+         },
+         "splinterType":-1# nObject (created on trail)
       },
       {
          # noid5
@@ -353,9 +363,23 @@ config = {
          "leaveObjDelay":0,
          "timeToExplo":0,
          "timeToExploV":0,
-         "createOnExp":0,# soid (created on explosion)
-         "leaveObj":-1,# soid (created on trail)
-         "splinterType":-1,# noid (created on trail)
+         "createOnExp": {
+           # sObject (created on explosion)
+           "startSound":-1,
+           "numSounds":0,
+           "animDelay":4,
+           "startFrame":64,
+           "numFrames":4,
+           "detectRange":3,
+           "damage":2,
+           "blowAway":0.0030517578125,
+           "shadow":true,
+           "shake":0,
+           "flash":0,
+           "dirtEffect":5
+         },
+         "leaveObj":-1,# sObject (created on trail)
+         "splinterType":-1,# nObject (created on trail)
       },
       {
          # noid6
@@ -385,9 +409,9 @@ config = {
          "leaveObjDelay":0,
          "timeToExplo":15,
          "timeToExploV":3,
-         "createOnExp":-1,# soid (created on explosion)
-         "leaveObj":-1,# soid (created on trail)
-         "splinterType":-1,# noid (created on trail)
+         "createOnExp":-1,# sObject (created on explosion)
+         "leaveObj":-1,# sObject (created on trail)
+         "splinterType":-1,# nObject (created on trail)
       },
       {
          # noid7
@@ -417,12 +441,12 @@ config = {
          "leaveObjDelay":0,
          "timeToExplo":0,
          "timeToExploV":0,
-         "createOnExp":-1,# soid (created on explosion)
-         "leaveObj":-1,# soid (created on trail)
-         "splinterType":-1,# noid (created on trail)
+         "createOnExp":-1,# sObject (created on explosion)
+         "leaveObj":-1,# sObject (created on trail)
+         "splinterType":-1,# nObject (created on trail)
       }
    ],
-   "sObjects": [
+   "sObjects":[
       {
          # soid0
          # Large explosion
@@ -441,8 +465,87 @@ config = {
       },
       {
          # soid1
+         # Medium explosion
+         "startSound":10,
+         "numSounds":0,
+         "animDelay":0,
+         "startFrame":45,
+         "numFrames":10,
+         "detectRange":5,
+         "damage":5,
+         "blowAway":0.030517578125,
+         "shadow":true,
+         "shake":32,
+         "flash":55,
+         "dirtEffect":1
+      },
+      {
+         # soid2
+         # Small explosion
+         "startSound":25,
+         "numSounds":3,
+         "animDelay":5,
+         "startFrame":104,
+         "numFrames":3,
+         "detectRange":4,
+         "damage":6,
+         "blowAway":0.0457763671875,
+         "shadow":false,
+         "shake":2,
+         "flash":1,
+         "dirtEffect":2
+      },
+      {
+         # soid3
+         # Smoke1 (Hellraider)
+         "startSound":-1,
+         "numSounds":0,
+         "animDelay":2,
+         "startFrame":64,
+         "numFrames":4,
+         "detectRange":2,
+         "damage":1,
+         "blowAway":0,
+         "shadow":false,
+         "shake":1,
+         "flash":0,
+         "dirtEffect":-1
+      },
+      {
+         # soid4
+         # Flash
+         "startSound":-1,
+         "numSounds":0,
+         "animDelay":0,
+         "startFrame":100,
+         "numFrames":0,
+         "detectRange":1,
+         "damage":0,
+         "blowAway":0.000030517578125,
+         "shadow":true,
+         "shake":0,
+         "flash":0,
+         "dirtEffect":5
+      },
+      {
+         # soid5
+         # Smoke2 (Nuke)
+         "startSound":-1,
+         "numSounds":0,
+         "animDelay":0,
+         "startFrame":100,
+         "numFrames":0,
+         "detectRange":1,
+         "damage":2,
+         "blowAway":0.0000152587890625,
+         "shadow":false,
+         "shake":0,
+         "flash":0,
+         "dirtEffect":-1
+      },
+      {
+         # soid6
          # Flashing pixel
-         # (SHOTGUN leaveObj)
          "startSound":-1,
          "numSounds":0,
          "animDelay":0,
@@ -457,22 +560,23 @@ config = {
          "dirtEffect":-1
       },
       {
-         # soid2
+         # soid7
+         # Teleport flash
          "startSound":-1,
          "numSounds":0,
          "animDelay":4,
-         "startFrame":64,
-         "numFrames":4,
-         "detectRange":3,
-         "damage":2,
-         "blowAway":0.0030517578125,
+         "startFrame":100,
+         "numFrames":3,
+         "detectRange":0,
+         "damage":0,
+         "blowAway":0.000030517578125,
          "shadow":true,
          "shake":0,
          "flash":0,
-         "dirtEffect":5
-      },
+         "dirtEffect":-1
+      }
    ],
-   "textures": [
+   "textures":[
       {
          "nDrawBack":true,
          "mFrame":0,
@@ -528,7 +632,7 @@ config = {
          "rFrame":2
       }
    ],
-   "colorAnim": [
+   "colorAnim":[
       129,
       131,
       133,
@@ -543,14 +647,53 @@ config = {
 }
 
 def parser(config)
+  # Parsing weapons
   config[:weapons].each do |weapon|
     next unless weapon[:bulletType].is_a? Hash
     config[:wObjects].push(weapon[:bulletType])
     weapon[:bulletType] = config[:wObjects].length - 1
   end
 
+  # Parsing wObjects
   config[:wObjects].each do |wObject|
+    # sObjects
+    if wObject[:createOnExp].is_a? Hash
+      config[:sObjects].push(wObject[:createOnExp])
+      wObject[:createOnExp] = config[:sObjects].length - 1
+    end
+    if wObject[:objTrailType].is_a? Hash
+      config[:sObjects].push(wObject[:objTrailType])
+      wObject[:objTrailType] = config[:sObjects].length - 1
+    end
 
+    # nObjects
+    if wObject[:splinterType].is_a? Hash
+      config[:nObjects].push(wObject[:splinterType])
+      wObject[:splinterType] = config[:nObjects].length - 1
+    end
+    if wObject[:partTrailObj].is_a? Hash
+      config[:nObjects].push(wObject[:partTrailObj])
+      wObject[:partTrailObj] = config[:nObjects].length - 1
+    end
+  end
+
+  # Parsing nObjects
+  config[:nObjects].each do |nObject|
+    # sObjects
+    if nObject[:createOnExp].is_a? Hash
+      config[:sObjects].push(nObject[:createOnExp])
+      nObject[:createOnExp] = config[:sObjects].length - 1
+    end
+    if nObject[:leaveObj].is_a? Hash
+      config[:sObjects].push(nObject[:leaveObj])
+      nObject[:leaveObj] = config[:sObjects].length - 1
+    end
+
+    # nObjects
+    if nObject[:splinterType].is_a? Hash
+      config[:nObjects].push(nObject[:splinterType])
+      nObject[:splinterType] = config[:nObjects].length - 1
+    end
   end
 end
 

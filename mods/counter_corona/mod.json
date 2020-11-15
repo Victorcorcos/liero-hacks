@@ -46,7 +46,6 @@
          // wid0
          "name":"SHOTGUN",
          "parts":10,
-         "bulletType":0,
          "bulletSpeed":2.3,
          "bulletSpeedInherit":0,
          "distribution":0.4999847412109375,
@@ -60,13 +59,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":0,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":0,// (woid related to gunshot)
       },
       {
          // wid1
          "name":"H&K G3/SG-1",
          "parts":1,
-         "bulletType":1,
          "bulletSpeed":3.6,
          "bulletSpeedInherit":0.2777777777777778,
          "distribution":0.0457763671875,
@@ -80,13 +79,13 @@
          "laserSight":true,
          "laserBeam":false,
          "launchSound":9,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":1,// (woid related to gunshot)
       },
       {
          // wid2
          "name":"MAGNUM SRIFLE",
          "parts":4,
-         "bulletType":2,
          "bulletSpeed":4,
          "bulletSpeedInherit":0.25,
          "distribution":0,
@@ -100,13 +99,13 @@
          "laserSight":true,
          "laserBeam":false,
          "launchSound":8,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":2,// (woid related to gunshot)
       },
       {
          // wid3
          "name":"SPEARGUN",
          "parts":1,
-         "bulletType":3,
          "bulletSpeed":5,
          "bulletSpeedInherit":0.2,
          "distribution":0.00152587890625,
@@ -120,13 +119,13 @@
          "laserSight":true,
          "laserBeam":false,
          "launchSound":5,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":3,// (woid related to gunshot)
       },
       {
          // wid4
          "name":"MACHINEPISTOL",
          "parts":1,
-         "bulletType":4,
          "bulletSpeed":3.5,
          "bulletSpeedInherit":0,
          "distribution":0.2558441162109375,
@@ -140,13 +139,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":4,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":4,// (woid related to gunshot)
       },
       {
          // wid5
          "name":"MINI GUN",
          "parts":1,
-         "bulletType":5,
          "bulletSpeed":2.5,
          "bulletSpeedInherit":0.4,
          "distribution":0.4999847412109375,
@@ -160,13 +159,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":4,
-         "playReloadSound":false
+         "playReloadSound":false,
+         "bulletType":5,// (woid related to gunshot)
       },
       {
          // wid6
          "name":"PROXYMINE",
          "parts":1,
-         "bulletType":6,
          "bulletSpeed":1.3,
          "bulletSpeedInherit":0.7692307692307692,
          "distribution":0.1220703125,
@@ -180,13 +179,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":5,
-         "playReloadSound":false
+         "playReloadSound":false,
+         "bulletType":6,// (woid related to gunshot)
       },
       {
          // wid7
          "name":"GLOCK18BURSTF",
          "parts":3,
-         "bulletType":7,
          "bulletSpeed":3.2,
          "bulletSpeedInherit":0.3125,
          "distribution":0.3204345703125,
@@ -200,13 +199,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":14,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":7,// (woid related to gunshot)
       },
       {
          // wid8
          "name":"CLUSTER MINE",
          "parts":1,
-         "bulletType":8,
          "bulletSpeed":3.58,
          "bulletSpeedInherit":0.27932960893854747,
          "distribution":0.1983642578125,
@@ -220,13 +219,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":6,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":8,// (woid related to gunshot)
       },
       {
          // wid9
          "name":"FLAMER",
          "parts":2,
-         "bulletType":9,
          "bulletSpeed":3.4,
          "bulletSpeedInherit":0.29411764705882354,
          "distribution":0.30517578125,
@@ -240,13 +239,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":-1,
-         "playReloadSound":false
+         "playReloadSound":false,
+         "bulletType":9,// (woid related to gunshot)
       },
       {
          // wid10
          "name":"HE GRENADE",
          "parts":1,
-         "bulletType":10,
          "bulletSpeed":2.5,
          "bulletSpeedInherit":0.4,
          "distribution":0.1068115234375,
@@ -260,13 +259,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":5,
-         "playReloadSound":false
+         "playReloadSound":false,
+         "bulletType":10,// (woid related to gunshot)
       },
       {
          // wid11
          "name":"20MMAUTOCANNO",
          "parts":1,
-         "bulletType":11,
          "bulletSpeed":3.5,
          "bulletSpeedInherit":0.2857142857142857,
          "distribution":0.4425048828125,
@@ -280,13 +279,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":29,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":11,// (woid related to gunshot)
       },
       {
          // wid12
          "name":"NIGHT HAWK",
          "parts":1,
-         "bulletType":12,
          "bulletSpeed":3,
          "bulletSpeedInherit":0.3333333333333333,
          "distribution":0.2288818359375,
@@ -300,13 +299,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":13,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":12,// (woid related to gunshot)
       },
       {
          // wid13
          "name":"AIR MINE",
          "parts":1,
-         "bulletType":13,
          "bulletSpeed":2.4,
          "bulletSpeedInherit":0.4166666666666667,
          "distribution":0.0030517578125,
@@ -320,13 +319,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":-1,
-         "playReloadSound":false
+         "playReloadSound":false,
+         "bulletType":13,// (woid related to gunshot)
       },
       {
          // wid14
          "name":"KALASHNIKOV47",
          "parts":1,
-         "bulletType":14,
          "bulletSpeed":3.3,
          "bulletSpeedInherit":0.30303030303030304,
          "distribution":0.3509521484375,
@@ -340,13 +339,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":7,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":14,// (woid related to gunshot)
       },
       {
          // wid15
          "name":"FLASHBANG",
          "parts":1,
-         "bulletType":15,
          "bulletSpeed":3.3,
          "bulletSpeedInherit":0.30303030303030304,
          "distribution":0.1068115234375,
@@ -360,13 +359,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":5,
-         "playReloadSound":false
+         "playReloadSound":false,
+         "bulletType":15,// (woid related to gunshot)
       },
       {
          // wid16
          "name":"AUTO SHOTGUN",
          "parts":6,
-         "bulletType":16,
          "bulletSpeed":2.2,
          "bulletSpeedInherit":0,
          "distribution":0.4999847412109375,
@@ -380,13 +379,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":28,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":16,// (woid related to gunshot)
       },
       {
          // wid17
          "name":"COLT-CARBINE",
          "parts":1,
-         "bulletType":17,
          "bulletSpeed":3.6,
          "bulletSpeedInherit":0.2777777777777778,
          "distribution":0.2288818359375,
@@ -400,13 +399,13 @@
          "laserSight":true,
          "laserBeam":false,
          "launchSound":23,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":17,// (woid related to gunshot)
       },
       {
          // wid18
          "name":"UMP .45CAL",
          "parts":1,
-         "bulletType":18,
          "bulletSpeed":3.5,
          "bulletSpeedInherit":0.2857142857142857,
          "distribution":0.152587890625,
@@ -420,13 +419,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":22,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":18,// (woid related to gunshot)
       },
       {
          // wid19
          "name":"FORCE FIELD",
          "parts":1,
-         "bulletType":19,
          "bulletSpeed":3.7,
          "bulletSpeedInherit":0.27027027027027023,
          "distribution":0.00006103515625,
@@ -440,13 +439,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":5,
-         "playReloadSound":false
+         "playReloadSound":false,
+         "bulletType":19,// (woid related to gunshot)
       },
       {
          // wid20
          "name":"VIRUS",
          "parts":1,
-         "bulletType":20,
          "bulletSpeed":3.7,
          "bulletSpeedInherit":0,
          "distribution":0.00152587890625,
@@ -460,13 +459,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":5,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":20,// (woid related to gunshot)
       },
       {
          // wid21
          "name":"USP TACTICAL",
          "parts":1,
-         "bulletType":21,
          "bulletSpeed":3.3,
          "bulletSpeedInherit":0.30303030303030304,
          "distribution":0.091552734375,
@@ -480,13 +479,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":23,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":21,// (woid related to gunshot)
       },
       {
          // wid22
          "name":"MORTAR",
          "parts":1,
-         "bulletType":22,
          "bulletSpeed":4,
          "bulletSpeedInherit":0,
          "distribution":0.006103515625,
@@ -500,13 +499,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":1,
-         "playReloadSound":false
+         "playReloadSound":false,
+         "bulletType":22,// (woid related to gunshot)
       },
       {
          // wid23
          "name":"HELLFIREROCKE",
          "parts":1,
-         "bulletType":23,
          "bulletSpeed":2.4,
          "bulletSpeedInherit":0.4166666666666667,
          "distribution":0.1678466796875,
@@ -520,13 +519,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":3,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":23,// (woid related to gunshot)
       },
       {
          // wid24
          "name":"COMBAT KNIFE",
          "parts":1,
-         "bulletType":24,
          "bulletSpeed":1,
          "bulletSpeedInherit":1,
          "distribution":0.003814697265625,
@@ -540,13 +539,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":-1,
-         "playReloadSound":false
+         "playReloadSound":false,
+         "bulletType":24,// (woid related to gunshot)
       },
       {
          // wid25
          "name":"GRENADE",
          "parts":1,
-         "bulletType":25,
          "bulletSpeed":2.44,
          "bulletSpeedInherit":0.4098360655737705,
          "distribution":0.1068115234375,
@@ -560,13 +559,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":5,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":25,// (woid related to gunshot)
       },
       {
          // wid26
          "name":"PARA M249",
          "parts":1,
-         "bulletType":26,
          "bulletSpeed":3.5,
          "bulletSpeedInherit":0.2857142857142857,
          "distribution":0.4796142578125,
@@ -580,13 +579,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":1,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":26,// (woid related to gunshot)
       },
       {
          // wid27
          "name":"CLUSTERBOMB",
          "parts":1,
-         "bulletType":27,
          "bulletSpeed":2,
          "bulletSpeedInherit":0.5,
          "distribution":0.06103515625,
@@ -600,13 +599,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":5,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":27,// (woid related to gunshot)
       },
       {
          // wid28
          "name":"EXCIMER LASER",
          "parts":1,
-         "bulletType":28,
          "bulletSpeed":3,
          "bulletSpeedInherit":0,
          "distribution":0.000762939453125,
@@ -620,13 +619,13 @@
          "laserSight":true,
          "laserBeam":true,
          "launchSound":-1,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":28,// (woid related to gunshot)
       },
       {
          // wid29
          "name":"HE BAZOOKA",
          "parts":1,
-         "bulletType":29,
          "bulletSpeed":1,
          "bulletSpeedInherit":1,
          "distribution":0.030517578125,
@@ -640,13 +639,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":3,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":29,// (woid related to gunshot)
       },
       {
          // wid30
          "name":"M I R V E",
          "parts":1,
-         "bulletType":30,
          "bulletSpeed":2,
          "bulletSpeedInherit":0,
          "distribution":0.1068115234375,
@@ -660,13 +659,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":5,
-         "playReloadSound":false
+         "playReloadSound":false,
+         "bulletType":30,// (woid related to gunshot)
       },
       {
          // wid31
          "name":"DESERT EAGLE",
          "parts":1,
-         "bulletType":31,
          "bulletSpeed":3.3,
          "bulletSpeedInherit":0.30303030303030304,
          "distribution":0.335693359375,
@@ -680,13 +679,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":13,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":31,// (woid related to gunshot)
       },
       {
          // wid32
          "name":"STINGERMISL",
          "parts":1,
-         "bulletType":32,
          "bulletSpeed":3,
          "bulletSpeedInherit":0.3333333333333333,
          "distribution":0,
@@ -700,13 +699,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":3,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":32,// (woid related to gunshot)
       },
       {
          // wid33
          "name":"APSHOCKCANNON",
          "parts":1,
-         "bulletType":33,
          "bulletSpeed":2.5,
          "bulletSpeedInherit":0,
          "distribution":0.030517578125,
@@ -720,13 +719,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":29,
-         "playReloadSound":false
+         "playReloadSound":false,
+         "bulletType":33,// (woid related to gunshot)
       },
       {
          // wid34
          "name":"BOOBY TRAP",
          "parts":1,
-         "bulletType":34,
          "bulletSpeed":1,
          "bulletSpeedInherit":1,
          "distribution":0.30517578125,
@@ -740,13 +739,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":5,
-         "playReloadSound":false
+         "playReloadSound":false,
+         "bulletType":34,// (woid related to gunshot)
       },
       {
          // wid35
          "name":"SUICIDE",
          "parts":1,
-         "bulletType":35,
          "bulletSpeed":1,
          "bulletSpeedInherit":1,
          "distribution":0,
@@ -760,13 +759,13 @@
          "laserSight":true,
          "laserBeam":false,
          "launchSound":21,
-         "playReloadSound":false
+         "playReloadSound":false,
+         "bulletType":35,// (woid related to gunshot)
       },
       {
          // wid36
          "name":"NAILGUN",
          "parts":4,
-         "bulletType":36,
          "bulletSpeed":5,
          "bulletSpeedInherit":0.2,
          "distribution":0.12969970703125,
@@ -780,13 +779,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":22,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":36,// (woid related to gunshot)
       },
       {
          // wid37
          "name":"P90",
          "parts":1,
-         "bulletType":37,
          "bulletSpeed":3,
          "bulletSpeedInherit":0.3333333333333333,
          "distribution":0.3509521484375,
@@ -800,13 +799,13 @@
          "laserSight":false,
          "laserBeam":false,
          "launchSound":6,
-         "playReloadSound":false
+         "playReloadSound":false,
+         "bulletType":37,// (woid related to gunshot)
       },
       {
          // wid38
          "name":"SIG SG-550 SN",
          "parts":1,
-         "bulletType":38,
          "bulletSpeed":3.6,
          "bulletSpeedInherit":0.2777777777777778,
          "distribution":0.1220703125,
@@ -820,13 +819,13 @@
          "laserSight":true,
          "laserBeam":false,
          "launchSound":29,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":38,// (woid related to gunshot)
       },
       {
          // wid39
          "name":"STEYR SCOUT",
          "parts":2,
-         "bulletType":39,
          "bulletSpeed":4,
          "bulletSpeedInherit":0.25,
          "distribution":0.00006103515625,
@@ -840,7 +839,8 @@
          "laserSight":true,
          "laserBeam":false,
          "launchSound":2,
-         "playReloadSound":true
+         "playReloadSound":true,
+         "bulletType":39,// (woid related to gunshot)
       },
       {
          // wid40

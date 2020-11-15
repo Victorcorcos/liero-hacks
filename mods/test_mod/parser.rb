@@ -130,7 +130,7 @@ config = {
         "partTrailDelay": 0,
         "speed": 230,
         "createOnExp": {
-          # sObject (created on explosion)
+          # sObject (explosion)
           "startSound":-1,
           "numSounds":0,
           "animDelay":4,
@@ -144,14 +144,14 @@ config = {
           "flash":0,
           "dirtEffect":0
         },
-        "objTrailType":-1,# sObject (created on trail)
-        "splinterType":4,# nObject (created on explosion)
-        "partTrailObj":-1# nObject (created on trail)
+        "objTrailType":-1,# sObject (trail)
+        "splinterType":4,# nObject (explosion)
+        "partTrailObj":-1# nObject (trail)
       }
     },
     {
-      # wid1 - NON-EXPLODING MISSEL
-      "name":"NON-EXPLODING MISSEL",
+      # wid1 - NON-EXPLODING MISSILE
+      "name":"NON-EXPLODING MISSILE",
       "parts":1,
       "bulletSpeed":3,
       "bulletSpeedInherit":0.3333333333333333,
@@ -168,7 +168,7 @@ config = {
       "launchSound":3,
       "playReloadSound":true,
       "bulletType":{
-        # wObject ("NON-EXPLODING MISSEL")
+        # wObject ("NON-EXPLODING MISSILE")
         "detectDistance":1,
         "blowAway":0,
         "gravity":0,
@@ -202,7 +202,7 @@ config = {
         "partTrailDelay":0,
         "speed":300,
         "createOnExp":{
-          # sObject (created on explosion)
+          # sObject (explosion)
           "startSound":10,
           "numSounds":3,
           "animDelay":4,
@@ -217,7 +217,7 @@ config = {
           "dirtEffect":1
         },
         "objTrailType":{
-          # sObject (created on trail)
+          # sObject (trail)
           "startSound":-1,
           "numSounds":0,
           "animDelay":2,
@@ -232,7 +232,7 @@ config = {
           "dirtEffect":-1
        },
        "splinterType":{
-         # nObject (created on explosion)
+         # nObject (explosion)
          "detectDistance":3,
          "gravity":0.0152587890625,
          "speed":4,
@@ -259,7 +259,7 @@ config = {
          "timeToExplo":0,
          "timeToExploV":0,
          "createOnExp":{
-           # sObject (created on explosion)
+           # sObject (explosion)
            "startSound":25,
            "numSounds":3,
            "animDelay":5,
@@ -273,9 +273,9 @@ config = {
            "flash":1,
            "dirtEffect":2
          },
-         "splinterType":-1,# noid (created on trail)
+         "splinterType":-1,# noid (trail)
          "leaveObj":{
-           # sObject (created on trail)
+           # sObject (trail)
            "startSound":-1,
            "numSounds":0,
            "animDelay":0,
@@ -290,16 +290,16 @@ config = {
            "dirtEffect":5
          }
        },
-       "partTrailObj":-1,# (noid created on trail)
+       "partTrailObj":-1,# (noid trail)
       }
     },
     {
       # wid2 - BOUNCING BALL
       "name":"BOUNCING BALL",
-      "parts":1,
+      "parts":10,
       "bulletSpeed":10,
       "bulletSpeedInherit":0.3333333333333333,
-      "distribution":0,
+      "distribution":10,
       "recoil":0.15,
       "ammo":1,
       "delay":0,
@@ -346,7 +346,7 @@ config = {
         "partTrailDelay":0,
         "speed":1800,
         "createOnExp":{
-          # sObject (created on explosion)
+          # sObject (explosion)
           "startSound":10,
           "numSounds":3,
           "animDelay":4,
@@ -361,7 +361,7 @@ config = {
           "dirtEffect":1
         },
         "objTrailType":{
-          # sObject (created on trail)
+          # sObject (trail)
           "startSound":-1,
           "numSounds":0,
           "animDelay":0,
@@ -376,7 +376,7 @@ config = {
           "dirtEffect":1
         },
        "splinterType":{
-         # nObject (created on explosion)
+         # nObject (explosion)
          "detectDistance":3,
          "gravity":0.0152587890625,
          "speed":4,
@@ -403,7 +403,7 @@ config = {
          "timeToExplo":0,
          "timeToExploV":0,
          "createOnExp":{
-           # sObject (created on explosion)
+           # sObject (explosion)
            "startSound":25,
            "numSounds":3,
            "animDelay":5,
@@ -417,9 +417,9 @@ config = {
            "flash":1,
            "dirtEffect":2
          },
-         "splinterType":-1,# noid (created on trail)
+         "splinterType":-1,# noid (trail)
          "leaveObj":{
-           # sObject (created on trail)
+           # sObject (trail)
            "startSound":-1,
            "numSounds":0,
            "animDelay":0,
@@ -434,7 +434,7 @@ config = {
            "dirtEffect":5
          }
        },
-       "partTrailObj":-1,# (noid created on trail)
+       "partTrailObj":-1,# (noid trail)
       }
     },
     {
@@ -490,7 +490,7 @@ config = {
         "partTrailDelay":0,
         "speed":1000,
         "createOnExp":{
-          # sObject (created on explosion)
+          # sObject (explosion)
           "startSound":25,
           "numSounds":2,
           "animDelay":3,
@@ -505,7 +505,7 @@ config = {
           "dirtEffect":8
         },
         "objTrailType":{
-          # sObject (created on trail)
+          # sObject (trail)
           "startSound":-1,
           "numSounds":0,
           "animDelay":4,
@@ -520,7 +520,7 @@ config = {
           "dirtEffect":-1
         },
         "splinterType":{
-          # nObject (created on explosion)
+          # nObject (explosion)
           "detectDistance":0,
           "gravity":0,
           "speed":1.0,
@@ -547,7 +547,7 @@ config = {
           "timeToExplo":600,
           "timeToExploV":300,
           "createOnExp":{
-            # sObject (created on explosion)
+            # sObject (explosion)
             "startSound":-1,
             "numSounds":0,
             "animDelay":0,
@@ -561,10 +561,10 @@ config = {
             "flash":0,
             "dirtEffect":-1
           },
-          "splinterType":-1,# noid (created on trail)
-          "leaveObj":-1,# soid (created on trail)
+          "splinterType":-1,# noid (trail)
+          "leaveObj":-1,# soid (trail)
         },
-        "partTrailObj":-1,# (noid created on trail)
+        "partTrailObj":-1,# (noid trail)
       }
     },
     {
@@ -620,7 +620,7 @@ config = {
         "partTrailDelay":0,
         "speed":0,
         "createOnExp":{
-          # sObject (created on explosion)
+          # sObject (explosion)
           "startSound":-1,
           "numSounds":0,
           "animDelay":2,
@@ -635,7 +635,7 @@ config = {
           "dirtEffect":4
         },
         "objTrailType":{
-          # sObject (created on trail)
+          # sObject (trail)
           "startSound":-1,
           "numSounds":0,
           "animDelay":2,
@@ -650,7 +650,7 @@ config = {
           "dirtEffect":4
         },
         "splinterType":{
-          # nObject (created on explosion)
+          # nObject (explosion)
           "detectDistance":0,
           "gravity":0,
           "speed":0,
@@ -676,11 +676,11 @@ config = {
           "leaveObjDelay":0,
           "timeToExplo":3,
           "timeToExploV":1,
-          "createOnExp":-1,# soid (created on explosion)
-          "leaveObj":-1,# soid (created on trail)
-          "splinterType":-1,# noid (created on trail)
+          "createOnExp":-1,# soid (explosion)
+          "leaveObj":-1,# soid (trail)
+          "splinterType":-1,# noid (trail)
         },
-        "partTrailObj":-1,# (noid created on trail)
+        "partTrailObj":-1,# (noid trail)
       }
     },
     {
@@ -735,10 +735,10 @@ config = {
         "partTrailType":0,
         "partTrailDelay":0,
         "speed":100,
-        "createOnExp":-1,# (soid created on explosion)
-        "objTrailType":-1,# (soid created on trail)
+        "createOnExp":-1,# (soid explosion)
+        "objTrailType":-1,# (soid trail)
         "splinterType":{
-          # nObject (created on explosion)
+          # nObject (explosion)
           "detectDistance":0,
           "gravity":0,
           "speed":5,
@@ -768,8 +768,284 @@ config = {
           "splinterType":-1,
           "leaveObj":-1,
         },
-        "partTrailObj":-1,# (noid created on trail)
+        "partTrailObj":-1,# (noid trail)
       }
+    },
+    {
+      # wid6 - BOMBARDMENT
+      "name":"BOMBARDMENT",
+      "parts":13,
+      "bulletSpeed":3,
+      "bulletSpeedInherit":0.3333333432674408,
+      "distribution":0.4999847412109375,
+      "recoil":0,
+      "ammo":1,
+      "delay":1,
+      "loadingTime":500,
+      "leaveShells":0,
+      "leaveShellDelay":1,
+      "fireCone":30,
+      "laserSight":false,
+      "laserBeam":false,
+      "launchSound":4,
+      "playReloadSound":false,
+      "bulletType":{
+         # wObject ("BOMBARDMENT")
+         "detectDistance":0,
+         "blowAway":0,
+         "gravity":-0.220703125,
+         "exploSound":-1,
+         "addSpeed":0,
+         "distribution":0.4999847412109375,
+         "multSpeed":1,
+         "dirtEffect":2,
+         "wormExplode":false,
+         "explGround":true,
+         "wormCollide":false,
+         "collideWithObjects":false,
+         "affectByExplosions":false,
+         "bounce":0,
+         "bounceFriction":1,
+         "timeToExplo":22,
+         "timeToExploV":2,
+         "hitDamage":0,
+         "bloodOnHit":0,
+         "startFrame":238,
+         "numFrames":0,
+         "loopAnim":false,
+         "shotType":4,
+         "repeat":8,
+         "colorBullets":0,
+         "splinterAmount":1,
+         "splinterColour":0,
+         "splinterScatter":0,
+         "objTrailDelay":1,
+         "partTrailType":1,
+         "partTrailDelay":1,
+         "speed":300,
+         "createOnExp":{
+           # sObject (explosion)
+           "startSound":-1,
+           "numSounds":0,
+           "animDelay":2,
+           "startFrame":76,
+           "numFrames":3,
+           "detectRange":0,
+           "damage":0,
+           "blowAway":0,
+           "shadow":true,
+           "shake":0,
+           "flash":0,
+           "dirtEffect":-1
+         },
+         "objTrailType":-1,
+         "splinterType":{
+           # nObject
+           "detectDistance":0,
+           "gravity":0.2,
+           "speed":0,
+           "speedV":0,
+           "distribution":0,
+           "blowAway":0,
+           "bounce":0,
+           "hitDamage":0,
+           "wormExplode":false,
+           "explGround":false,
+           "wormDestroy":false,
+           "bloodOnHit":0,
+           "startFrame":238,
+           "numFrames":0,
+           "drawOnMap":false,
+           "colorBullets":0,
+           "affectByExplosions":false,
+           "dirtEffect":-1,
+           "splinterAmount":1,
+           "splinterColour":0,
+           "bloodTrail":false,
+           "bloodTrailDelay":0,
+           "leaveObjDelay":15,
+           "timeToExplo":4,
+           "timeToExploV":0,
+           "createOnExp":-1,
+           "leaveObj":{
+             # sObject
+             "startSound":-1,
+             "numSounds":0,
+             "animDelay":2,
+             "startFrame":76,
+             "numFrames":3,
+             "detectRange":0,
+             "damage":0,
+             "blowAway":0,
+             "shadow":true,
+             "shake":0,
+             "flash":0,
+             "dirtEffect":-1
+           },
+           "splinterType":{
+             # nObject
+             "detectDistance":0,
+             "gravity":0,
+             "speed":0,
+             "speedV":0,
+             "distribution":0,
+             "blowAway":0,
+             "bounce":0,
+             "hitDamage":0,
+             "wormExplode":false,
+             "explGround":false,
+             "wormDestroy":false,
+             "bloodOnHit":0,
+             "startFrame":238,
+             "numFrames":0,
+             "drawOnMap":false,
+             "colorBullets":0,
+             "affectByExplosions":false,
+             "dirtEffect":-1,
+             "splinterAmount":1,
+             "splinterColour":0,
+             "bloodTrail":false,
+             "bloodTrailDelay":0,
+             "leaveObjDelay":0,
+             "timeToExplo":50,
+             "timeToExploV":50,
+             "createOnExp":-1,
+             "leaveObj":-1,
+             "splinterType":{
+               # nObject
+               "detectDistance":2,
+               "gravity":0.04,
+               "speed":0,
+               "speedV":0,
+               "distribution":0.35,
+               "blowAway":0.6,
+               "bounce":0,
+               "hitDamage":15,
+               "wormExplode":false,
+               "explGround":true,
+               "wormDestroy":true,
+               "bloodOnHit":30,
+               "startFrame":185,
+               "numFrames":0,
+               "drawOnMap":false,
+               "colorBullets":0,
+               "affectByExplosions":true,
+               "dirtEffect":-1,
+               "splinterAmount":5,
+               "splinterColour":0,
+               "bloodTrail":false,
+               "bloodTrailDelay":1,
+               "leaveObjDelay":1,
+               "timeToExplo":0,
+               "timeToExploV":0,
+               "createOnExp":{
+                 # sObject
+                 "startSound":9,
+                 "numSounds":4,
+                 "animDelay":3,
+                 "startFrame":266,
+                 "numFrames":12,
+                 "detectRange":30,
+                 "damage":30,
+                 "blowAway":0.018310546875,
+                 "shadow":false,
+                 "shake":0,
+                 "flash":3,
+                 "dirtEffect":8
+               },
+               "leaveObj":{
+                 # sObject
+                 "startSound":-1,
+                 "numSounds":0,
+                 "animDelay":2,
+                 "startFrame":76,
+                 "numFrames":3,
+                 "detectRange":0,
+                 "damage":0,
+                 "blowAway":0,
+                 "shadow":true,
+                 "shake":0,
+                 "flash":0,
+                 "dirtEffect":-1
+               },
+               "splinterType":{
+                 # nObject
+                 "detectDistance":0,
+                 "gravity":0,
+                 "speed":0.6,
+                 "speedV":0.2,
+                 "distribution":0.152587890625,
+                 "blowAway":0,
+                 "bounce":1,
+                 "hitDamage":0,
+                 "wormExplode":false,
+                 "explGround":false,
+                 "wormDestroy":false,
+                 "bloodOnHit":0,
+                 "startFrame":0,
+                 "numFrames":0,
+                 "drawOnMap":false,
+                 "colorBullets":0,
+                 "affectByExplosions":true,
+                 "dirtEffect":0,
+                 "splinterAmount":3,
+                 "splinterColour":187,
+                 "bloodTrail":false,
+                 "bloodTrailDelay":0,
+                 "leaveObjDelay":0,
+                 "timeToExplo":15,
+                 "timeToExploV":10,
+                 "createOnExp":{
+                   "startSound":-1,
+                   "numSounds":0,
+                   "animDelay":3,
+                   "startFrame":279,
+                   "numFrames":12,
+                   "detectRange":0,
+                   "damage":0,
+                   "blowAway":0.018310546875,
+                   "shadow":false,
+                   "shake":0,
+                   "flash":3,
+                   "dirtEffect":8
+                 },
+                 "leaveObj":0,
+                 "splinterType":{
+                   "detectDistance":0,
+                   "gravity":0.030517578125,
+                   "speed":1.2,
+                   "speedV":0.4000000059604645,
+                   "distribution":0.152587890625,
+                   "blowAway":0,
+                   "bounce":0.4000000059604645,
+                   "hitDamage":0,
+                   "wormExplode":false,
+                   "explGround":true,
+                   "wormDestroy":false,
+                   "bloodOnHit":0,
+                   "startFrame":0,
+                   "numFrames":0,
+                   "drawOnMap":false,
+                   "colorBullets":185,
+                   "affectByExplosions":false,
+                   "dirtEffect":-1,
+                   "splinterAmount":0,
+                   "splinterColour":0,
+                   "bloodTrail":false,
+                   "bloodTrailDelay":0,
+                   "leaveObjDelay":3,
+                   "timeToExplo":30,
+                   "timeToExploV":12,
+                   "createOnExp":-1,
+                   "leaveObj":-1,
+                   "splinterType":-1,
+                 }
+               }
+             }
+           }
+         },
+         "partTrailObj":-1,
+      },
     }
   ],
   "wObjects":[],
@@ -802,9 +1078,9 @@ config = {
       "leaveObjDelay":0,
       "timeToExplo":200,
       "timeToExploV":50,
-      "createOnExp":-1,# sObject (created on explosion)
-      "leaveObj":-1,# sObject (created on trail)
-      "splinterType":6,# nObject (created on trail)
+      "createOnExp":-1,# sObject (explosion)
+      "leaveObj":-1,# sObject (trail)
+      "splinterType":6,# nObject (trail)
     },
     {
       # noid1
@@ -834,9 +1110,9 @@ config = {
       "leaveObjDelay":0,
       "timeToExplo":200,
       "timeToExploV":50,
-      "createOnExp":-1,# sObject (created on explosion)
-      "leaveObj":-1,# sObject (created on trail)
-      "splinterType":6,# nObject (created on trail)
+      "createOnExp":-1,# sObject (explosion)
+      "leaveObj":-1,# sObject (trail)
+      "splinterType":6,# nObject (trail)
     },
     {
       # noid2
@@ -866,9 +1142,9 @@ config = {
       "leaveObjDelay":0,
       "timeToExplo":30,
       "timeToExploV":2,
-      "createOnExp":-1,# sObject (created on explosion)
-      "leaveObj":-1,# sObject (created on trail)
-      "splinterType":-1,# nObject (created on trail)
+      "createOnExp":-1,# sObject (explosion)
+      "leaveObj":-1,# sObject (trail)
+      "splinterType":-1,# nObject (trail)
     },
     {
       # noid3
@@ -898,9 +1174,9 @@ config = {
       "leaveObjDelay":1,
       "timeToExplo":15,
       "timeToExploV":3,
-      "createOnExp":-1,# sObject (created on explosion)
+      "createOnExp":-1,# sObject (explosion)
       "leaveObj": {
-        # sObject (created on trail)
+        # sObject (trail)
         "startSound":-1,
         "numSounds":0,
         "animDelay":4,
@@ -914,7 +1190,7 @@ config = {
         "flash":0,
         "dirtEffect":5
       },
-      "splinterType":-1# nObject (created on trail)
+      "splinterType":-1# nObject (trail)
     },
     {
       # noid4
@@ -945,9 +1221,9 @@ config = {
       "leaveObjDelay":1,
       "timeToExplo":10,
       "timeToExploV":3,
-      "createOnExp":-1,# sObject (created on explosion)
+      "createOnExp":-1,# sObject (explosion)
       "leaveObj": {
-        # sObject (created on trail)
+        # sObject (trail)
         "startSound":-1,
         "numSounds":0,
         "animDelay":0,
@@ -961,7 +1237,7 @@ config = {
         "flash":0,
         "dirtEffect":-1
       },
-      "splinterType":-1# nObject (created on trail)
+      "splinterType":-1# nObject (trail)
     },
     {
       # noid5
@@ -992,7 +1268,7 @@ config = {
       "timeToExplo":0,
       "timeToExploV":0,
       "createOnExp": {
-        # sObject (created on explosion)
+        # sObject (explosion)
         "startSound":-1,
         "numSounds":0,
         "animDelay":4,
@@ -1006,8 +1282,8 @@ config = {
         "flash":0,
         "dirtEffect":5
       },
-      "leaveObj":-1,# sObject (created on trail)
-      "splinterType":-1,# nObject (created on trail)
+      "leaveObj":-1,# sObject (trail)
+      "splinterType":-1,# nObject (trail)
     },
     {
       # noid6
@@ -1037,9 +1313,9 @@ config = {
       "leaveObjDelay":0,
       "timeToExplo":15,
       "timeToExploV":3,
-      "createOnExp":-1,# sObject (created on explosion)
-      "leaveObj":-1,# sObject (created on trail)
-      "splinterType":-1,# nObject (created on trail)
+      "createOnExp":-1,# sObject (explosion)
+      "leaveObj":-1,# sObject (trail)
+      "splinterType":-1,# nObject (trail)
     },
     {
       # noid7
@@ -1069,9 +1345,9 @@ config = {
       "leaveObjDelay":0,
       "timeToExplo":0,
       "timeToExploV":0,
-      "createOnExp":-1,# sObject (created on explosion)
-      "leaveObj":-1,# sObject (created on trail)
-      "splinterType":-1,# nObject (created on trail)
+      "createOnExp":-1,# sObject (explosion)
+      "leaveObj":-1,# sObject (trail)
+      "splinterType":-1,# nObject (trail)
     }
   ],
   "sObjects":[

@@ -18,7 +18,7 @@ As you see, the `sprites.wlsprt` has a very unique extension.
 
 In order to work with liero sprites, you need to to **Import** and **Export** these files into `.png` files.
 
-To achieve this, you can use `wltools`. The usage part is documented right here [right here](https://github.com/Victorcorcos/liero-hacks/tree/main/converter/wltools).
+To achieve this, you can use `wltools`. The usage part [is documented right here](https://github.com/Victorcorcos/liero-hacks/tree/main/converter/wltools).
 
 
 ## The Sprite Center 💭

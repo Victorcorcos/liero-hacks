@@ -251,6 +251,8 @@ wObjects: [
       Which dirt mask sprite to use.
       -1 is none.
       0 destroy dirt
+      1 destroy dirt (slower range)
+      2 destroy dirt (even slower range)
       4 creates brown dirt
       6 creates green dirt
     */
@@ -535,6 +537,8 @@ nObjects: [
       Which dirt mask sprite to use.
       -1 is none.
       0 destroy dirt
+      1 destroy dirt (slower range)
+      2 destroy dirt (even slower range)
       4 creates brown dirt
       6 creates green dirt
     */
@@ -676,6 +680,8 @@ sObjects: [
       Which dirt mask sprite to use.
       -1 is none.
       0 destroy dirt
+      1 destroy dirt (slower range)
+      2 destroy dirt (even slower range)
       4 creates brown dirt
       6 creates green dirt
     */

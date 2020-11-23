@@ -1,13 +1,13 @@
-# Liero Graphics Tutorials 🏗️
+# Liero Graphics 🎨
 
 Here you can find some tutorials regarding how to manage the Liero graphics!
 
-The Gimp software is recommended, but some people managed to use Photoshop for the same purpose.
+The [Gimp](https://www.gimp.org/) software is recommended, but some people managed to use Photoshop for the same purpose.
 
-@pilaf created [this awesome introduction tutorial](https://github.com/pilaf/liero-palettes) that is a perfect start to manage Liero palletes, maps and sprites using Gimp.
+@pilaf created [this awesome introduction tutorial](https://github.com/pilaf/liero-palettes). A perfect start to manage Liero palletes, maps and sprites using [Gimp](https://www.gimp.org/).
 
 
-# Sprites Tutorial ⛑️ 
+## Brief Explanation 🎯
 
 WebLiero has the `mod.json` and the `sprites.wlsprt` file:
 
@@ -21,19 +21,18 @@ In order to work with liero sprites, you need to to **Import** and **Export** th
 To achieve this, you can use `wltools`. The usage part [is documented right here](https://github.com/Victorcorcos/liero-hacks/tree/main/converter/wltools).
 
 
-## The Sprite Center 💭
+## Hints 💭
 
+I noticed that we need to discover which is the **center** of the sprite picture in order to place it on the name of the sprite file...
 
-I noticed that we need to discover which is the **center** of the sprite picture in order to write it on the name of the sprite file!
-
-The file have the following format..
+The file need to have the following format:
 
 ```rb
 1_WWWW_HHHH.png
 ```
 
-**W**: Width, in **hexadecimal**!
-**H**: Heigh, in **hexadecimal**!
+* **W**: Width of the Center, in **hexadecimal**!
+* **H**: Heigh of the Center, in **hexadecimal**!
 
 For example:
 
@@ -41,7 +40,9 @@ For example:
 1_FFAA_FFAB.png
 ```
 
-I produced [this tutorial video](https://vimeo.com/482727607), showing how to access the **center** of the pictures by executing this ruby method ❤️ 
+I produced [this tutorial video](https://vimeo.com/482727607), automating the process to find the **center** of the picture.
+
+You just need to have the `ruby` installed on your computer, run `irb` on the terminal and use this little ruby method ❤️
 
 ```rb
 def center(x, y)

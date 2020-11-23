@@ -53,5 +53,7 @@ end
 * Example
 
 ```rb
-center(23, 24)
+> center(23, 24)
+
+=> "FFE8_FFE7"
 ```

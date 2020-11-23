@@ -1644,8 +1644,8 @@ config = {
             "startSound":-1,
             "numSounds":0,
             "animDelay":2,
-            "startFrame":53,
-            "numFrames":2,
+            "startFrame":211, # 440 # 173
+            "numFrames":1, # 3 # 4
             "detectRange":6,
             "damage":0,
             "blowAway":0,

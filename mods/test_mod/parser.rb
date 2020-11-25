@@ -1893,7 +1893,7 @@ config = {
           "numSounds":2,
           "animDelay":5,
           "startFrame":524,
-          "numFrames":25,
+          "numFrames":31,
           "detectRange":100,
           "damage":0.001,
           "blowAway":-0.0457763671875,

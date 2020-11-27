@@ -31,8 +31,8 @@ The file need to have the following format:
 1_WWWW_HHHH.png
 ```
 
-* **W**: Width of the Center, in **hexadecimal**!
-* **H**: Heigh of the Center, in **hexadecimal**!
+* **W**: Width of the Center, in **hexadecimal**! 16 bit signed hex integers.
+* **H**: Heigh of the Center, in **hexadecimal**! 16 bit signed hex integers.
 
 For example:
 

@@ -330,8 +330,8 @@
     {
       "name": "GENKI DAMA",
       "parts": 1,
-      "bulletSpeed": 1,
-      "bulletSpeedInherit": 0.01,
+      "bulletSpeed": 3,
+      "bulletSpeedInherit": -1,
       "distribution": 10,
       "recoil": 0.15,
       "ammo": 1,
@@ -1526,7 +1526,7 @@
       "timeToExploV": 0,
       "createOnExp": 23,
       "splinterType": -1,
-      "leaveObj": 20
+      "leaveObj": 24
     },
     {
       "detectDistance": 0,
@@ -1674,7 +1674,7 @@
       "leaveObjDelay": 1,
       "timeToExplo": 0,
       "timeToExploV": 0,
-      "createOnExp": 24,
+      "createOnExp": 25,
       "leaveObj": 21,
       "splinterType": 25
     },
@@ -1704,7 +1704,7 @@
       "leaveObjDelay": 1,
       "timeToExplo": 0,
       "timeToExploV": 0,
-      "createOnExp": 25,
+      "createOnExp": 26,
       "leaveObj": 21,
       "splinterType": 26
     },
@@ -1734,7 +1734,7 @@
       "leaveObjDelay": 0,
       "timeToExplo": 15,
       "timeToExploV": 10,
-      "createOnExp": 26,
+      "createOnExp": 27,
       "leaveObj": 0,
       "splinterType": 27
     },
@@ -1764,7 +1764,7 @@
       "leaveObjDelay": 0,
       "timeToExplo": 15,
       "timeToExploV": 10,
-      "createOnExp": 27,
+      "createOnExp": 28,
       "leaveObj": 0,
       "splinterType": 27
     },
@@ -2056,8 +2056,8 @@
       "startSound": 10,
       "numSounds": 3,
       "animDelay": 4,
-      "startFrame": 46,
-      "numFrames": 9,
+      "startFrame": 563,
+      "numFrames": 3,
       "detectRange": 6,
       "damage": 100,
       "blowAway": 0.06103515625,
@@ -2126,7 +2126,7 @@
       "startSound": 25,
       "numSounds": 3,
       "animDelay": 5,
-      "startFrame": 52,
+      "startFrame": 563,
       "numFrames": 3,
       "detectRange": 4,
       "damage": 6,
@@ -2135,6 +2135,20 @@
       "shake": 2,
       "flash": 1,
       "dirtEffect": 2
+    },
+    {
+      "startSound": -1,
+      "numSounds": 0,
+      "animDelay": 0,
+      "startFrame": 567,
+      "numFrames": 0,
+      "detectRange": 1,
+      "damage": 0,
+      "blowAway": 3.0517578125e-05,
+      "shadow": true,
+      "shake": 0,
+      "flash": 0,
+      "dirtEffect": 5
     },
     {
       "startSound": 9,

@@ -1971,7 +1971,7 @@ config = {
       # wid15 - GENKI DAMA
       "name":"GENKI DAMA",
       "parts":1,
-      "bulletSpeed":5,
+      "bulletSpeed":1,
       "bulletSpeedInherit":0,
       "distribution":0,
       "recoil":0.15,

@@ -1254,9 +1254,9 @@
       "leaveObjDelay": 1,
       "timeToExplo": 0,
       "timeToExploV": 0,
-      "createOnExp": 2,
+      "createOnExp": 20,
       "splinterType": -1,
-      "leaveObj": 20
+      "leaveObj": 21
     },
     {
       "detectDistance": 0,
@@ -1284,7 +1284,7 @@
       "leaveObjDelay": 0,
       "timeToExplo": 600,
       "timeToExploV": 300,
-      "createOnExp": 21,
+      "createOnExp": 22,
       "splinterType": -1,
       "leaveObj": -1
     },
@@ -1375,7 +1375,7 @@
       "timeToExplo": 4,
       "timeToExploV": 0,
       "createOnExp": -1,
-      "leaveObj": 22,
+      "leaveObj": 23,
       "splinterType": 20
     },
     {
@@ -1405,7 +1405,7 @@
       "timeToExplo": 4,
       "timeToExploV": 0,
       "createOnExp": -1,
-      "leaveObj": 22,
+      "leaveObj": 23,
       "splinterType": 21
     },
     {
@@ -1494,7 +1494,7 @@
       "leaveObjDelay": 0,
       "timeToExplo": 300,
       "timeToExploV": 300,
-      "createOnExp": 23,
+      "createOnExp": 24,
       "splinterType": -1,
       "leaveObj": -1
     },
@@ -1524,9 +1524,9 @@
       "leaveObjDelay": 1,
       "timeToExplo": 0,
       "timeToExploV": 0,
-      "createOnExp": 24,
+      "createOnExp": 25,
       "splinterType": -1,
-      "leaveObj": 25
+      "leaveObj": 26
     },
     {
       "detectDistance": 0,
@@ -1674,8 +1674,8 @@
       "leaveObjDelay": 1,
       "timeToExplo": 0,
       "timeToExploV": 0,
-      "createOnExp": 26,
-      "leaveObj": 22,
+      "createOnExp": 27,
+      "leaveObj": 23,
       "splinterType": 26
     },
     {
@@ -1704,8 +1704,8 @@
       "leaveObjDelay": 1,
       "timeToExplo": 0,
       "timeToExploV": 0,
-      "createOnExp": 27,
-      "leaveObj": 22,
+      "createOnExp": 28,
+      "leaveObj": 23,
       "splinterType": 27
     },
     {
@@ -1764,7 +1764,7 @@
       "leaveObjDelay": 0,
       "timeToExplo": 15,
       "timeToExploV": 10,
-      "createOnExp": 28,
+      "createOnExp": 29,
       "leaveObj": 0,
       "splinterType": 28
     },
@@ -1794,7 +1794,7 @@
       "leaveObjDelay": 0,
       "timeToExplo": 15,
       "timeToExploV": 10,
-      "createOnExp": 29,
+      "createOnExp": 30,
       "leaveObj": 0,
       "splinterType": 28
     },
@@ -2111,6 +2111,20 @@
       "dirtEffect": 5
     },
     {
+      "startSound": 25,
+      "numSounds": 3,
+      "animDelay": 5,
+      "startFrame": 572,
+      "numFrames": 12,
+      "detectRange": 4,
+      "damage": 6,
+      "blowAway": 0.0457763671875,
+      "shadow": false,
+      "shake": 2,
+      "flash": 1,
+      "dirtEffect": 2
+    },
+    {
       "startSound": -1,
       "numSounds": 0,
       "animDelay": 0,
@@ -2170,8 +2184,8 @@
       "startSound": 25,
       "numSounds": 3,
       "animDelay": 5,
-      "startFrame": 563,
-      "numFrames": 3,
+      "startFrame": 585,
+      "numFrames": 12,
       "detectRange": 4,
       "damage": 6,
       "blowAway": 0.0457763671875,

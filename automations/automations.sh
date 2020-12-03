@@ -1,21 +1,28 @@
-# Extract .wlsprt file to .png files
-liero_sprites() {
+## Export .wlsprt file to .png files
+# Execute inside the /mod folder you are working with (E.g. /csliero)
+liero_export() {
   ../../converter/wltools/wltools sprites.wlsprt  original_sprites/
   cp -r original_sprites sprites
 }
 
+## Import .png files to .wlsprt file
 # Execute inside the /mod folder you are working with (E.g. /csliero)
-# 1) Import .png files with wltools
-# 2) Execute the parser (parser.rb)
+liero_import() {
+  ../../converter/wltools/wltools sprites/ new_sprites.wlsprt
+}
+
+## 1) Import .png files to .wlsprt file (with wltools)
+## 2) Execute the parser (parser.rb)
+# Execute inside the /mod folder you are working with (E.g. /csliero)
 liero_update() {
   ../../converter/wltools/wltools sprites/ new_sprites.wlsprt
   ruby parser.rb
 }
 
-# Rename the .png files by prepending ordered numbers starting from the desired number
+## Rename the .png files by prepending ordered numbers starting from the desired number
 # Usage: order_files 110
 # It rename the .png files to 110_xxx.png, 111_xxx.png, 112_xxx.png, yyy_xxx.png
-order_files() {
+liero_rename() {
   # Renames files prepending ordered integers
   a=$1
   for i in *.png; do

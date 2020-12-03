@@ -34,3 +34,20 @@ liero_rename() {
   # Remove next three integers
   rename 's/\d{3}_/_/' *.png
 }
+
+## Use it to discover the hexadecimal value (HHHH_HHHH) you need to put on the name of sprite .png file
+## Use the x and y center coordinates
+# Usage: liero_center x y
+# Example: liero_center 20 15
+#  result:   FFEB_FFF0
+#    file: 1_FFEB_FFF0.png
+liero_center() {
+  ruby -e "
+    def center(x, y)
+      position = (0xFFFF - x).to_s(16) + '_' + (0xFFFF - y).to_s(16)
+      position.upcase
+    end
+
+    puts center($1, $2)
+  "
+}

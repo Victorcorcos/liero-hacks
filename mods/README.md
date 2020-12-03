@@ -238,7 +238,7 @@ wObjects: [
     distribution: 0.18310546875, 
 
     /*
-      Speed multiplication each frame. Use it to have a weapons which accelerate or decelerate non-linearly, like proxy mine from promode.
+      Speed multiplication each frame. Use it to have a weapon which accelerate or decelerate non-linearly, like proxy mine from promode.
     */
     multSpeed: 1,
 
@@ -377,6 +377,7 @@ wObjects: [
 
     /*
       A mystery. I believe it has no effect. TODO: verify
+      I changed it to a positive value, and the the generated splitters started to fall
     */
     splinterScatter: 0,
 

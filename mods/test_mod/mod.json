@@ -351,7 +351,7 @@
       "parts": 1,
       "bulletSpeed": 3,
       "bulletSpeedInherit": 0.3333333333333333,
-      "distribution": 10,
+      "distribution": 0,
       "recoil": 0.15,
       "ammo": 1,
       "delay": 0,
@@ -980,7 +980,7 @@
       "blowAway": 0,
       "gravity": 0,
       "exploSound": -1,
-      "addSpeed": 1000,
+      "addSpeed": 200,
       "distribution": 0,
       "multSpeed": 1,
       "dirtEffect": -1,
@@ -996,10 +996,10 @@
       "hitDamage": 40,
       "bloodOnHit": 30,
       "startFrame": 604,
-      "numFrames": 4,
-      "loopAnim": true,
-      "shotType": 1,
-      "repeat": 2,
+      "numFrames": 0,
+      "loopAnim": false,
+      "shotType": 2,
+      "repeat": 1,
       "colorBullets": 117,
       "splinterAmount": 20,
       "splinterColour": 66,
@@ -1007,7 +1007,7 @@
       "objTrailDelay": 1,
       "partTrailType": 0,
       "partTrailDelay": 0,
-      "speed": 1800,
+      "speed": 300,
       "createOnExp": 20,
       "objTrailType": 21,
       "splinterType": 19,
@@ -1503,7 +1503,7 @@
       "distribution": 0.75,
       "blowAway": 0,
       "bounce": 0,
-      "hitDamage": 0.3,
+      "hitDamage": 0.15,
       "wormExplode": true,
       "explGround": false,
       "wormDestroy": true,
@@ -1563,7 +1563,7 @@
       "distribution": 0.48828125,
       "blowAway": 0.3,
       "bounce": 0,
-      "hitDamage": 25,
+      "hitDamage": 10,
       "wormExplode": false,
       "explGround": true,
       "wormDestroy": true,
@@ -1587,9 +1587,9 @@
     },
     {
       "detectDistance": 3,
-      "gravity": 0.25,
+      "gravity": 0,
       "speed": 4,
-      "speedV": 0.1,
+      "speedV": 0,
       "distribution": 0.48828125,
       "blowAway": 0.3,
       "bounce": 0,
@@ -1604,7 +1604,7 @@
       "colorBullets": 29,
       "affectByExplosions": false,
       "dirtEffect": -1,
-      "splinterAmount": 0,
+      "splinterAmount": 1,
       "splinterColour": 0,
       "bloodTrail": false,
       "bloodTrailDelay": 0,
@@ -1612,7 +1612,7 @@
       "timeToExplo": 0,
       "timeToExploV": 0,
       "createOnExp": 31,
-      "splinterType": -1,
+      "splinterType": 24,
       "leaveObj": 24
     },
     {
@@ -1673,7 +1673,7 @@
       "timeToExploV": 50,
       "createOnExp": -1,
       "leaveObj": -1,
-      "splinterType": 24
+      "splinterType": 25
     },
     {
       "detectDistance": 0,
@@ -1703,7 +1703,7 @@
       "timeToExploV": 25,
       "createOnExp": -1,
       "leaveObj": -1,
-      "splinterType": 25
+      "splinterType": 26
     },
     {
       "detectDistance": 1,
@@ -1713,7 +1713,7 @@
       "distribution": 0.75,
       "blowAway": 0,
       "bounce": 0,
-      "hitDamage": 0.3,
+      "hitDamage": 0.15,
       "wormExplode": true,
       "explGround": false,
       "wormDestroy": true,
@@ -1732,7 +1732,37 @@
       "timeToExplo": 200,
       "timeToExploV": 100,
       "createOnExp": -1,
-      "splinterType": 26,
+      "splinterType": 27,
+      "leaveObj": -1
+    },
+    {
+      "detectDistance": 5,
+      "gravity": 0,
+      "speed": 0.4,
+      "speedV": 0.4,
+      "distribution": 0.75,
+      "blowAway": 0,
+      "bounce": 0,
+      "hitDamage": 15,
+      "wormExplode": false,
+      "explGround": false,
+      "wormDestroy": false,
+      "bloodOnHit": 3,
+      "startFrame": 54,
+      "numFrames": 0,
+      "drawOnMap": true,
+      "colorBullets": 112,
+      "affectByExplosions": false,
+      "dirtEffect": 0,
+      "splinterAmount": 0,
+      "splinterColour": 0,
+      "bloodTrail": false,
+      "bloodTrailDelay": 0,
+      "leaveObjDelay": 0,
+      "timeToExplo": 225,
+      "timeToExploV": 0,
+      "createOnExp": -1,
+      "splinterType": -1,
       "leaveObj": -1
     },
     {
@@ -1763,7 +1793,7 @@
       "timeToExploV": 0,
       "createOnExp": 32,
       "leaveObj": 33,
-      "splinterType": 27
+      "splinterType": 28
     },
     {
       "detectDistance": 2,
@@ -1793,7 +1823,7 @@
       "timeToExploV": 0,
       "createOnExp": 32,
       "leaveObj": 34,
-      "splinterType": 28
+      "splinterType": 29
     },
     {
       "detectDistance": 1,
@@ -1803,7 +1833,7 @@
       "distribution": 0.75,
       "blowAway": 0,
       "bounce": 0,
-      "hitDamage": 0.5,
+      "hitDamage": 0.25,
       "wormExplode": true,
       "explGround": false,
       "wormDestroy": true,
@@ -1853,7 +1883,7 @@
       "timeToExploV": 10,
       "createOnExp": 35,
       "leaveObj": 0,
-      "splinterType": 29
+      "splinterType": 30
     },
     {
       "detectDistance": 0,
@@ -1883,7 +1913,7 @@
       "timeToExploV": 10,
       "createOnExp": 36,
       "leaveObj": 0,
-      "splinterType": 29
+      "splinterType": 30
     },
     {
       "detectDistance": 0,
@@ -2190,7 +2220,7 @@
       "startFrame": 563,
       "numFrames": 3,
       "detectRange": 6,
-      "damage": 50,
+      "damage": 10,
       "blowAway": 0.06103515625,
       "shadow": true,
       "shake": 3,
@@ -2352,18 +2382,18 @@
       "dirtEffect": 0
     },
     {
-      "startSound": 25,
-      "numSounds": 3,
-      "animDelay": 5,
+      "startSound": -1,
+      "numSounds": 0,
+      "animDelay": 4,
       "startFrame": 609,
-      "numFrames": 55,
-      "detectRange": 4,
-      "damage": 6,
-      "blowAway": 0.0457763671875,
-      "shadow": false,
-      "shake": 2,
-      "flash": 1,
-      "dirtEffect": 2
+      "numFrames": 56,
+      "detectRange": 3,
+      "damage": 5,
+      "blowAway": 3.0517578125e-05,
+      "shadow": true,
+      "shake": 0,
+      "flash": 0,
+      "dirtEffect": 0
     },
     {
       "startSound": 9,

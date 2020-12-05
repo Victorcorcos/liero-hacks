@@ -170,7 +170,7 @@ config = {
       "bulletType":{
         # wObject ("NON-EXPLODING MISSILE")
         "detectDistance":1,
-        "blowAway":0,
+        "blowAway":0.25,
         "gravity":0,
         "exploSound":-1,
         "addSpeed":200,
@@ -186,7 +186,7 @@ config = {
         "bounceFriction":0.8,
         "timeToExplo":450,
         "timeToExploV":20,
-        "hitDamage":50,
+        "hitDamage":5,
         "bloodOnHit":30,
         "startFrame":110,
         "numFrames":0,
@@ -209,7 +209,7 @@ config = {
           "startFrame":46,
           "numFrames":9,
           "detectRange":6,
-          "damage":50,
+          "damage":5,
           "blowAway":0.06103515625,
           "shadow":true,
           "shake":3,
@@ -1860,8 +1860,8 @@ config = {
       "distribution":0.00152587890625,
       "recoil":0.3,
       "ammo":1,
-      "delay":100, # 5000 on normal games
-      "loadingTime":100, # 5000 on normal games
+      "delay":5000, # 5000 on normal games
+      "loadingTime":5000, # 5000 on normal games
       "leaveShells":0,
       "leaveShellDelay":1,
       "fireCone":1,

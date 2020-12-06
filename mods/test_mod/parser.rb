@@ -2168,7 +2168,7 @@ config = {
         "splinterType":{
           # nObject (explosion)
           "detectDistance":3,
-          "gravity":0,
+          "gravity":0.5,
           "speed":4,
           "speedV":0,
           "distribution":0.48828125,
@@ -2210,7 +2210,7 @@ config = {
           "splinterType":{
             # nObject (explosion)
             "detectDistance":5,
-            "gravity":-0.0001,
+            "gravity":0.1,
             "speed":0.4,
             "speedV":0.4,
             "distribution":0.75,

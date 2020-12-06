@@ -2101,8 +2101,8 @@ config = {
       # wid16 - FIRE BALL
       "name":"FIRE BALL",
       "parts":1,
-      "bulletSpeed":3,
-      "bulletSpeedInherit":0.3333333333333333,
+      "bulletSpeed":0.25,
+      "bulletSpeedInherit":0,
       "distribution":0,
       "recoil":0.15,
       "ammo":1,
@@ -2119,7 +2119,7 @@ config = {
         # wObject ("FIRE BALL")
         "detectDistance":2,
         "blowAway":0.3,
-        "gravity":0.002288818359375,
+        "gravity":0,
         "exploSound":-1,
         "addSpeed":1,
         "distribution":0.00152587890625,
@@ -2140,7 +2140,7 @@ config = {
         "numFrames":0,
         "loopAnim":false,
         "shotType":3,
-        "repeat":1,
+        "repeat":5,
         "colorBullets":117,
         "splinterAmount":20,
         "splinterColour":66,
@@ -2148,7 +2148,7 @@ config = {
         "objTrailDelay":1,
         "partTrailType":0,
         "partTrailDelay":0,
-        "speed":300,
+        "speed":1,
         "createOnExp":{
           # sObject (explosion)
           "startSound":10,
@@ -2179,8 +2179,8 @@ config = {
           "explGround":true,
           "wormDestroy":true,
           "bloodOnHit":10,
-          "startFrame":0,
-          "numFrames":0,
+          "startFrame":51,
+          "numFrames":3,
           "drawOnMap":false,
           "colorBullets":29,
           "affectByExplosions":false,

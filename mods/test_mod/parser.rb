@@ -2210,7 +2210,7 @@ config = {
           "splinterType":{
             # nObject (explosion)
             "detectDistance":5,
-            "gravity":0.1,
+            "gravity":-0.0001,
             "speed":0.4,
             "speedV":0.4,
             "distribution":0.75,
@@ -2221,8 +2221,8 @@ config = {
             "explGround":false,
             "wormDestroy":false,
             "bloodOnHit":3,
-            "startFrame":91,
-            "numFrames":4,
+            "startFrame":617,
+            "numFrames":8,
             "drawOnMap":true,
             "colorBullets":112,
             "affectByExplosions":false,

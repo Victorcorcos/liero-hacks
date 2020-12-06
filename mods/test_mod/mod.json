@@ -364,6 +364,25 @@
       "launchSound": 9,
       "playReloadSound": true,
       "bulletType": 16
+    },
+    {
+      "name": "FLY",
+      "parts": 1,
+      "bulletSpeed": 1,
+      "bulletSpeedInherit": 1,
+      "distribution": 10,
+      "recoil": -0.5,
+      "ammo": 10,
+      "delay": 0,
+      "loadingTime": 0,
+      "leaveShells": 0,
+      "leaveShellDelay": 1,
+      "fireCone": -1,
+      "laserSight": false,
+      "laserBeam": false,
+      "launchSound": 26,
+      "playReloadSound": false,
+      "bulletType": 8
     }
   ],
   "wObjects": [

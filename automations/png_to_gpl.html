@@ -1,0 +1,66 @@
+<html>
+
+<body>
+<input type="file" id="input"><br>
+<img id="output">
+<canvas id="canvas"></canvas>
+<script>
+
+var pal = `GIMP Palette
+Name: nameofpalette
+Columns: 16
+#
+`;
+
+
+ var input, canvas, context, output;
+
+  input = document.getElementById("input");
+  canvas = document.getElementById("canvas");
+  context = canvas.getContext('2d');
+  output = document.getElementById("output");
+
+  input.addEventListener("change", function() {
+    var reader = new FileReader();
+
+    reader.addEventListener("loadend", function(arg) {
+      var src_image = new Image();
+
+      src_image.onload = function() {
+        canvas.height = src_image.height;
+        canvas.width = src_image.width;
+        context.drawImage(src_image, 0, 0,src_image.width,src_image.height);
+        //var imageData = canvas.toDataURL("image/png"); 
+        //output.src = imageData;
+		var imageData = context.getImageData(0, 0, canvas.width, canvas.height);
+		console.log("pouet");
+        
+		  for (let i = 0; i < imageData.data.length; i += 4) {
+		  pal+=imageData.data[i + 0]+"\t"+imageData.data[i + 1]+"\t"+imageData.data[i + 2]+"\t\n";
+		 
+		  }
+		  download("palette.gpl",pal);	
+      }
+
+      src_image.src = this.result;
+
+    });
+
+    reader.readAsDataURL(this.files[0]);
+  });
+function download(filename, text) {
+  var element = document.createElement('a');
+  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+  element.setAttribute('download', filename);
+
+  element.style.display = 'none';
+  document.body.appendChild(element);
+
+  element.click();
+
+  document.body.removeChild(element);
+}
+
+</script>
+</body>
+</html>

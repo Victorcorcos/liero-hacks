@@ -2538,7 +2538,7 @@ config = {
         "timeToExploV":0,
         "hitDamage":0,
         "bloodOnHit":0,
-        "startFrame":238,
+        "startFrame":-1,
         "numFrames":0,
         "loopAnim":false,
         "shotType":2,

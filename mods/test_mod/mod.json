@@ -382,7 +382,7 @@
       "laserBeam": false,
       "launchSound": 26,
       "playReloadSound": false,
-      "bulletType": 8
+      "bulletType": 17
     }
   ],
   "wObjects": [
@@ -1030,6 +1030,44 @@
       "createOnExp": 20,
       "objTrailType": -1,
       "splinterType": 19,
+      "partTrailObj": -1
+    },
+    {
+      "detectDistance": -5,
+      "blowAway": 0,
+      "gravity": 0,
+      "exploSound": -1,
+      "addSpeed": 0,
+      "distribution": 0.152587890625,
+      "multSpeed": 0,
+      "dirtEffect": -1,
+      "wormExplode": false,
+      "explGround": false,
+      "wormCollide": false,
+      "collideWithObjects": false,
+      "affectByExplosions": false,
+      "bounce": 0,
+      "bounceFriction": 0.800000011920929,
+      "timeToExplo": 1,
+      "timeToExploV": 0,
+      "hitDamage": 0,
+      "bloodOnHit": 0,
+      "startFrame": -1,
+      "numFrames": 0,
+      "loopAnim": false,
+      "shotType": 2,
+      "repeat": 8,
+      "colorBullets": 1,
+      "splinterAmount": 0,
+      "splinterColour": 0,
+      "splinterScatter": 0,
+      "objTrailDelay": 0,
+      "partTrailType": 0,
+      "partTrailDelay": 0,
+      "speed": 0,
+      "createOnExp": -1,
+      "objTrailType": -1,
+      "splinterType": -1,
       "partTrailObj": -1
     }
   ],

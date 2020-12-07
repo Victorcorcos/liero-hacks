@@ -2505,7 +2505,7 @@ config = {
       "parts":1,
       "bulletSpeed":1,
       "bulletSpeedInherit":0,
-      "distribution":10,
+      "distribution":1,
       "recoil":-0.5,
       "ammo":10,
       "delay":0,
@@ -2524,7 +2524,7 @@ config = {
         "gravity":0,
         "exploSound":-1,
         "addSpeed":0,
-        "distribution":0,
+        "distribution":1.0,
         "multSpeed":0,
         "dirtEffect":0,
         "wormExplode":false,
@@ -2544,7 +2544,7 @@ config = {
         "shotType":2,
         "repeat":5,
         "colorBullets":1,
-        "splinterAmount":50,
+        "splinterAmount":20,
         "splinterColour":13,
         "splinterScatter":0,
         "objTrailDelay":0,
@@ -2558,7 +2558,7 @@ config = {
           "gravity":0,
           "speed":0,
           "speedV":0.0,
-          "distribution":0.5, # 0.2
+          "distribution":1.0,
           "blowAway":1,
           "bounce":0.2,
           "hitDamage":0,
@@ -2580,7 +2580,7 @@ config = {
             "gravity":0,
             "speed":0,
             "speedV":0.0,
-            "distribution":0.5, # 0.2
+            "distribution":1.0,
             "blowAway":1,
             "bounce":0.2,
             "hitDamage":0,
@@ -2602,7 +2602,7 @@ config = {
               "gravity":0,
               "speed":0,
               "speedV":0.0,
-              "distribution":0.5, # 0.2
+              "distribution":1.0,
               "blowAway":1,
               "bounce":0.2,
               "hitDamage":0,
@@ -2624,7 +2624,7 @@ config = {
                 "gravity":0,
                 "speed":0,
                 "speedV":0.0,
-                "distribution":0.5,
+                "distribution":1.0,
                 "blowAway":1,
                 "bounce":0.2,
                 "hitDamage":0,
@@ -2646,29 +2646,29 @@ config = {
                 "bloodTrailDelay":0,
                 "leaveObj":-1,
                 "leaveObjDelay":0,
-                "timeToExplo":15,
-                "timeToExploV":10
+                "timeToExplo":7.5,
+                "timeToExploV":5
               },
               "bloodTrail":false,
               "bloodTrailDelay":0,
               "leaveObj":-1,
               "leaveObjDelay":0,
-              "timeToExplo":15,
-              "timeToExploV":10
+              "timeToExplo":7.5,
+              "timeToExploV":5
             },
             "bloodTrail":false,
             "bloodTrailDelay":0,
             "leaveObj":-1,
             "leaveObjDelay":0,
-            "timeToExplo":15,
-            "timeToExploV":10
+            "timeToExplo":7.5,
+            "timeToExploV":5
           },
           "bloodTrail":false,
           "bloodTrailDelay":0,
           "leaveObj":-1,
           "leaveObjDelay":0,
-          "timeToExplo":15,
-          "timeToExploV":10
+          "timeToExplo":7.5,
+          "timeToExploV":5
         },
         "partTrailObj":-1,
       }

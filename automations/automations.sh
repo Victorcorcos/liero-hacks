@@ -51,3 +51,9 @@ liero_center() {
     puts center($1, $2)
   "
 }
+
+## Open the browser to convert pallete.png to pallete.gpl
+# Usage: liero_pallete
+liero_pallete() {
+  open /Users/victor/Desktop/repositories/liero-hacks/automations/png_to_gpl.html
+}

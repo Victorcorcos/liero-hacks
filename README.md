@@ -1,4 +1,6 @@
-# 🐉
+<p align="center">
+  <img src="https://i.imgur.com/rBAm0B6.png" alt="Liero Hacks Logo" width="200" height="200"/>
+</p>
 
 ## Purpose 📌
 

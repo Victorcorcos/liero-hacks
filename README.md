@@ -33,10 +33,10 @@ I would like to thank all the people behind each one of these files ❤️
 And also all the webliero players that still play this game! 🕹
 
 
-## Author 👨‍💻
+## Contact
 
-Victor Cordeiro Costa
+* [Victor Cordeiro Costa](https://www.linkedin.com/in/victor-costa-0bba7197/)
 
-Contact
-1. victorcorcos@gmail.com
-2. victor.costa@oxeanbits.com
+---
+
+*This repository is maintained and developed by [Victor Cordeiro Costa](https://www.linkedin.com/in/victor-costa-0bba7197/). For inquiries, partnerships, or support, don't hesitate to get in touch.

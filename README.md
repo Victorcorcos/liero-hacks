@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/rBAm0B6.png" alt="Liero Hacks Logo" width="40%" />
+  <img src="https://i.imgur.com/aLByOPz.png" alt="Liero Hacks Logo" width="40%" />
 </p>
 
 ## Purpose 📌
